@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm ANSUMAN MISHRA</h1>
 <h3 align="center">WEB & APPLICATION(IOS+ANDROID) DEVELOPER | NODE.JS / REACT.JS / REACT NATIVE / BOOTSTRAP / MONGODB / SQL / SELENIUM(JAVASCRIPT/PYTHON)</h3>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=ansmis-lit" alt="ansmis-lit" /> </p>
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=ansmis-lit&color=green" alt="ansmis-lit" /> </p>
 
 - 🔭 I’m currently working on [HEALTH CARD](https://github.com/ansmis-lit/health-card)
 
