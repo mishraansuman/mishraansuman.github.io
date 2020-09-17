@@ -2,6 +2,7 @@
 <h3 align="center">WEB & APPLICATION(IOS+ANDROID) DEVELOPER | NODE.JS / REACT.JS / REACT NATIVE / BOOTSTRAP / MONGODB / SQL / SELENIUM(JAVASCRIPT/PYTHON)</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=ansmis-lit&color=green" alt="ansmis-lit" /> </p>
+[![Netlify Status](https://api.netlify.com/api/v1/badges/478ecb2a-8d2b-4fc2-844d-8beefed86dff/deploy-status)](https://app.netlify.com/sites/determined-goldstine-d5f6ce/deploys)
 
 - 🔭 I’m currently working on [HEALTH CARD](https://github.com/ansmis-lit/health-card)
 
