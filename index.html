@@ -16,12 +16,60 @@
 	<link rel="stylesheet" href="css/base.css">
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/vendor.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
 
 	<!-- script
    ================================================== -->
 	<script src="js/modernizr.js"></script>
 	<script src="js/pace.min.js"></script>
+	<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
 
+	<!-- Start of Async Drift Code -->
+	<script>
+	"use strict";
+
+	!function() {
+		var t = window.driftt = window.drift = window.driftt || [];
+		if (!t.init) {
+		if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+		t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+		t.factory = function(e) {
+			return function() {
+			var n = Array.prototype.slice.call(arguments);
+			return n.unshift(e), t.push(n), t;
+			};
+		}, t.methods.forEach(function(e) {
+			t[e] = t.factory(e);
+		}), t.load = function(t) {
+			var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+			o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+			var i = document.getElementsByTagName("script")[0];
+			i.parentNode.insertBefore(o, i);
+		};
+		}
+	}();
+	drift.SNIPPET_VERSION = '0.3.1';
+	drift.load('ngaxk2r3auiy');
+	</script>
+	<!-- End of Async Drift Code -->
+
+	<!-- script for project card image slider -->
+	<script>
+		var slideIndex = 1;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "flex";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+	</script>
 	<!-- favicons
 	================================================== -->
 	<link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon.png">
@@ -45,7 +93,7 @@
 				<a class="menu-toggle" href="#"><span>Menu</span></a>
 
 				<div class="logo">
-					<h5>"Who_Ans"</h5>
+					<h5>"ansmis"</h5>
 				</div>
 
 				<nav id="main-nav-wrap">
@@ -77,12 +125,10 @@
 					<h1>I'm Ansuman.</h1>
 
 					<p class="intro-position">
-						<span>A Developer</span>
-						<span>Designer</span>
-						<span>Creative Thinker</span>
+						<span>A Full Stack Web/Mobile Application Developer & Freelancer</span>
 					</p>
 
-					<a class="button stroke smoothscroll" href="#about" title="">More About Me</a>
+					<a class="button stroke smoothscroll" href="#about" title="">Know More About Me</a>
 
 				</div>
 
@@ -90,10 +136,11 @@
 		</div> <!-- /intro-content -->
 
 		<ul class="intro-social">
-					<li><a href="https://github.com/ansmis-lit" class="fa fa-github"></i></a></li>
-					<li><a href="https://www.behance.net/ansumanmishra1"><i class="fa fa-behance"></i></a></li>
-					<li><a href="https://twitter.com/mishra_ansuman"><i class="fa fa-twitter"></i></a></li>
-					<li><a href="https://stackoverflow.com/users/12363769/ansuman-mishra?tab=profile"><i class="fa fa-stack-overflow"></i></a></li>
+					<li><a href="https://github.com/ansmis-lit" target="_blank"><i class="fa fa-github"></i></a></li>
+					<li><a href="https://www.behance.net/ansumanmishra1" target="_blank"><i class="fa fa-behance"></i></a></li>
+					<li><a href="https://twitter.com/mishra_ansuman" target="_blank"><i class="fa fa-twitter"></i></a></li>
+					<li><a href="https://stackoverflow.com/users/12363769/ansuman-mishra?tab=profile" target="_blank"><i class="fa fa-stack-overflow"></i></a></li>
+					<li><a href="https://www.linkedin.com/in/ansuman-mishra-software-developer/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
 		</ul> <!-- /intro-social -->
 	</section> <!-- /intro -->
 
@@ -106,14 +153,13 @@
 			<div class="col-twelve">
 
 				<h5>About_Me</h5>
-				<h1>Hey, There. I am Ansuman Mishra</h1>
+				<h1>I am building web and mobile applications.</h1>
 
 				<div class="intro-info">
 
 					<img src="images/dp.jpg" alt="Profile Picture">
 
-					<p class="lead">I am a multi-faceted Web developer having proficiency in Javascript (ES6), Vue.Js,
-						NodeJS, AngularJS, ExpressJS, MongoDB and Bootstrap4.</p>
+					<p class="lead">My Name Is Ansuman, A Web And Mobile Application Developer Having Proficiency In JavaScript(ES6), Node.js, React.js, React Native, Bootstrap, MongoDB, SQL, And Selenium(Python)</p>
 				</div>
 
 			</div>
@@ -124,10 +170,12 @@
 			<div class="col-six tab-full">
 
 				<h3>Building</h3>
-				<p>I am building Corporate Tools and Applications (Web & Mobile) for Individuals and Businesses. Also, I
-					am helping them in their Process Automation.
-					You may find my wondrous repos @ <a href="https://github.com/ansumandotin"
-						target="_blank">Github(ansumandotin)</a>.</p>
+				<p>	<ul>
+					<li>As a Web and Application Developer, I am developing Websites(For Business/Individual), Web Applications and Mobile Applications(ios/android). Besides from web development I do write Test Automation scripts for Web, Web applications and Mobile Applications.</li>
+					<li>For Web and Web Applications I am using React.js(JavaScript's library) and Bootstrap(CSS's framework) in front-end and Node.js in backend with MongoDB or SQL(depending upon nature of taken project) as Database.</li>
+					<li>Mobile Applications are building on React-Native to support both the major mobile platform(i.e Android and ios) for Native flexibility and Better UI with a single handled code for the both.</li>
+					<li>Technologies:<br><strong>NODE.JS / REACT.JS / REACT NATIVE / BOOTSTRAP / MONGODB / SQL / SELENIUM(PYTHON)</strong></li>
+				</ul></p>
 
 				<ul class="info-list">
 					<li>
@@ -135,20 +183,8 @@
 						<span>Ansuman Mishra</span>
 					</li>
 					<li>
-						<strong>Birth Date:</strong>
-						<span>August 19, 1996</span>
-					</li>
-					<li>
-						<strong>Job:</strong>
-						<span>Freelancer, Full-Stack Developer, UI Designer</span>
-					</li>
-					<li>
-						<strong>Website:</strong>
-						<span>www.ansuman.in</span>
-					</li>
-					<li>
 						<strong>Email:</strong>
-						<span><a href="mailto:hello@ansuman.in">hello@ansuman.in</a></span>
+						<span><a href="mailto:ansmis.lit@gmail.com">ansmis.lit@gmail.com</a></span>
 					</li>
 
 				</ul> <!-- /info-list -->
@@ -158,39 +194,16 @@
 			<div class="col-six tab-full">
 
 				<h3>Skills</h3>
-				<p>I can design, code and run prototypes on the internet with my simple and creative ideas. I love to learn new kinds of stuff daily cause "Learn a new stuff a day getting puzzled away". &#127774;&#127774;</p>
-				<ul class="skill-bars">
-					<li>
-						<div class="progress percent95"><span>95%</span></div>
-						<strong>HTML5</strong>
-					</li>
-					<li>
-						<div class="progress percent80"><span>80%</span></div>
-						<strong>CSS3</strong>
-					</li>
-					<li>
-						<div class="progress percent70"><span>70%</span></div>
-						<strong>JQuery</strong>
-					</li>
-					<li>
-						<div class="progress percent75"><span>75%</span></div>
-						<strong>NodeJS</strong>
-					</li>
-					<li>
-						<div class="progress percent85"><span>85%</span></div>
-						<strong>Bootstrap4</strong>
-					</li>
-					<li>
-						<div class="progress percent80"><span>80%</span></div>
-						<strong>Wordpress</strong>
-					</li>
-					<li>
-						<div class="progress percent70"><span>70%</span></div>
-						<strong>MongoDB</strong>
-					</li>
-
-				</ul> <!-- /skill-bars -->
-
+				<div class="skill-row">
+					<div class="skill-cul"><img src="logos/13691885491579517854-128.png" alt="JavaScript"></div>
+					<div class="skill-cul"><img src="logos/pngkit_lentes-swag-png_3346389.png" alt="Bootstrap"></div>
+					<div class="skill-cul"><img src="logos/react.png" alt="react"></div>
+					<!-- <div class="skill-cul"><img src="logos/react-native.png" alt="React-Native"></div> -->
+					<div class="skill-cul"><img src="logos/logo.svg" alt="nodejs"></div>
+					<div class="skill-cul"><img src="logos/mongo.png" alt="MongoDB"></div>
+					<div class="skill-cul"><img src="logos/sql.png" alt="sql"></div>
+					<div class="skill-cul"><img src="logos/Selenium_Logo.png" alt="Selenium"></div>
+				</div>
 			</div>
 
 		</div>
@@ -198,7 +211,7 @@
 		<div class="row button-section">
 			<div class="col-twelve">
 				<a href="#contact" title="Hire Me" class="button stroke smoothscroll">Hire Me</a>
-				<a href="Profile.pdf" target="_blank" title="Download CV" class="button button-primary">Download CV</a>
+				<a href="Resume-ANSUMAN-MISHRA.pdf" target="_blank" title="Resume" class="button button-primary">Download My Resume</a>
 			</div>
 		</div>
 
@@ -209,15 +222,6 @@
    ================================================== -->
 	<section id="resume" class="grey-section">
 
-		<div class="row section-intro">
-			<div class="col-twelve">
-
-				<h5>My_Resume</h5>
-				<h1>ANSUMAN MISHRA</h1>
-				<p>I am a creative web developer and designer based in India and have a passion to make the internet
-					smarter. I love to build web applications for all platforms.</p>
-			</div> <!-- /section-intro-->
-		</div>
 		<div class="row resume-timeline">
 
 			<div class="col-twelve resume-header">
@@ -225,76 +229,69 @@
 				<h2>Work Experience</h2>
 
 			</div> <!-- /resume-header -->
-
-			<div class="col-twelve">
+				<div class="col-twelve">
 
 				<div class="timeline-wrap">
-
 					<div class="timeline-block">
 
 						<div class="timeline-ico">
-							<i class="fa fa-graduation-cap"></i>
+							<i class="fa fa-briefcase"></i>
 						</div>
 
 						<div class="timeline-header">
-							<h3>JUNIOR PROGRAMMER</h3>
-							<p>July 2018 - January 2020 </p>
+							<h3>FREELANCE SOFTWARE DEVELOPER</h3>
+							<p>January 2019 - Present</p>
 						</div>
 
 						<div class="timeline-content">
-							<h4>HITECH ISOLUTION LLP, AHEMDABAD, INDIA</h4>
-							<p>These were my workflows as the Programmer at Hitech Isolution LLP.</p>
 							<ul>
-								<li>Translate application Functional Requirements into functional applications.</li>
-								<li>Build, and maintain efficient, reusable, and reliable code.</li>
-								<li>Ensure the best possible performance, quality, and responsiveness of applications.
-								</li>
-								<li>Identify bottlenecks and bugs, and devise solutions to mitigate and address the
-									issues.</li>
-								<li>Help maintain code quality, organization, and automatization.</li>
+								<li>As a Web and Application Developer in freelancing, I am developing Websites(For Business/Individual), Web Applications and Mobile Applications(ios/android). Besides from web development I do write Test Automation scripts for Web, Web applications and Mobile Applications.</li>
+								<li>For Web and Web Applications I am using React.js(JavaScript's library) and Bootstrap(CSS's framework) in front-end and Node.js in backend with MongoDB or SQL(depending upon nature of taken project) as Database.</li>
+								<li>Mobile Applications are building on React-Native to support both the major mobile platform(i.e Android and ios) for Native flexibility and Better UI with a single handled code for the both.</li>
 							</ul>
 						</div>
 
 					</div> <!-- /timeline-block -->
 
+							<div class="timeline-block">
+		
+								<div class="timeline-ico">
+									<i class="fa fa-briefcase"></i>
+								</div>
+		
+								<div class="timeline-header">
+									<h3>JUNIOR PROGRAMMER</h3>
+									<p>July 2018 - February 2020 </p>
+								</div>
+		
+								<div class="timeline-content">
+									<h4>HITECH ISOLUTION LLP, INDIA</h4>
+									<ul>
+										<li> As a junior Programmer at Hitech isolution LLP, I was working on field of Web development And Process automation to fulfill the business requirements for the company and client's from around the globe.</li>
+										<li>We were using React.js(a Javascript library) and Bootstrap v4(a CSS framework) for web frontend & Node.js for web backend. We were using mongoDB and Sql (depending on nature of projects) as our database.</li>
+										<li>For Mobile Applications we were using React Native to support both the major mobile platform(i.e Android and ios) for Native flexibility and Better UI with a single handled code for the both.</li>
+										<li>Web Automation and Task automation we generally did on two programming languages i.e JavaScript and Python.</li>
+									</ul>
+								</div>
+		
+							</div> <!-- /timeline-block -->
+		
 					<div class="timeline-block">
 
 						<div class="timeline-ico">
-							<i class="fa fa-graduation-cap"></i>
+							<i class="fa fa-building-o" aria-hidden="true"></i>
 						</div>
 
 						<div class="timeline-header">
-							<h3>FREELANCE SOFTWARE DEVELOPER</h3>
-							<p>August 2018 - Present</p>
-						</div>
-
-						<div class="timeline-content">
-							<h4>AT VARIOUS FREELANCING PLATFORMS</h4>
-							<p>Here I am building Business Tools (APIs, Websites, CRMs, etc) and Applications (Mobile &
-								Web) for Individuals and Businesses. Also, I am helping them in their Process
-								Automation.</p>
-						</div>
-
-					</div> <!-- /timeline-block -->
-
-					<div class="timeline-block">
-
-						<div class="timeline-ico">
-							<i class="fa fa-graduation-cap"></i>
-						</div>
-
-						<div class="timeline-header">
-							<h3>Petslelo, Bhubaneshwar Area, India</h3>
+							<h3>Petslelo</h3>
 							<p>March 2017 - May 2018</p>
 						</div>
 
 						<div class="timeline-content">
-							<h4>Co-Founder & CEO</h4>
+							<h4>Former Co-Founder</h4>
 							<p>We Build PetsLelo as the one-stop e-commerce site for all sorts of Adorable Cats, Dogs,
 								Birds and their Accessories.</p>
-							<p>Founder - Ashutosh Pradhan, Ansuman Mishra (Co-founder) <br>visit PetsLelo @<a
-									href="http://petslelo.com"> www.petslelo.com</a> (Currently This Site Is Maintaining
-								By A Pakistani Entrepreneur)</p>
+							<p>Visit the e-commerce site <a href="https://petslelo.com/">www.petslelo.com</a></p>
 						</div>
 
 					</div> <!-- /timeline-block -->
@@ -320,7 +317,7 @@
 					<div class="timeline-block">
 
 						<div class="timeline-ico">
-							<i class="fa fa-briefcase"></i>
+							<i class="fa fa-graduation-cap"></i>
 						</div>
 
 						<div class="timeline-header">
@@ -330,44 +327,7 @@
 
 						<div class="timeline-content">
 							<h4>BIJU PATTNAIK UNIVERSITY OF TECHNOLOGY (BPUT)</h4>
-							<p>Studied Electronics And communication Enginnering (Automation and Digital Electronics).
-							</p>
-						</div>
-
-					</div> <!-- /timeline-block -->
-
-					<div class="timeline-block">
-
-						<div class="timeline-ico">
-							<i class="fa fa-briefcase"></i>
-						</div>
-
-						<div class="timeline-header">
-							<h3>Intermediate Science(ELECTRONICS)</h3>
-							<p>April 2000 - June 2014</p>
-						</div>
-
-						<div class="timeline-content">
-							<h4>Council of Higher Secondary Education, Odisha</h4>
-							<p>Studied Electronics and Fundamental Science</p>
-						</div>
-
-					</div> <!-- /timeline-block -->
-
-					<div class="timeline-block">
-
-						<div class="timeline-ico">
-							<i class="fa fa-briefcase"></i>
-						</div>
-
-						<div class="timeline-header">
-							<h3>Board of Secondary Education, Odisha</h3>
-							<p>May 2000- June 2011</p>
-						</div>
-
-						<div class="timeline-content">
-							<h4>High School Certificate Examination</h4>
-							<p>High School/Secondary Certificate Programs.</p>
+							<p>Bachelor In Electronics And Communication Enginnering</p>
 						</div>
 
 					</div> <!-- /timeline-block -->
@@ -387,12 +347,17 @@
 
 		<div class="row section-intro">
 			<div class="col-twelve">
-
-				<h5>My_Works</h5>
-				<h1>Get Some Idea Of My Works</h1>
-
-				<p class="lead">I will update my new recipies</p>
-
+				<h2 class="works">My_Works</h2>
+				<!-- Project-Card start -->
+				<!-- project: Portfolio: GitHub Page -->
+				<div class="card">
+					<div class="card-text">
+					  <span class="date">First Commit: <h6>19 July 2020</h6></span>
+					  <h2>Portfolio: GitHub Page</h2>
+					  <p>A software developer portfolio including sections like "Landing Page","About", "Experience(Or Resume)", "Works(Or Projects)" and "Contact" with free licence at GitHub</p>
+					  <a href="https://github.com/ansmis-lit/ansmis-lit.github.io" target="_blank">View Code <i class="fa fa-code" aria-hidden="true"></i></a>
+					</div> 
+				<!-- /project: Portfolio: GitHub Page -->
 			</div>
 		</div> <!-- /section-intro-->
 
@@ -406,84 +371,9 @@
    ================================================== -->
 	<section id="contact">
 
-		<div class="row section-intro">
-			<div class="col-twelve">
-
-				<h5>Contact_Me</h5>
-				<h1>You'd leave a message for me</h1>
-
-				<p class="lead">I'd love to hear you from here.</p>
-
-			</div>
-		</div> <!-- /section-intro -->
-
-		<div class="row contact-form">
-
-			<div class="col-twelve">
-
-				<!-- form -->
-				<form name="contactForm" id="contactForm" method="post" action="/inc/sendEmail.php">
-					<fieldset>
-
-						<div class="form-field">
-							<input name="contactName" type="text" id="contactName" placeholder="Name" value=""
-								minlength="2" required="">
-						</div>
-						<div class="form-field">
-							<input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value=""
-								required="">
-						</div>
-						<div class="form-field">
-							<input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="">
-						</div>
-						<div class="form-field">
-							<textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10"
-								cols="50" required=""></textarea>
-						</div>
-						<div class="form-field">
-							<button class="submitform">Submit</button>
-							<div id="submit-loader">
-								<div class="text-loader">Sending...</div>
-								<div class="s-loader">
-									<div class="bounce1"></div>
-									<div class="bounce2"></div>
-									<div class="bounce3"></div>
-								</div>
-							</div>
-						</div>
-
-					</fieldset>
-				</form> <!-- Form End -->
-
-				<!-- contact-warning -->
-				<div id="message-warning">
-				</div>
-				<!-- contact-success -->
-				<div id="message-success">
-					<i class="fa fa-check"></i>Your message was sent, thank you!<br>
-				</div>
-
-			</div> <!-- /col-twelve -->
-
-		</div> <!-- /contact-form -->
-
 		<div class="row contact-info">
 
-			<div class="col-four tab-full">
-
-				<div class="icon">
-					<i class="icon-pin"></i>
-				</div>
-
-				<h5>Where to find me</h5>
-
-				<p>
-					I am living in a web world, to avail me just drop a email there. I will back to respond you.
-				</p>
-
-			</div>
-
-			<div class="col-four tab-full collapse">
+			<div class="col-two tab-full collapse">
 
 				<div class="icon">
 					<i class="icon-mail"></i>
@@ -493,8 +383,8 @@
 
 				<p><a class="mail_foot" href="mailto:ansmis.lit@gmail.com">ansmis.lit@gmail.com</a></p>
 
-			</div>	
 			</div>
+			<div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="dark" data-vanity="ansuman-mishra-software-developer"><a class="LI-simple-link" href='https://in.linkedin.com/in/ansuman-mishra-software-developer?trk=profile-badge'>ANSUMAN MISHRA</a></div>
 
 		</div> <!-- /contact-info -->
 
@@ -510,10 +400,10 @@
 			<div class="col-six tab-full pull-right social">
 
 				<ul class="footer-social">
-					<li><a href="https://github.com/ansmis-lit" class="fa fa-github"></i></a></li>
-					<li><a href="https://www.behance.net/ansumanmishra1"><i class="fa fa-behance"></i></a></li>
-					<li><a href="https://twitter.com/mishra_ansuman"><i class="fa fa-twitter"></i></a></li>
-					<li><a href="https://stackoverflow.com/users/12363769/ansuman-mishra?tab=profile"><i class="fa fa-stack-overflow"></i></a></li>
+					<li><a href="https://github.com/ansmis-lit" target="_blank"> <i class="fa fa-github"></i></a></li>
+					<li><a href="https://www.behance.net/ansumanmishra1" target="_blank"><i class="fa fa-behance"></i></a></li>
+					<li><a href="https://twitter.com/mishra_ansuman" target="_blank"><i class="fa fa-twitter"></i></a></li>
+					<li><a href="https://stackoverflow.com/users/12363769/ansuman-mishra?tab=profile" target="_blank"><i class="fa fa-stack-overflow"></i></a></li>
 				</ul>
 
 			</div>
