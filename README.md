@@ -3,9 +3,9 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=ansmis-lit&color=green" alt="ansmis-lit" /> </p>
 
-- 🔭 I’m currently working on [HEALTH CARD](https://github.com/ansmis-lit/health-card)
+- 🔭 I’m currently working on [Google-Form-Automation](https://github.com/ansmis-lit/Google-Form-Automation)
 
-- 👨‍💻 All of my projects are available at [https://ansmis-lit.github.io](https://ansmis-lit.github.io)
+- 👨‍💻 All of my projects are available at [https://ansmis-lit.github.io](https://ansmis-lit.github.io) will redirect to [https://www.ansmis.tech/](https://www.ansmis.tech/)
 
 - 📝 I regulary write articles on [https://ansmis-lit.github.io/blog](https://ansmis-lit.github.io/blog)
 
