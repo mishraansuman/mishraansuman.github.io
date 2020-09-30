@@ -5,7 +5,7 @@
 
 - 🔭 I’m currently working on [Google-Form-Automation](https://github.com/ansmis-lit/Google-Form-Automation)
 
-- 👨‍💻 All of my projects are available at [https://ansmis-lit.github.io](https://ansmis-lit.github.io) will redirect to [https://www.ansmis.tech/](https://www.ansmis.tech/)
+- 👨‍💻 All of my projects are available at [https://ansmis-lit.github.io](https://ansmis-lit.github.io) will redirect you to [https://www.ansmis.tech/](https://www.ansmis.tech/)
 
 - 📝 I regulary write articles on [https://ansmis-lit.github.io/blog](https://ansmis-lit.github.io/blog)
 
