@@ -7,8 +7,6 @@
 
 - 👨‍💻 All of my projects are available at [https://ansmis-lit.github.io](https://ansmis-lit.github.io) will redirect you to [https://www.ansmis.tech/](https://www.ansmis.tech/)
 
-- 📝 I regulary write articles on [https://ansmis-lit.github.io/blog](https://ansmis-lit.github.io/blog)
-
 - 💬 Ask me about **React Native, React.js, JavaScript, Node.js & Bootstrap**
 
 - 📫 How to reach me **ansmis.lit@gmail.com**
