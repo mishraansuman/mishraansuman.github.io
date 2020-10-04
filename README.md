@@ -1,4 +1,4 @@
-<img src="AnsumanGit.png" width="100%" align="left">
+<img src="banner.png" width="100%" align="left">
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=ansmis-lit" alt="ansmis-lit" /></p>
 
