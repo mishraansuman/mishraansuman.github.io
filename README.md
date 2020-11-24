@@ -3,7 +3,7 @@
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=ansmis-lit" alt="ansmis-lit" /></p>
 
 - 🔭 I’m currently working on [Google-Form-Automation](https://github.com/ansmis-lit/Google-Form-Automation).
-- 👨‍💻 All of my projects are available at [https://ansmis-lit.github.io](https://ansmis-lit.github.io) will redirect you to [https://www.ansmis.tech/](https://www.ansmis.tech/).
+- 👨‍💻 All of my projects are available at [https://ansmis-lit.github.io](https://ansmis-lit.github.io) and to know more about me login to [https://www.ansmis.tech/](https://www.ansmis.tech/).
 - 💬 Ask me about **React Native, React.js, JavaScript, Node.js & Bootstrap**.
 - 📫 How to reach me **ansmis.lit@gmail.com**.
 
