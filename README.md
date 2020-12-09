@@ -1,16 +1,21 @@
-<img src="banner.png" width="100%" align="left">
+<h2>Ansuman Mishra</h2>
+<h3>Application Developer(Web, iOS & Android)</h3><br>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=ansmis-lit" alt="ansmis-lit" /></p>
+- [x] **Node.js**
+- [x] **React.js**
+- [x] **Bootstrap**
+- [x] **Mongodb**
+- [x] **SQL**
+- [x] **Selenium(Python)**
 
-- 🔭 I’m currently working on [Google-Form-Automation](https://github.com/ansmis-lit/Google-Form-Automation).
-- 👨‍💻 All of my projects are available at [https://ansmis-lit.github.io](https://ansmis-lit.github.io) and to know more about me login to [https://www.ansmis.tech/](https://www.ansmis.tech/).
-- 💬 Ask me about **React Native, React.js, JavaScript, Node.js & Bootstrap**.
-- 📫 How to reach me **ansmis.lit@gmail.com**.
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=ansmis-lit&style=plastic&color=blueviolet" alt="ansmis-lit" /></p>
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=ansmis-lit&show_icons=true" alt="ansmis-lit" /></p>
+- **🔭 I’m `currently working` on [advanceCalculator](https://github.com/ansmis-lit/advanceCalculator).**
+- **👨‍💻 All of my `projects are available` at [https://ansmis-lit.github.io](https://ansmis-lit.github.io) to know more about me `login to` [https://www.ansmis.tech/](https://www.ansmis.tech/).**
+- **💬 Ask me about** **React Native, React.js, JavaScript, Node.js & Bootstrap**.
+- **📫 How to reach me** [**me@ansmis.tech**](mailto:me@ansmis.tech).
 
-<p align="center">
-<a href="https://twitter.com/mishra_ansuman" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg" alt="mishra_ansuman" height="30" width="30" /></a>
-<a href="https://linkedin.com/in/ansuman-mishra-software-developer" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="ansuman-mishra-software-developer" height="30" width="30" /></a>
-<a href="https://stackoverflow.com/users/ansuman-mishra" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/stackoverflow.svg" alt="ansuman-mishra" height="30" width="30" /></a>
-</p>
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=ansmis-lit&show_icons=true&theme=dark" alt="ansmis-lit" /></p>
+
+Join My Professional Network
+- [linkedin](https://www.linkedin.com/in/ansuman-mishra-software-developer/)
