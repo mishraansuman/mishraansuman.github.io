@@ -2117,12 +2117,14 @@ footer .copyright span:last-child::after {
  .card {
 	display: flex;
 	border-radius: 18px;
-	background: #ebe702;
-	box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+	background: #c9c9c9dc;
+
+	box-shadow: 5px 5px 15px rgba(182, 182, 182, 0.801);
 	font-family: "poppins";
 	transition: 0.2s ease;
 	cursor: pointer;
-	margin:30px;
+	margin:35px;
+	float: left;
   }
   .card-text {
 	margin: 25px;
@@ -2143,21 +2145,6 @@ footer .copyright span:last-child::after {
 	margin-top:0px;
 	font-size:28px;
   }
-  .card-stats { 
-	display: flex;
-	border-bottom-left-radius: 15px;
-	border-bottom-right-radius: 15px;
-	border-top-right-radius: 15px;
-	background: #000000;
-  }
-  .card-stats .stat {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-direction: column;
-	color: #ebe702;
-	padding:10px;
-  }
   .card-text h2{
 	  color: #0D0D0D;
   }
@@ -2167,12 +2154,6 @@ footer .copyright span:last-child::after {
 	}
   .card-text h6{
 	  color: #151515;
-  }
-  .card img{
-	  display: flex;
-	  border-radius: 20px;
-	  border: 3px solid rgb(0, 153, 255);
-	  margin-top: 5px;
   }
   .card a{
 	  color: rgb(253, 253, 253);
@@ -2193,4 +2174,7 @@ footer .copyright span:last-child::after {
   }
 .works{
 	color:#2efa06 ;
+}
+.card-container{
+	
 }
