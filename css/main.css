@@ -2054,18 +2054,18 @@ footer .copyright span:last-child::after {
  */
 #go-top {
 	position: fixed;
-	bottom: 0;
-	right: 0;
 	z-index: 600;
+	bottom: 0;
+	left: 50%;
 	display: none;
 }
 #go-top a {
 	text-decoration: none;
 	border: 0 none;
 	display: block;
-	height: 6.6rem;
-	width: 6rem;
-	line-height: 6.6rem;
+	height: 4rem;
+	width: 4rem;
+	line-height: 4rem;
 	text-align: center;
 	background: #ebe702;
 	color: rgb(65, 65, 65);
@@ -2078,7 +2078,7 @@ footer .copyright span:last-child::after {
 	transition: all 0.3s ease-in-out;
 }
 #go-top a i {
-	font-size: 1.6rem;
+	font-size: 1.8rem;
 	line-height: inherit;
 }
 #go-top a:hover {
@@ -2174,7 +2174,4 @@ footer .copyright span:last-child::after {
   }
 .works{
 	color:#2efa06 ;
-}
-.card-container{
-	
 }
