@@ -17,10 +17,10 @@ The portfolio includes:
 <hr>
 
 ### Prerequisites:
-There has no spacial installation needed to run this project. This one has completely made of `HTML5, CSS3 and JavaScript`.
+There has no spacial installation needed to run this project. it has completely made of `HTML5, CSS3 and JavaScript`.
 
 Please support and push your inputs to make this portfolio better.
-<p>You would highlight any critical issue to<a href="mailto:me@ansmis.tech">me@ansmis.tech</a><p> 
+<p>You would highlight any critical issue to<a href="mailto:me@ansmis.tech"> me@ansmis.tech</a><p> 
 
 <hr>
 
