@@ -3,10 +3,9 @@
 
 <p>This protfolio is easily customizable.</p>
 <p>The portfolio includes:</p>
+
 - [x] Home
 - [x] About Me
 - [x] My Resume
 - [x] My Work
 - [x] Contact Me
-- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
-- [x] list syntax required (any unordered or ordered list supporte
