@@ -565,6 +565,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	display: table;
 	position: relative;
 	text-align: center;
+	
 }
 .intro-content {
 	display: table-cell;
