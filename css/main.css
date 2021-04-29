@@ -7,6 +7,8 @@
 @import url("font-awesome/css/font-awesome.min.css");
 @import url("micons/micons.css");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
 
 
 /** 
@@ -67,7 +69,6 @@ body {
 	font-size: 1.6rem;
 	line-height: 3rem;
 	color: #ebe7e7;
-	cursor: url(/Ansuman.in_march2020/images/cursor.png);
 	letter-spacing:0.1em;
 }
 
@@ -488,11 +489,9 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  *
  * ------------------------------------------------------------------- 
  */
-.grey-section {
-	background: #151515;
 
-}
-.grey-section p.lead {
+
+p.lead {
 	color: #a8a8a8;
 }
 .section-intro {
@@ -545,6 +544,47 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 		font-size: 2.4rem;
 	}
 }
+/* ===================================================================== */
+/* Side Menu */
+/* ===================================================================== */
+.side-menu{
+	width: 96px;
+	height: fit-content;
+	position: fixed;
+	z-index: 99;
+	top:100px;
+	border-radius: 30px;
+	text-align: center !important;
+	justify-content: center !important;
+}
+#sideIcon{
+	font-size: 2em;
+	line-height: 1em;
+	width:90px;
+	text-align: center !important;
+	justify-content: center !important;
+}
+#sideIcon:hover{
+	color: #ffffff;
+}
+.btn-grad {background-image: linear-gradient(to right, #000428 0%, #004e92  51%, #000428  100%)}
+.btn-grad {
+	margin: 3px;
+	padding: 5px 20px;
+	text-align: center;
+	text-transform: uppercase;
+	transition: 0.5s;
+	background-size: 200% auto;
+	color: white;            
+	box-shadow: 0 0 5px rgba(238, 238, 238, 0.295);
+	border-radius: 15px;
+	display: block;
+ }
+ .btn-grad:hover {
+	background-position: right center; /* change the direction of the change here */
+	color: #fff;
+	text-decoration: none;
+ }
 
 /** 
  * ===================================================================
@@ -553,12 +593,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * ------------------------------------------------------------------- 
  */
 #intro {
-	background: rgba(156, 156, 156, 0.671);
- 	background: linear-gradient(90deg, rgba(106, 108, 243, 0.692) 0%, rgba(245, 127, 48, 0.801) 100%);
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	background-size: cover;
-	background-attachment: fixed;
+	background-color: #21D4FD;
+	background-image: linear-gradient(-45deg, #2179fd 0%, #1c1e24 100%);
 	width: 100%;
 	height: 100%;
 	min-height: 720px;
@@ -656,6 +692,11 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .intro-social li a:hover, .intro-social li a:focus {
 	color: rgba(21, 248, 14, 0.774);
 }
+/* 
+************************
+----Navigation Menu Styles---
+************************ */
+
 
 /**
  * responsive:
@@ -1282,7 +1323,6 @@ footer .copyright span:last-child::after {
  */
 #go-top {
 	position: fixed;
-	z-index: 600;
 	bottom: 0;
 	left: 50%;
 	display: none;
