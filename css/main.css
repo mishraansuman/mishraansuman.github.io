@@ -545,28 +545,8 @@ p.lead {
 	}
 }
 /* ===================================================================== */
-/* Side Menu */
+/* Button class=btn-grad */
 /* ===================================================================== */
-.side-menu{
-	width: 96px;
-	height: fit-content;
-	position: fixed;
-	z-index: 99;
-	top:100px;
-	border-radius: 30px;
-	text-align: center !important;
-	justify-content: center !important;
-}
-#sideIcon{
-	font-size: 2em;
-	line-height: 1em;
-	width:90px;
-	text-align: center !important;
-	justify-content: center !important;
-}
-#sideIcon:hover{
-	color: #ffffff;
-}
 .btn-grad {background-image: linear-gradient(to right, #000428 0%, #004e92  51%, #000428  100%)}
 .btn-grad {
 	margin: 3px;
@@ -747,16 +727,6 @@ p.lead {
 	opacity: 0.1;
 	z-index: -5;
 }
-#menuToggle #menu{
-	visibility: hidden;
-}
-#menu{
-	display: none;
-}
-#menuToggle input{
-	visibility: hidden;
-	display: none;
-}
 @media only screen and (max-width:768px) {
 	.land-pic1{
 		top:20px;
@@ -776,26 +746,11 @@ p.lead {
 	.land-pic5{
 		top: 320px;
 		left:50px;
-	}
-	.side-menu{
-		visibility: hidden;
-		display:none;
-		opacity: 0;
-	}
-/* 
+	}	
+}/* 
 ************************
 ----Navigation Menu Styles---
 ************************ */
-	#menuToggle #menu{
-	visibility: visible;
-	}
-	#menuToggle input{
-	visibility: visible;
-	display: block;
-	}
-	#menu{
-		display: block;
-	}
 	#menuToggle
 	{
 	  display: block;
@@ -844,7 +799,7 @@ p.lead {
 	  margin-bottom: 5px;
 	  position: relative;
 	
-	  background: #cdcdcd;
+	  background: #ffffff;
 	  border-radius: 3px;
 	
 	  z-index: 1;
@@ -930,7 +885,6 @@ p.lead {
 	{
 	  transform: none;
 	}
-}
 /**
  * responsive:
  * Intro
