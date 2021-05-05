@@ -4,7 +4,6 @@
  * ------------------------------------------------------------------- 
  */
 @import url("fonts.css");
-@import url("font-awesome/css/font-awesome.min.css");
 @import url("micons/micons.css");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
@@ -838,7 +837,7 @@ p.lead {
 	#menuToggle input:checked ~ span:nth-last-child(3)
 	{
 	  opacity: 0;
-	  transform: rotate(0deg) scale(0.2, 0.2);
+	  transform: rotate(0deg) scale(0.2,0.2);
 	}
 
 	/*
@@ -883,7 +882,7 @@ p.lead {
 	 */
 	#menuToggle input:checked ~ ul
 	{
-	  transform: none;
+	  transform:none;
 	}
 /**
  * responsive:

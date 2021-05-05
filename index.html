@@ -20,11 +20,9 @@
 
 	<!-- CSS
    ================================================== -->
-	<link rel="stylesheet" href="css/menu.css">
 	<link rel="stylesheet" href="css/base.css">
 	<link rel="stylesheet" href="css/main.css">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="css/font-awesome/css/font-awesome.css">
 
 	<!-- Script -->
 	<script src="https://kit.fontawesome.com/7b161e6c10.js" crossorigin="anonymous"></script>
@@ -44,16 +42,16 @@
 <body>
 	<nav role="navigation">
 		<div id="menuToggle">
-		  <input type="checkbox"/>		 
+		  <input type="checkbox" id="checkMenu"/>
 			<span></span>
 		  	<span></span>
 		  	<span></span>
 		  <ul id="menu">
-			 <a href="#intro"><li class="btn-grad"><i class="fas fa-home btn-grad"></i> Home</li></a>
-			 <a href="#about"><li class="btn-grad"><i class="fas fa-address-card btn-grad"></i> About</li></a>
-			 <a href="#portfolio"><li class="btn-grad"><i class="fas fa-laptop-code btn-grad"></i> Portfolio</li></a>
-			 <a href="#contact"><li class="btn-grad"><i class="fas fa-mail-bulk btn-grad"></i> Contact</li></a>
-			 <a href="https://github.com/ansmis-lit"><li class="btn-grad"><i class="fab fa-github btn-grad"></i> Github Projects</li></a>
+			 <a href="#intro" onclick="menuToggle()"><li class="btn-grad"><i class="fas fa-home btn-grad"></i> Home</li></a>
+			 <a href="#about" onclick="menuToggle()"><li class="btn-grad"><i class="fas fa-address-card btn-grad"></i> About</li></a>
+			 <a href="#portfolio" onclick="menuToggle()"><li class="btn-grad"><i class="fas fa-laptop-code btn-grad"></i> Portfolio</li></a>
+			 <a href="#contact" onclick="menuToggle()"><li class="btn-grad"><i class="fas fa-mail-bulk btn-grad"></i> Contact</li></a>
+			 <a href="https://github.com/ansmis-lit" onclick="menuToggle()"><li class="btn-grad"><i class="fab fa-github btn-grad"></i> Github Projects</li></a>
 		  </ul>
 		</div>
 	 </nav>
