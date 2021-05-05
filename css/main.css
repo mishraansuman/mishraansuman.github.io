@@ -766,7 +766,7 @@ p.lead {
 	#menuToggle a
 	{
 	  text-decoration: none;
-	  color: #004e92;
+	  color: #66ff38;
 	
 	  transition: color 0.3s ease;
 	}
@@ -785,6 +785,7 @@ p.lead {
 	  z-index: 2; /* and place it over the hamburger */
 	
 	  -webkit-touch-callout: none;
+	  
 	}
 
 	/*
@@ -798,7 +799,7 @@ p.lead {
 	  margin-bottom: 5px;
 	  position: relative;
 	
-	  background: #ffffff;
+	  background: #fffb14;
 	  border-radius: 3px;
 	
 	  z-index: 1;
@@ -828,7 +829,8 @@ p.lead {
 	{
 	  opacity: 1;
 	  transform: rotate(45deg) translate(-2px, -1px);
-	  background: #042e7c;
+	  background: #fffb14;
+	  filter: drop-shadow(1px 1px 2px #000);
 	}
 
 	/*
@@ -1569,13 +1571,12 @@ footer .copyright span:last-child::after {
  /* project card */
 
  .card {
-	display: flex;
+	display: block;
 	border-radius: 18px;
 	background: #c9c9c9dc;
 
 	box-shadow: 5px 5px 15px rgba(182, 182, 182, 0.801);
 	font-family: "poppins";
-	transition: 0.2s ease;
 	cursor: pointer;
 	margin:35px;
 	float: left;
@@ -1603,7 +1604,7 @@ footer .copyright span:last-child::after {
 	  color: #0D0D0D;
   }
   .card:hover {
-	transform: scale(1.12);
+	transform: translate3d(3px,2px,1px);
 	box-shadow: 5px 5px 15px rgba(61, 245, 5, 0.507);
 	}
   .card-text h6{
