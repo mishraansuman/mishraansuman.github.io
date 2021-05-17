@@ -1,7 +1,7 @@
-/** 
+/**
  * ===================================================================
- * 01. webfonts and iconfonts 
- * ------------------------------------------------------------------- 
+ * 01. webfonts and iconfonts
+ * -------------------------------------------------------------------
  */
 @import url("fonts.css");
 @import url("micons/micons.css");
@@ -10,11 +10,11 @@
 
 
 
-/** 
+/**
  * ===================================================================
- * 02. base style overrides 
+ * 02. base style overrides
  *
- * ------------------------------------------------------------------- 
+ * -------------------------------------------------------------------
  */
 html {
 	font-size: 10px;
@@ -23,23 +23,23 @@ html {
 /* width */
 ::-webkit-scrollbar{
 	width: 15px;
-	background: #0D0D0D;
+	background: #ffffff;
       }
-      
+
       /* Track */
       ::-webkit-scrollbar-track {
-	box-shadow: inset 0 0 5px grey; 
+	box-shadow: inset 0 0 5px grey;
       }
-       
+
       /* Handle */
       ::-webkit-scrollbar-thumb {
-	background: #EBE702; 
+	background: #EBE702;
 	border-radius: 15px;
       }
-      
+
       /* Handle on hover */
       ::-webkit-scrollbar-thumb:hover {
-	background: #2efa06; 
+	background: #2efa06;
       }
 /** end**/
 @media only screen and (max-width:1024px) {
@@ -60,14 +60,14 @@ html {
 
 html, body {
 	height: 100%;
-	
+
 }
 body {
-	background: #151515;
+	background: #252525;
 	font-family: "poppins-regular", serif;
 	font-size: 1.6rem;
 	line-height: 3rem;
-	color: #ebe7e7;
+	color: #252525;
 	letter-spacing:0.1em;
 }
 
@@ -76,7 +76,7 @@ body {
  * -------------------------------------------------------------------
  */
 a, a:visited {
-	color: #2efa06;
+	color: #c90a0a;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
 	-webkit-transition: all 0.3s ease-in-out;
@@ -88,14 +88,14 @@ a:hover, a:focus, a:active {
 	outline: 0;
 }
 
-/** 
+/**
  * ===================================================================
- * 03. typography & general theme styles 
- * ------------------------------------------------------------------- 
+ * 03. typography & general theme styles
+ * -------------------------------------------------------------------
  */
 h1, h2, h3, h4, h5, h6, .h01, .h02, .h03, .h04, .h05, .h06 {
 	font-family: "poppins-semibold", sans-serif;
-	color: #e6e4e4;
+	color: #252525;
 	font-style: normal;
 	text-rendering: optimizeLegibility;
 	margin-bottom: 2.1rem;
@@ -149,7 +149,7 @@ p.lead {
 	font-family: "lora-regular", serif;
 	font-size: 2rem;
 	line-height: 1.6;
-	color: #ebe7e7;
+	color: #252525;
 	letter-spacing: .2rem;
 }
 @media only screen and (max-width:768px) {
@@ -221,14 +221,14 @@ var, kbd, samp, code, pre {
 }
 pre {
 	padding: 2.4rem 3rem 3rem;
-	background: #F1F1F1;
+	background: #252525;
 }
 code {
 	font-size: 1.4rem;
 	margin: 0 .2rem;
 	padding: .3rem .6rem;
 	white-space: nowrap;
-	background: #F1F1F1;
+	background: #252525;
 	border: 1px solid #E1E1E1;
 	border-radius: 3px;
 }
@@ -254,7 +254,7 @@ mark {
 	color: #000;
 }
 hr {
-	border: solid #d2d2d2;
+	border: solid #313131;
 	border-width: 1px 0 0;
 	clear: both;
 	margin: 2.4rem 0 1.5rem;
@@ -262,7 +262,7 @@ hr {
 }
 
 /**
- * Lists   
+ * Lists
  * -------------------------------------------------------------------
  */
 ol {
@@ -310,7 +310,7 @@ dd {
 }
 
 /**
- * tables 
+ * tables
  * -------------------------------------------------------------------
  */
 table {
@@ -343,7 +343,7 @@ th:last-child, td:last-child {
 }
 
 /**
- * floated image   
+ * floated image
  * -------------------------------------------------------------------
  */
 img.pull-right {
@@ -354,11 +354,11 @@ img.pull-left {
 }
 
 
-/** 
+/**
  * ===================================================================
- * 06. buttons 
+ * 06. buttons
  *
- * ------------------------------------------------------------------- 
+ * -------------------------------------------------------------------
  */
 .button,
 a.button,
@@ -482,16 +482,16 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	margin-left: -0.2em;
 }
 
-/** 
+/**
  * ===================================================================
  * 08. common styles
  *
- * ------------------------------------------------------------------- 
+ * -------------------------------------------------------------------
  */
 
 
 p.lead {
-	color: #a8a8a8;
+	color: #252525;
 }
 .section-intro {
 	max-width: 700px;
@@ -504,7 +504,7 @@ p.lead {
 .section-intro h1 {
 	font-family: "poppins-semibold", serif;
 	font-size: 3.6rem;
-	color: #c4c4c4;
+	color: #252525;
 	line-height: 1.25;
 	margin-bottom: 1.2rem;
 }
@@ -519,7 +519,7 @@ p.lead {
 /**
  * responsive:
  * common styles
- * ------------------------------------------------------------------- 
+ * -------------------------------------------------------------------
  */
 @media only screen and (max-width:768px) {
 	.section-intro {
@@ -546,7 +546,7 @@ p.lead {
 /* ===================================================================== */
 /* Button class=btn-grad */
 /* ===================================================================== */
-.btn-grad {background-image: linear-gradient(to right, #000428 0%, #004e92  51%, #000428  100%)}
+.btn-grad {background-image: linear-gradient(to right, #fc00ff 0%, #00dbde  51%, #fc00ff  100%);}
 .btn-grad {
 	margin: 3px;
 	padding: 5px 20px;
@@ -554,7 +554,7 @@ p.lead {
 	text-transform: uppercase;
 	transition: 0.5s;
 	background-size: 200% auto;
-	color: white;            
+	color: white;
 	box-shadow: 0 0 5px rgba(238, 238, 238, 0.295);
 	border-radius: 15px;
 	display: block;
@@ -565,22 +565,21 @@ p.lead {
 	text-decoration: none;
  }
 
-/** 
+/**
  * ===================================================================
  * 10. intro
  *
- * ------------------------------------------------------------------- 
+ * -------------------------------------------------------------------
  */
 #intro {
-	background-color: #21D4FD;
-	background-image: linear-gradient(-45deg, #2179fd 0%, #1c1e24 100%);
+	background-image: linear-gradient(to right, #2c2c2c 15%, #373737 100%);
 	width: 100%;
 	height: 100%;
 	min-height: 720px;
 	display: table;
 	position: relative;
 	text-align: center;
-	
+
 }
 .intro-content {
 	display: table-cell;
@@ -745,8 +744,8 @@ p.lead {
 	.land-pic5{
 		top: 320px;
 		left:50px;
-	}	
-}/* 
+	}
+}/*
 ************************
 ----Navigation Menu Styles---
 ************************ */
@@ -756,9 +755,7 @@ p.lead {
 	  position: fixed;
 	  top: 20px;
 	  left: 20px;
-	
 	  z-index: 1;
-	
 	  -webkit-user-select: none;
 	  user-select: none;
 	}
@@ -766,8 +763,6 @@ p.lead {
 	#menuToggle a
 	{
 	  text-decoration: none;
-	  color: #66ff38;
-	
 	  transition: color 0.3s ease;
 	}
 	#menuToggle input
@@ -778,14 +773,10 @@ p.lead {
 	  position: absolute;
 	  top: -7px;
 	  left: -5px;
-	
 	  cursor: pointer;
-	
 	  opacity: 0; /* hide this */
 	  z-index: 2; /* and place it over the hamburger */
-	
 	  -webkit-touch-callout: none;
-	  
 	}
 
 	/*
@@ -798,14 +789,14 @@ p.lead {
 	  height: 4px;
 	  margin-bottom: 5px;
 	  position: relative;
-	
-	  background: #fffb14;
+
+	  background: #fff;
 	  border-radius: 3px;
-	
+
 	  z-index: 1;
-	
+
 	  transform-origin: 4px 0px;
-	
+
 	  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
 	              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
 	              opacity 0.55s ease;
@@ -821,7 +812,7 @@ p.lead {
 	  transform-origin: 0% 100%;
 	}
 
-	/* 
+	/*
 	 * Transform all the slices of hamburger
 	 * into a crossmark.
 	 */
@@ -829,8 +820,8 @@ p.lead {
 	{
 	  opacity: 1;
 	  transform: rotate(45deg) translate(-2px, -1px);
-	  background: #fffb14;
-	  filter: drop-shadow(1px 1px 2px #000);
+	  background: #000000;
+	  filter: drop-shadow(1px 1px 2px rgb(0, 0, 0));
 	}
 
 	/*
@@ -862,14 +853,14 @@ p.lead {
 	  padding: 20px;
 	  padding-top: 110px;
 	  border-radius: 20px;
-	  background: #ededed7a;
+	  background: #d6d6d6b6;
 	  list-style-type: none;
 	  -webkit-font-smoothing: antialiased;
 	  /* to stop flickering of text in safari */
-	
+
 	  transform-origin: 0% 0%;
 	  transform: translate(-100%, 0);
-	
+
 	  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
 	}
 
@@ -889,7 +880,7 @@ p.lead {
 /**
  * responsive:
  * Intro
- * --------------------------------------------------------------- 
+ * ---------------------------------------------------------------
  */
 @media only screen and (max-width:1024px) {
 	.intro-content h1 {
@@ -950,14 +941,14 @@ p.lead {
 }
 
 
-/** 
+/**
  * ===================================================================
  * 11. about
  *
- * ------------------------------------------------------------------- 
+ * -------------------------------------------------------------------
  */
 #about {
-	background: rgba(0, 0, 0, 0.397);
+	background: rgba(255, 255, 255);
 	padding-top: 12rem;
 	padding-bottom: 15rem;
 }
@@ -1004,7 +995,7 @@ p.lead {
 }
 .about-content .info-list li strong {
 	font-family: "poppins-bold", sans-serif;
-	color: #e2e2e2;
+	color: #252525;
 	text-transform: uppercase;
 	letter-spacing: .2rem;
 	font-size: 1.5rem;
@@ -1031,11 +1022,36 @@ p.lead {
 .button-section [class*="col-"] .button:first-child {
 	margin-right: 4rem;
 }
+/* skill-icon */
+.skill-cul{
+	float: left;
+  	width: 100%;
+	padding: 1px;
+	flex: 100%;
+
+}
+.skill-row {
+	display: flex;
+  }
+
+.skill-row::after{
+	content: "";
+	clear: both;
+	display:flex;
+}
+@media screen and (max-width: 500px) {
+	.skill-cul {
+	  width: 100%;
+	}
+  }
+ li strong{
+	 letter-spacing: 0.1em;
+ }
 
 /**
  * responsive:
  * about
- * ------------------------------------------------------------------- 
+ * -------------------------------------------------------------------
  */
 @media only screen and (max-width:1024px) {
 	.intro-info {
@@ -1082,22 +1098,24 @@ p.lead {
 	}
 }
 
-/** 
+/**
  * ===================================================================
- * 12. resume 
+ * 12. resume
  *
- * ------------------------------------------------------------------- 
+ * -------------------------------------------------------------------
  */
 #resume {
 	padding-top: 12rem;
 	padding-bottom: 12rem;
+	background:rgba(255, 255, 255)
 }
 
 #resume .resume-header {
 	text-align: center;
 }
 #resume .resume-header h2 {
-	color: #2efa06;
+	color: #252525;
+	text-transform: uppercase;
 }
 
 #resume .resume-timeline {
@@ -1177,7 +1195,7 @@ p.lead {
 /**
  * responsive:
  * resume
- * ------------------------------------------------------------------- 
+ * -------------------------------------------------------------------
  */
 @media only screen and (max-width:1024px) {
 	#resume .timeline-header {
@@ -1249,8 +1267,64 @@ p.lead {
 		padding-left: 5.5rem;
 	}
 }
+#portfolio{
+	background:rgb(255, 255, 255);
+}
+.works{
+	color:#252525;
+	text-transform: uppercase;
+	text-align: center;
+}
+ /* project card */
+#portfolio a{
+	background-color: #252525;
+	border: solid 1px #252525;
+	padding: 6px;
+	padding-left: 8px;
+	text-align: center;
+	border-radius: 20px;
+	color: rgba(255, 255, 255, 0.9);
+
+}
+#portfolio a:hover{
+	background-color:rgba(255, 255, 255, 0) ;
+	color: #252525;
+}
+.card-container{
+	display: flex;
+	flex-wrap: wrap;
+}
+.card{
+	background-color: rgb(255, 255, 255, 0.5);
+	margin: 20px;
+	width: 45%;
+	padding:15px;
+	border-top: solid 5px #252525;
+	border-left: solid 5px #252525;
+	border-bottom: solid 3px #868686;
+	border-right: solid 3px #868686;
+	box-shadow: 8px 8px 4px #252525;
+}
+.card-text{
+	text-align: center;
+	font-family: "poppins", sans-serif;
+}
+.card h2{
+	text-decoration: underline;
+}
+/* Responsive Project section */
+@media only screen and (max-width:480px) {
+	.card-container{
+		display: table;
+	}
+	.card{
+		margin:20px;
+		width: 100%;
+}
+}
+
 #contact {
-	background: #151515;
+	background: #ffffff;
 	padding-top: 1rem;
 	padding-bottom: 7.2rem;
 }
@@ -1387,28 +1461,6 @@ p.lead {
 	margin-right: 10px;
 }
 
-/* form loader */
-#submit-loader {
-	display: none;
-	position: relative;
-	left: 0;
-	top: 1.8rem;
-	width: 100%;
-	text-align: center;
-}
-#submit-loader .text-loader {
-	display: none;
-	font-family: "poppins-bold", sans-serif;
-	color: #ebe702;
-	letter-spacing: .3rem;
-	text-transform: uppercase;
-}
-.oldie #submit-loader .s-loader {
-	display: none;
-}
-.oldie #submit-loader .text-loader {
-	display: block;
-}
 .contact-info {
 	margin: 4.8rem auto 0;
 	font-family: "poppins-regular", sans-serif;
@@ -1430,16 +1482,20 @@ p.lead {
 }
 
 
-/** 
+/**
  * ===================================================================
- * 18. footer 
+ * 18. footer
  *
- * ------------------------------------------------------------------- 
+ * -------------------------------------------------------------------
  */
 footer {
 	padding-bottom: 3rem;
 	font-size: 1.4rem;
 	font-family: "poppins-regular", sans-serif;
+	background-color: #ffffff;
+}
+mail_foot{
+	color: #888888;
 }
 footer a, footer a:visited {
 	color: #FFFFFF;
@@ -1507,7 +1563,7 @@ footer .copyright span:last-child::after {
 
 /**
  * go to top - (_layout.scss)
- * ------------------------------------------------------------------- 
+ * -------------------------------------------------------------------
  */
 #go-top {
 	position: fixed;
@@ -1540,93 +1596,16 @@ footer .copyright span:last-child::after {
 #go-top a:hover {
 	background: #2efa06;
 }
-.mail_foot{
-	color: #888888;
-}
-/* skill-icon */
-.skill-cul{
-	float: left;
-  	width: 100%;
-	padding: 1px;
-	flex: 100%;
-	
-}
-.skill-row {
-	display: flex;
-  }
-  
-.skill-row::after{
-	content: "";
-	clear: both;
-	display:flex;
-}
-@media screen and (max-width: 500px) {
-	.skill-cul {
-	  width: 100%;
-	}
-  }
- li strong{
-	 letter-spacing: 0.1em;
- } 
- /* project card */
 
- .card {
-	display: block;
-	border-radius: 18px;
-	background: #c9c9c9dc;
+/* Scroll Reveal */
+.reveal{
+	position: relative;
+	transform: translatey(150px);
+	opacity: 0;
+	transition: all 2s ease-in-out;
+ }
 
-	box-shadow: 5px 5px 15px rgba(182, 182, 182, 0.801);
-	font-family: "poppins";
-	cursor: pointer;
-	margin:35px;
-	float: left;
-  }
-  .card-text {
-	margin: 25px;
-  }
-  .card-text .date {
-	color: #151515;
-	font-size:13px;
-	
-  }
-  .card-text p {
-	color: #151515;
-	font-size:18px;
-	font-weight: 300;
-	text-align: center;
-	letter-spacing: 0.1em;
-  }
-  .card-text h2 {
-	margin-top:0px;
-	font-size:28px;
-  }
-  .card-text h2{
-	  color: #0D0D0D;
-  }
-  .card:hover {
-	transform: translate3d(3px,2px,1px);
-	box-shadow: 5px 5px 15px rgba(61, 245, 5, 0.507);
-	}
-  .card-text h6{
-	  color: #151515;
-  }
-  .card a{
-	  color: rgb(253, 253, 253);
-	  font-family: "poppins-medium";
-	  font-size: 2rem;
-	  background-color: rgba(2, 6, 247, 0.966);
-	  border-radius: 15px;
-	  text-align: center;
-	  padding: .5rem;
-	  padding-right: 0.2rem;
-	  border: 1px dashed rgb(43, 255, 0);
-  }
-  .card a:hover{
-	  cursor: help;
-	  background-color: rgb(253, 253, 253);
-	  color: rgba(2, 6, 247, 0.966);
-	  border: 1px dashed deeppink;
-  }
-.works{
-	color:#2efa06 ;
-}
+ .reveal.active{
+	transform: translateY(0px);
+	opacity: 1;
+ }
