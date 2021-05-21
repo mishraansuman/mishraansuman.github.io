@@ -387,6 +387,7 @@ input[type="button"] {
 	-webkit-transition: all 0.3s ease-in-out;
 	-ms-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
+	box-shadow: 2px 2px 5px #000;
 }
 .button:hover,
 a.button:hover,
@@ -409,8 +410,8 @@ button.button-primary,
 input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
-	background: #353535;
-	color: #2efa06;
+	background: #252525;
+	color: #ffffff;
 }
 .button.button-primary:hover,
 a.button.button-primary:hover,
@@ -442,7 +443,7 @@ button.large, .button.large {
 }
 button.stroke, .button.stroke {
 	background: transparent !important;
-	border: 3px solid #313131;
+	border: 3px solid #252525;
 	line-height: 4.8rem;
 }
 button.stroke.medium, .button.stroke.medium {
@@ -451,9 +452,9 @@ button.stroke.medium, .button.stroke.medium {
 button.stroke.large, .button.stroke.large {
 	line-height: 5.4rem !important;
 }
-button.stroke:hover, .button.stroke:hover {
-	border: 3px solid #ebe702;
-	color: #ebe702;
+button.stroke:hover, .button.stroke:hover{
+	color: #ffffff;
+	background: #252525 !important;
 }
 button::-moz-focus-inner, input::-moz-focus-inner {
 	border: 0;
@@ -509,8 +510,8 @@ p.lead {
 	margin-bottom: 1.2rem;
 }
 .section-intro h5 {
-	color: #ebe702;
-	font-size: 1.6rem;
+	color: #252525;
+	font-size: 2rem;
 	line-height: 1.875;
 	margin-bottom: 0.3rem;
 	letter-spacing: .4rem;
@@ -546,7 +547,7 @@ p.lead {
 /* ===================================================================== */
 /* Button class=btn-grad */
 /* ===================================================================== */
-.btn-grad {background-image: linear-gradient(to right, #fc00ff 0%, #00dbde  51%, #fc00ff  100%);}
+.btn-grad {background-image: linear-gradient(to right, #000000 0%, #afafaf  51%, #1d1d1d  100%);}
 .btn-grad {
 	margin: 3px;
 	padding: 5px 20px;
@@ -572,10 +573,9 @@ p.lead {
  * -------------------------------------------------------------------
  */
 #intro {
-	background-image: linear-gradient(to right, #2c2c2c 15%, #373737 100%);
+	background:#fff;
 	width: 100%;
 	height: 100%;
-	min-height: 720px;
 	display: table;
 	position: relative;
 	text-align: center;
@@ -590,7 +590,7 @@ p.lead {
 	transform: translateY(-2.1rem);
 }
 .intro-content h1 {
-	color: #FFFFFF;
+	color: #252525;
 	font-family: "poppins-medium", sans-serif;
 	font-size: 8.4rem;
 	line-height: 1.071;
@@ -599,54 +599,29 @@ p.lead {
 	margin-bottom: .6rem;
 	margin-left: auto;
 	margin-right: auto;
-	text-shadow: 0 0 20px rgba(0, 0, 0, 0.671);
+	text-shadow: 0 0 10px rgba(0, 0, 0,0.5);
 }
 .intro-content h5 {
-	color: #ebe702;
+	color: #000000;
 	font-family: "poppins-bold", sans-serif;
 	font-size: 2.3rem;
 	line-height: 1.565;
 	margin-bottom: 0;
 	text-transform: uppercase;
 	letter-spacing: .3rem;
-	text-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
+	text-shadow: 0 0 5px rgb(0, 0, 0, 0.5);
 }
 .intro-content .intro-position {
-	font-family: "Roboto Slab", serif;
+	font-family: "poppins-regular", serif;
 	font-size: 1.7rem;
 	line-height: 2.4rem;
 	text-transform: uppercase;
 	letter-spacing: .2rem;
-	color: #FFFFFF;
-	text-shadow: 0 0px 6px rgba(0, 0, 0, 0.9);
+	color: #252525;
+	text-shadow: 0 0px 3px rgba(0, 0, 0, 0.5);
 }
 .intro-content .intro-position span {
 	display: inline-block;
-}
-
-.intro-content .button {
-	color: #FFFFFF !important;
-	border-color: rgba(255, 255, 255, 0.3);
-	height: 6rem !important;
-	line-height: 5.4rem !important;
-	padding: 0 3.5rem 0 3rem !important;
-	margin-top: .6rem;
-	font-size: 1.3rem;
-	text-transform: uppercase;
-	letter-spacing: .25rem;
-}
-.intro-content .button:hover, .intro-content .button:focus {
-	border-color: rgba(21, 248, 14, 0.774);
-}
-.intro-content .button::after {
-	display: inline-block;
-	content: "\f107";
-	font-family: fontAwesome;
-	font-size: 1.6rem;
-	line-height: inherit;
-	text-align: center;
-	position: relative;
-	left: 1.2rem;
 }
 
 .intro-social {
@@ -665,64 +640,50 @@ p.lead {
 	padding: 0;
 }
 .intro-social li a, .intro-social li a:visited {
-	color: #FFFFFF;
+	color: #252525;
 }
 .intro-social li a:hover, .intro-social li a:focus {
-	color: rgba(21, 248, 14, 0.774);
+	color: rgb(255, 209, 59);
+	filter: drop-shadow(2px 2px 1px #252525);
 }
 .land-pic1{
 	height: 100px;
-	border: dashed 2px rgb(15, 49, 202);
-	border-radius: 200px;
-	filter: drop-shadow(10px 10px #000);
 	position: absolute;
-	top:230px;
+	top:450px;
 	left: 150px;
-	opacity: 0.1;
+	opacity: 0.3;
 	z-index: -5;
 }
 .land-pic2{
 	height: 100px;
-	border: dashed 2px rgb(15, 49, 202);
-	border-radius: 200px;
-	filter: drop-shadow(10px 10px #000);
 	position: absolute;
 	top:180px;
 	right: 130px;
-	opacity: 0.1;
+	opacity: 0.3;
 	z-index: -5;
 }
 .land-pic3{
 	height: 100px;
-	border: dashed 2px rgb(15, 49, 202);
-	border-radius: 200px;
-	filter: drop-shadow(10px 10px #000);
 	position: absolute;
 	top:50px;
 	right: 400px;
-	opacity: 0.1;
+	opacity: 0.3;
 	z-index: -5;
 }
 .land-pic4{
 	height: 100px;
-	border: dashed 2px rgb(15, 49, 202);
-	border-radius: 200px;
-	filter: drop-shadow(10px 10px #000);
 	position: absolute;
 	bottom:150px;
 	right: 250px;
-	opacity: 0.1;
+	opacity: 0.3;
 	z-index: -5;
 }
 .land-pic5{
 	height: 100px;
-	border: dashed 2px rgb(15, 49, 202);
-	border-radius: 200px;
-	filter: drop-shadow(10px 10px #000);
 	position: absolute;
 	top:100px;
 	left: 350px;
-	opacity: 0.1;
+	opacity: 0.3;
 	z-index: -5;
 }
 @media only screen and (max-width:768px) {
@@ -742,8 +703,8 @@ p.lead {
 		top:470px;
 	}
 	.land-pic5{
-		top: 320px;
-		left:50px;
+		top:580px;
+		left:230px;
 	}
 }/*
 ************************
@@ -790,7 +751,7 @@ p.lead {
 	  margin-bottom: 5px;
 	  position: relative;
 
-	  background: #fff;
+	  background: #252525;
 	  border-radius: 3px;
 
 	  z-index: 1;
@@ -953,7 +914,7 @@ p.lead {
 	padding-bottom: 15rem;
 }
 #about .section-intro {
-	margin-bottom: 3rem;
+	margin-bottom: 1rem;
 }
 
 .intro-info {
@@ -984,6 +945,8 @@ p.lead {
 	font-size: 1.8rem;
 	text-transform: uppercase;
 	letter-spacing: .25rem;
+	text-decoration: underline;
+	line-height: 5rem;
 }
 .about-content .info-list {
 	list-style: none;
@@ -1009,10 +972,13 @@ p.lead {
 	line-height: 1;
 	letter-spacing: .3rem;
 }
-.about-content .skill-bars {
+.about-content {
 	margin-top: 6rem;
 }
-
+#about h5{
+	text-transform: none !important;
+	font-family: "poppins-medium",serif;
+}
 .button-section {
 	text-align: center;
 }
@@ -1026,23 +992,22 @@ p.lead {
 .skill-cul{
 	float: left;
   	width: 100%;
-	padding: 1px;
 	flex: 100%;
+	filter: drop-shadow(2px 2px 2px #000);
+	margin: 3px;
+
 
 }
 .skill-row {
 	display: flex;
   }
 
-.skill-row::after{
-	content: "";
-	clear: both;
-	display:flex;
-}
 @media screen and (max-width: 500px) {
 	.skill-cul {
 	  width: 100%;
+	  top:5px;
 	}
+
   }
  li strong{
 	 letter-spacing: 0.1em;
@@ -1315,11 +1280,12 @@ p.lead {
 /* Responsive Project section */
 @media only screen and (max-width:480px) {
 	.card-container{
-		display: table;
+		display: block;
 	}
 	.card{
-		margin:20px;
 		width: 100%;
+		margin-left:10px ;
+		margin-right: -20px;
 }
 }
 
