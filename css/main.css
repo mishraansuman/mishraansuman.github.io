@@ -7,7 +7,55 @@
 @import url("micons/micons.css");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
+/* fonts */
+/* Roboto Slab
+	Montserrat */
+/* ------------ */
 
+
+:root {
+	--follower-color: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+	--curser-color: rgba(0, 0, 0);
+	--size: 32px;
+	--gap: 22px;
+	--RobotoFont:"Roboto Slab";
+	--MontserratFont:"Montserrat";
+ }
+
+
+/* cursor setting */
+
+.follower {
+	width: var(--size);
+	height: var(--size);
+	border-radius: 50%;
+	position: absolute;
+	transform: translate(calc(1px * var(--mouse-x)), calc(1px * var(--mouse-y)))
+	  translate(-50%, -50%);
+	background: var(--follower-color);
+	filter: blur(0.2px) drop-shadow(2px 2px 2px rgb(70, 70, 70));
+	z-index: 99;
+	position: absolute;
+	pointer-events: none;
+
+ }
+.cursor {
+	width: calc(var(--size) + var(--gap));
+	height: calc(var(--size) + var(--gap));
+	border-radius: 50%;
+	position: absolute;
+	transform: translate(calc(1px * var(--mouse-x)), calc(1px * var(--mouse-y)))
+	  translate(-50%, -50%);
+	background:var(--curser-color);
+	border: 1px solid white;
+	mix-blend-mode: difference;
+	z-index: 99;
+	filter: blur(0.7px);
+	position: absolute;
+	pointer-events: none;
+ }
+
+/* ------------------------------ */
 
 
 /**
@@ -60,10 +108,11 @@ html {
 
 html, body {
 	height: 100%;
+	cursor: none;
 
 }
 body {
-	background: #252525;
+	background: #fff;
 	font-family: "poppins-regular", serif;
 	font-size: 1.6rem;
 	line-height: 3rem;
@@ -146,11 +195,12 @@ p img {
 	margin: 0;
 }
 p.lead {
-	font-family: "lora-regular", serif;
+	font-family: "Montserrat", serif !important;
 	font-size: 2rem;
 	line-height: 1.6;
 	color: #252525;
 	letter-spacing: .2rem;
+	text-align: center !important;
 }
 @media only screen and (max-width:768px) {
 	p.lead {
@@ -547,7 +597,7 @@ p.lead {
 /* ===================================================================== */
 /* Button class=btn-grad */
 /* ===================================================================== */
-.btn-grad {background-image: linear-gradient(to right, #000000 0%, #afafaf  51%, #1d1d1d  100%);}
+.btn-grad {background-image: linear-gradient(to right, #d3d300c5 0%, #afafaf  51%, #1d1d1d  100%);}
 .btn-grad {
 	margin: 3px;
 	padding: 5px 20px;
@@ -555,10 +605,11 @@ p.lead {
 	text-transform: uppercase;
 	transition: 0.5s;
 	background-size: 200% auto;
-	color: white;
+	color: rgb(0, 0, 0);
 	box-shadow: 0 0 5px rgba(238, 238, 238, 0.295);
 	border-radius: 15px;
 	display: block;
+	font-family:"poppins-medium", sans-serif;
  }
  .btn-grad:hover {
 	background-position: right center; /* change the direction of the change here */
@@ -573,7 +624,7 @@ p.lead {
  * -------------------------------------------------------------------
  */
 #intro {
-	background:#fff;
+	background:rgb(255, 255, 255);
 	width: 100%;
 	height: 100%;
 	display: table;
@@ -581,6 +632,14 @@ p.lead {
 	text-align: center;
 
 }
+#intro-img{
+	float: right;
+	position:absolute;
+	right:0;
+	top:5em;
+	height:17em;
+}
+
 .intro-content {
 	display: table-cell;
 	vertical-align: middle;
@@ -599,7 +658,8 @@ p.lead {
 	margin-bottom: .6rem;
 	margin-left: auto;
 	margin-right: auto;
-	text-shadow: 0 0 10px rgba(0, 0, 0,0.5);
+	filter: drop-shadow(2px 2px 1px #e2e47b);
+
 }
 .intro-content h5 {
 	color: #000000;
@@ -609,16 +669,19 @@ p.lead {
 	margin-bottom: 0;
 	text-transform: uppercase;
 	letter-spacing: .3rem;
-	text-shadow: 0 0 5px rgb(0, 0, 0, 0.5);
+	filter: drop-shadow(2px 2px 1px #e2e47b)
+}
+.hola{
+	font-size: 2em;
 }
 .intro-content .intro-position {
-	font-family: "poppins-regular", serif;
+	font-family: "poppins-medium",sans-serif;
 	font-size: 1.7rem;
 	line-height: 2.4rem;
 	text-transform: uppercase;
 	letter-spacing: .2rem;
-	color: #252525;
-	text-shadow: 0 0px 3px rgba(0, 0, 0, 0.5);
+	color: rgb(0, 0, 0);
+
 }
 .intro-content .intro-position span {
 	display: inline-block;
@@ -646,67 +709,7 @@ p.lead {
 	color: rgb(255, 209, 59);
 	filter: drop-shadow(2px 2px 1px #252525);
 }
-.land-pic1{
-	height: 100px;
-	position: absolute;
-	top:450px;
-	left: 150px;
-	opacity: 0.3;
-	z-index: -5;
-}
-.land-pic2{
-	height: 100px;
-	position: absolute;
-	top:180px;
-	right: 130px;
-	opacity: 0.3;
-	z-index: -5;
-}
-.land-pic3{
-	height: 100px;
-	position: absolute;
-	top:50px;
-	right: 400px;
-	opacity: 0.3;
-	z-index: -5;
-}
-.land-pic4{
-	height: 100px;
-	position: absolute;
-	bottom:150px;
-	right: 250px;
-	opacity: 0.3;
-	z-index: -5;
-}
-.land-pic5{
-	height: 100px;
-	position: absolute;
-	top:100px;
-	left: 350px;
-	opacity: 0.3;
-	z-index: -5;
-}
-@media only screen and (max-width:768px) {
-	.land-pic1{
-		top:20px;
-		left:200px;
-	}
-	.land-pic2{
-		top:50px;
-		left:20px
-	}
-	.land-pic3{
-		top:400px;
-		right:20px;
-	}
-	.land-pic4{
-		top:470px;
-	}
-	.land-pic5{
-		top:580px;
-		left:230px;
-	}
-}/*
+/*
 ************************
 ----Navigation Menu Styles---
 ************************ */
@@ -923,8 +926,8 @@ p.lead {
 	margin-left: -30px;
 }
 .intro-info img {
-	height: 9rem;
-	width: 9rem;
+	height: 7rem;
+	width: 7rem;
 	border-radius: 50%;
 	margin: .9rem 0 0 0;
 	float: left;
@@ -934,50 +937,12 @@ p.lead {
 	padding-left: 13rem;
 }
 
-.about-content {
-	position: relative;
-	text-align: left;
-	max-width: 850px;
-	margin-bottom: 3.6rem;
-}
-.about-content h3 {
-	font-family: "poppins-bold", sans-serif;
-	font-size: 1.8rem;
-	text-transform: uppercase;
-	letter-spacing: .25rem;
-	text-decoration: underline;
-	line-height: 5rem;
-}
-.about-content .info-list {
-	list-style: none;
-	margin-left: 0;
-}
-.about-content .info-list li {
-	padding: 0 0 1.5rem 0;
-	margin-bottom: .6rem;
-}
-.about-content .info-list li strong {
-	font-family: "poppins-bold", sans-serif;
-	color: #252525;
-	text-transform: uppercase;
-	letter-spacing: .2rem;
-	font-size: 1.5rem;
-	line-height: 3rem;
-}
-.about-content .info-list li span {
-	display: block;
-	font-family: "poppins-medium", sans-serif;
-	color: #2efa06;
-	font-size: 1.5rem;
-	line-height: 1;
-	letter-spacing: .3rem;
-}
-.about-content {
-	margin-top: 6rem;
-}
-#about h5{
-	text-transform: none !important;
-	font-family: "poppins-medium",serif;
+#about h3{
+	font-family: "Roboto Slab";
+	text-align: center;
+	font-size: 1.6em;
+	letter-spacing: 0.1em;
+	text-decoration: underline wavy;
 }
 .button-section {
 	text-align: center;
@@ -995,11 +960,12 @@ p.lead {
 	flex: 100%;
 	filter: drop-shadow(2px 2px 2px #000);
 	margin: 3px;
-
-
 }
 .skill-row {
 	display: flex;
+	width: 50%;
+	margin: 0 auto;
+	margin-bottom: 3px;
   }
 
 @media screen and (max-width: 500px) {
@@ -1078,10 +1044,6 @@ p.lead {
 #resume .resume-header {
 	text-align: center;
 }
-#resume .resume-header h2 {
-	color: #252525;
-	text-transform: uppercase;
-}
 
 #resume .resume-timeline {
 	max-width: 980px;
@@ -1090,6 +1052,7 @@ p.lead {
 	position: relative;
 	margin-top: 1.5rem;
 	margin-bottom: 6rem;
+
 }
 #resume .timeline-wrap::before {
 	content: "";
@@ -1120,42 +1083,39 @@ p.lead {
 }
 #resume .timeline-ico i {
 	position: relative;
-	left: .05rem;
-	top: .2rem;
 }
 
 #resume .timeline-header {
-	float: left;
 	width: 35%;
-	padding-right: 90px;
+	padding-right: 70px;
 	text-align: right;
 }
 #resume .timeline-header h3 {
 	margin-bottom: 0;
-}
-#resume .timeline-header p {
-	font-family: "poppins-regular", sans-serif;
+	font-family: var(--MontserratFont);
 	font-size: 1.6rem;
-	color: #969696;
 }
-#resume .timeline-content {
-	margin-left: 35%;
-	padding-left: 60px;
+#resume .timeline-header h4 {
+	font-size: 1.5rem;
+	font-family: var(--RobotoFont);
+	text-transform: uppercase;
 }
-#resume .timeline-content h4 {
-	position: relative;
-	padding-bottom: 1.8rem;
+#resume .timeline-header p{
+	font-family: var(--MontserratFont);
+	font-size: 1.6rem;
+	color: #252525;
+	font-weight: 600;
+	margin-bottom:2rem;
+	text-transform: uppercase;
 }
-#resume .timeline-content h4::after {
-	content: "";
-	display: block;
-	height: 3px;
-	width: 50px;
-	background: rgba(236, 236, 236, 0.521);
-	position: absolute;
-	left: 0;
-	bottom: 0;
+#resume i.arrow{
+	text-align: left;
+	justify-content: left;
+	color:#41b300;
+	padding: 2rem;
+
 }
+
 
 /**
  * responsive:
@@ -1172,9 +1132,6 @@ p.lead {
 	#resume .timeline-header p {
 		font-size: 1.4rem;
 	}
-	#resume .timeline-content {
-		padding-left: 50px;
-	}
 }
 @media only screen and (max-width:768px) {
 	#resume .timeline-wrap::before {
@@ -1184,7 +1141,6 @@ p.lead {
 		left: 2.4rem;
 	}
 	#resume .timeline-header {
-		float: none;
 		width: auto;
 		padding-right: 15px;
 		text-align: left;
@@ -1196,27 +1152,10 @@ p.lead {
 		font-size: 1.5rem;
 		margin-bottom: 1.5rem;
 	}
-	#resume .timeline-content {
-		margin: 0;
-	}
-	#resume .timeline-content h4 {
-		padding-bottom: 0;
-		padding-top: 2.1rem;
-		margin-bottom: .6rem;
-		font-size: 1.7rem;
-	}
-	#resume .timeline-content h4::after {
-		bottom: auto;
-		top: 0;
-	}
-	#resume .timeline-header, #resume .timeline-content {
-		padding-left: 7rem;
-	}
+
 }
 @media only screen and (max-width:480px) {
-	#resume .resume-header h2 {
-		font-size: 2.2rem;
-	}
+
 	#resume .timeline-wrap::before {
 		left: 1.8rem;
 	}
@@ -1228,10 +1167,13 @@ p.lead {
 		margin-left: -1.8rem;
 		font-size: 1.5rem;
 	}
-	#resume .timeline-header, #resume .timeline-content {
-		padding-left: 5.5rem;
-	}
+
 }
+
+/*
+--- Works -----
+*/
+
 #portfolio{
 	background:rgb(255, 255, 255);
 }
@@ -1288,7 +1230,9 @@ p.lead {
 		margin-right: -20px;
 }
 }
-
+/* -----------
+------- Contact --------
+----------- */
 #contact {
 	background: #ffffff;
 	padding-top: 1rem;
@@ -1460,9 +1404,14 @@ footer {
 	font-family: "poppins-regular", sans-serif;
 	background-color: #ffffff;
 }
-mail_foot{
-	color: #888888;
+.mail_foot{
+	color: #252525;
 }
+.mail_foot:hover{
+	color: #000;
+	text-decoration: underline;
+}
+
 footer a, footer a:visited {
 	color: #FFFFFF;
 }
@@ -1489,7 +1438,7 @@ footer .footer-social li {
 	padding: 0;
 }
 footer .footer-social li a {
-	color: rgb(212, 212, 212);
+	color: rgb(70, 70, 70);
 }
 footer .copyright span {
 	display: inline-block;
@@ -1503,7 +1452,9 @@ footer .copyright span::after {
 footer .copyright span:last-child::after {
 	display: none;
 }
-
+.icon-mail{
+	color:#252525 !important;
+}
 /**
  * responsive:
  * footer
@@ -1568,7 +1519,7 @@ footer .copyright span:last-child::after {
 	position: relative;
 	transform: translatey(150px);
 	opacity: 0;
-	transition: all 2s ease-in-out;
+	transition: all .8s ease-in-out;
  }
 
  .reveal.active{

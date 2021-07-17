@@ -12,7 +12,7 @@ window.addEventListener('scroll', reveal);
 
         var windowheight = window.innerHeight;
         var revealtop = reveals[i].getBoundingClientRect().top;
-        var revealpoint = 50;
+        var revealpoint = 1;
 
         if(revealtop < windowheight - revealpoint){
           reveals[i].classList.add('active');
