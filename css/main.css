@@ -45,6 +45,7 @@ body {
 section{
 	height: 100vh;
 }
+
 /* prevent user to drag or select image */
 img{
 	pointer-events: none;
@@ -374,8 +375,12 @@ a:hover, a:focus, a:active {
 	display: grid;
 	grid-template-columns: repeat(2,1fr);
 }
-.land-svg{
+.land-svg,.land-svg img{
 	position:absolute;
+	margin: 0;
+}
+.land-svg img{
+	width: 50vw;
 }
 #intro-img{
 	height:40em;
@@ -388,7 +393,6 @@ a:hover, a:focus, a:active {
 	font-family: var(--fontBalooChettan);
 	font-size: 4rem;
 	line-height: 1.071;
-	max-width: 900px;
 	margin-top: 0;
 	margin-bottom: .6rem;
 	margin-left: auto;
@@ -438,6 +442,15 @@ a:hover, a:focus, a:active {
 	border: none;
 	box-shadow: 0 0 5px #000;
 }
+
+/* Intro-Responsive Mobile View */
+@media screen and (max-width: 960px){
+	#intro{
+	display: table;
+	}
+
+}
+
 
 /**
  * ===================================================================
