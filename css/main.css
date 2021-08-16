@@ -1054,3 +1054,44 @@ footer .copyright span:last-child::after {
 	transform: translateY(0px);
 	opacity: 1;
  }
+.error-404{
+	margin: 0;
+	display:flex;
+	flex-direction: column;
+	text-align: center;
+	font-family: var(--fontBalooChettan);
+	line-height: 1rem;
+	background: radial-gradient( circle farthest-corner at 10% 20%,  #0eae57 0%, #0c7475 90% );
+}
+.error-404 h1{
+	font-size: 7rem;
+	color: #00bf72;
+	filter: drop-shadow(2px 2px 2px #000);
+}
+.error-content{
+	font-size: 2rem;
+	color: #fff;
+	filter: drop-shadow(2px 2px 2px #00bf72);
+	line-height: 2rem;
+}
+.error-button{
+	flex-direction: row;
+	height: 100px;
+	text-align: center;
+	box-shadow: -1px -1px 5px #adadad8f;
+	margin-top: 50px;
+}
+.error-button a button{
+	font-family: var(--fontRoboto);
+	font-size: 1.2rem;
+	font-weight: 800;
+	color: #000;
+	box-shadow: 2px 2px 2px #000,-3px -3px 0px #adadad;
+	margin-left: 5px;
+	margin-top: 30px;
+}
+.error-button a button:hover{
+	text-decoration: underline #4600eb 2px;
+	color: #000;
+	translate: 0% 15%;
+}
