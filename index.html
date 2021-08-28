@@ -55,11 +55,11 @@
 	<div class="cursor"></div> -->
 	<div id="navigation-bar">
 		<div class="menu-container">
-		<a href="#intro">Intro</a>
-		<a href="#about">About</a>
-		<a href="#portfolio">Projects</a>
-		<a href="#contact">Contact</a>
-		<a href="#contact">Hire Me</a>
+		<a class="nav-menu" href="#intro">Intro <span class="nav-tooltip" style="left: 83.383px;">Intro</span></a>
+		<a class="nav-menu" href="#about">About<span class="nav-tooltip" style="left: 190.683px;">About</span></a>
+		<a class="nav-menu" href="#portfolio">Projects<span class="nav-tooltip" style="left: 282.4px;">Projects</span></a>
+		<a class="nav-menu" href="#contact">Contact<span class="nav-tooltip" style="left: 396.733px;">Contact</span></a>
+		<a class="nav-menu" href="#contact">Hire Me<span class="nav-tooltip" style="left: 502.567px;">Hire Me</span></a>
 	</div>
 	</div>
 	<!-- Navigation for small screens -->
@@ -94,58 +94,72 @@
 
 	<section id="intro">
 			<div class="land-svg"><img src="images/Wave.png" alt="landing-wave"></div>
-			<div class="content">
+			<div class="content-left">
 					<h5>Hola <i class="fas fa-hand-sparkles hola"></i></h5>
 					<h1>I'm Ansuman.</h1>
 					<p class="intro-position">
-						I am a <span>software developer</span> based in <span>India</span> have proficiency in <span>Application development</span> ,<span>UI designing</span> ,<span>Deployment</span> <span>Process automation</span>  ,and <span>Cloud computing</span>.
+						I am a <span>software developer</span> living in <span>India</span> have proficiency in <span>Software development</span> ,<span>UI designing</span> ,<span>Deployment</span> <span>Process automation</span>  ,and <span>Cloud computing</span>.
 					</p>
 					<a href=""><button class="reachme">Reach me at</button></a>
 				</div>
+				<div class="content-right">
+					<div class="area" >
+						<ul class="circles">
+								  <li></li>
+								  <li></li>
+								  <li></li>
+								  <li></li>
+								  <li></li>
+								  <li></li>
+								  <li></li>
+								  <li></li>
+						</ul>
+			 </div >
 				<img id="intro-img" src="./images/Saly-10-ansumanPortfolio.png" alt="landing-image" >
+				</div>
 	</section> <!-- /intro -->
 
 
 	<!-- about section
    ================================================== -->
-	<section id="about" class="reveal">
+	<section id="about">
 
-		<div class="row">
+		<h1 class="section-title">About</h1>
+		<div class="about-gridbox">
+		<div class="row-right reveal">
+			<div class="image-wrap">
+				<div class="each-wrap"></div>
+				<div class="each-wrap"></div>
+				<div class="each-wrap"></div>
+				<div class="each-wrap"></div>
+				<div class="each-wrap"></div>
+				<div class="each-wrap"></div>
+				<div class="each-wrap"></div>
+				<div class="each-wrap"></div>
+				<div class="each-wrap"></div>
+				<div class="each-wrap"></div>
+				<div class="each-wrap"></div>
+			</div>
 				<h1>I am</h1>
 				<h1>building web and mobile applications.</h1>
 
 				<div class="intro-info">
 
-					<img src="images/dp.png" alt="Profile Picture">
+					<!-- <img src="images/dp.png" alt="Profile Picture"> -->
 
 					<p >My Name Is Ansuman, A Web And Mobile Application Developer Having Proficiency In JavaScript(ES6), Node.js, React.js, React Native, Bootstrap, MongoDB, SQL, And Selenium(Python)</p>
 				</div>
-
 			</div>
-		</div> <!-- /section-intro -->
-
-			<div class="col-twelve">
-
-				<h3>Skills</h3>
-				<!-- <div class="skill-row">
-					<div class="skill-cul"><img src="logos/13691885491579517854-128.png" alt="JavaScript"></div>
-					<div class="skill-cul"><img src="logos/pngkit_lentes-swag-png_3346389.png" alt="Bootstrap"></div>
-					<div class="skill-cul"><img src="logos/react.png" alt="react"></div>
-					<div class="skill-cul"><img src="logos/logo.svg" alt="nodejs"></div>
-					<div class="skill-cul"><img src="logos/mongo.png" alt="MongoDB"></div>
-					<div class="skill-cul"><img src="logos/sql.png" alt="sql"></div>
-					<div class="skill-cul"><img src="logos/Selenium_Logo.png" alt="Selenium"></div>
-				</div> -->
-			</div>
-
-
-		<div class="row button-section">
-			<div class="col-twelve">
+		<div class="row-left">
+			<h3>Skills</h3>
+		<div class="">
+			<div class="">
 				<a href="#contact" title="Hire Me" class="button stroke smoothscroll">Hire Me</a>
 				<a href="#" target="_blank" title="Resume" class="button button-primary">Download My Resume</a>
 			</div>
 		</div>
-
+		</div>
+	</div>
 	</section> <!-- /process-->
 
 
@@ -264,14 +278,13 @@
    ================================================== -->
 	<section id="portfolio">
 
-		<div class="row">
-				<h2 class="works">My Works</h2>
+				<h1 class="section-title">Projects</h1>
 				<!-- Project-Card start -->
 				<!-- project: Portfolio: GitHub Page -->
 				<div class="card-container">
 				<div class="card reveal">
 					<div class="card-text">
-					  <span class="date">First Commit: <h6>19 July 2020</h6></span>
+					  <span>First Commit:</span> <h6>19 July 2020</h6>
 					  <h2>Portfolio: GitHub Page</h2>
 					  <p>A software developer portfolio including sections like "Landing Page","About", "Experience(Or Resume)", "Works(Or Projects)" and "Contact" with free licence at GitHub</p>
 					  <a href="https://github.com/ansmis-lit/ansmis-lit.github.io" target="_blank">View Code <i class="fa fa-code" aria-hidden="true"></i></a>
@@ -280,7 +293,7 @@
 			</div>
 			<div class="card reveal">
 				<div class="card-text">
-				  <span class="date">First Commit: <h6>30 September 2020</h6></span>
+				  <span>First Commit: <h6>30 September 2020</h6></span>
 				  <h2>Google-Form-Automation</h2>
 				  <p>The ultimate solution for google form if you have a bunch of data to filled in is auto submission. This automation is required only two documents, one your spreadsheet(with any format Excel, CSV or anything) and number two is the python script in left to make copy and put the at their respective fields for Google Form.</p>
 				  <a href="https://github.com/ansmis-lit/Google-Form-Automation" target="_blank">View Code <i class="fa fa-code" aria-hidden="true"></i></a>
@@ -290,7 +303,7 @@
 
 		<div class="card reveal">
 			<div class="card-text">
-			  <span class="date">First Commit: <h6>14 October 2020</h6></span>
+			  <span>First Commit: <h6>14 October 2020</h6></span>
 			  <h2>Form-and-fieldsets-Type1</h2>
 			  <p>Form-and-fieldsets is the series of repositories for the Web Forms(Input Forms), inspire from modern day's UIs.</p>
 			  <a href="https://github.com/ansmis-lit/Form-and-fieldsets-Type1" target="_blank">View Code <i class="fa fa-code" aria-hidden="true"></i></a>
@@ -300,7 +313,7 @@
 
 		<div class="card reveal">
 			<div class="card-text">
-			  <span class="date">First Commit: <h6>30 January 2021</h6></span>
+			  <span>First Commit: <h6>30 January 2021</h6></span>
 			  <h2>advanceCalculator</h2>
 			  <p>This is a more than a calculator, more like a math simulator.</p>
 			  <a href="https://github.com/ansmis-lit/advanceCalculator" target="_blank">View Code <i class="fa fa-code" aria-hidden="true"></i></a>
@@ -310,26 +323,15 @@
 
 	 </div> <!-- card-container end -->
 
-		</div> <!-- /section-intro-->
-
 	</section> <!-- /portfolio -->
 
 	<!-- contact
    ================================================== -->
 	<section id="contact">
 
-		<div class="row contact-info">
+		<div class="contact-info">
 
-			<div class="col-two tab-full collapse">
-
-				<div class="icon">
-					<i class="icon-mail"></i>
-				</div>
-
-				<h5></h5>
-
-				<p><a class="mail_foot" href="mailto:me@ansmis.tech">me@ansmis.tech</a></p>
-
+			
 			</div>
 
 		</div> <!-- /contact-info -->
