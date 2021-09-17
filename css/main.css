@@ -585,56 +585,42 @@ a:hover, a:focus, a:active {
 }
 .about-gridbox{
 	display: grid;
-	grid-template-columns: repeat(2,1fr);
+	grid-template-columns: repeat(1,1fr);
 	margin-left: 2rem;
 	margin-right: 2rem;
 }
 #about .row-right{
 	display: flex;
-	flex-direction: column;
-	text-align: center;
+	flex-direction: row;
 }
-.row-right h1{
-	font-size: var(--fontUbuntu);
-	font-size: 1.2rem;
-
-}
-.image-wrap{
-	background: url(/images/dp.png) no-repeat center;
-	height: 24rem;
-	margin: 0;
-	clip-path: circle();
-	opacity: 1;
-	position:absolute;
-	right:0;
-	width: 100%;
-	z-index: -99;
-}
-.each-wrap{
-	height: 2.2rem;
-	border-radius: 15px;
-	background-image: linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%);
-	opacity: .5;
-}
-.each-wrap:nth-child(2n){
-	background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
-	opacity: .5;
-}
-
-/* .intro-info img{
-	background: var(--theme-color2);
-	border-radius: 65% 20%;
-	height: 20rem;
+.row-right .profile-image{
 	position: absolute;
 	left: 5%;
-	z-index: -5;
-	opacity: .5;
-} */
-.intro-info p{
- font-size: var(--fontMontserrat);
- font-weight: 800;
- font-size: 1.6rem;
- background-color: #fff;
+	top: 50%;
+	height: 40vh;
+	z-index: -2;
+}
+#about .row-right .intro-info{
+	margin-left: 10vw;
+	text-align: center;
+	font-size: var(--fontUbuntu);
+}
+#about .row-right .intro-info p{
+	font-weight: 500;
+	font-size: 1.4rem;
+	color: #000;
+	margin-left: 25%;
+	padding-left: 1rem;
+	text-align: left;
+	background-image: linear-gradient(to right, #eed688 0%,#00000000 30%);
+}
+#about .about-gridbox .row-right h1{
+	font-size: 2.6rem;
+	margin-top: 10%;
+	padding-left: 2rem;
+	text-shadow: 1px 1px #000;
+	border-bottom: solid 2px #00bf72;
+	background-image: linear-gradient(to right, #eed688 0%,#00000000 60%);
 }
 
 /* Project/Portfolio section */
