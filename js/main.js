@@ -34,7 +34,3 @@ window.addEventListener('scroll', reveal);
         }
       }
     }
-document.getElementById("sendForm").addEventListener("submit",function(){
-  alert("Your Response Recorded Successfully");
-
-});
