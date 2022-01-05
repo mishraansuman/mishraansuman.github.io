@@ -13,7 +13,6 @@ The portfolio includes:
 - [x] My Resume
 - [x] My Work
 - [x] Contact Me
-- [x] A Chat[bot] by Drift
 
 <hr>
 
