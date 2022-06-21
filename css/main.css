@@ -43,6 +43,7 @@ body {
 	box-sizing: border-box;
 	transition: ease-in-out 1s;
 	font-family: var(--fontUbuntu);
+	overflow:hidden !important;
 }
 ::selection,::-moz-selection{
 	background-color: var(--theme-color2);
@@ -186,7 +187,7 @@ a:hover, a:focus, a:active {
 }
 .menu-container{
 	display: flex;
-	transform: translateX(30%);
+	transform: translateX(35%);
 	flex-direction: row;
 }
 #navigation-bar a{
@@ -211,17 +212,17 @@ a:hover, a:focus, a:active {
 }
 .nav-tooltip{
 	position: absolute;
-	display: inline-block;
+	display: inline-table;
 	visibility: hidden;
 	bottom: 100%;
 	text-align: center;
 	background: #fff;
 	color: #4600eb;
 	border: solid 2px #4600eb;
+	margin-left: 1rem;
 	padding-left: .1rem;
 	padding-right: .1rem;
 	border-radius: 7px;
-	margin-left: -50px;
 	opacity: 0;
 	transition:opacity .5s;
 }
