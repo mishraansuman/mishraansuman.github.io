@@ -10,11 +10,11 @@
 𝘞𝘢𝘳𝘯𝘪𝘯𝘨:𝘠𝘰𝘶 𝘊𝘢𝘯 𝘙𝘦𝘱𝘭𝘪𝘤𝘢𝘵𝘦 𝘛𝘩𝘦 𝘜𝘐 𝘉𝘶𝘵 𝘋𝘰 𝘕𝘖𝘛 𝘵𝘳𝘺 𝘵𝘰 𝘊𝘰𝘱𝘺 𝘛𝘩𝘦 𝘊𝘰𝘯𝘵𝘦𝘯𝘵 𝘈𝘯𝘥 𝘛𝘩𝘦 𝘗𝘦𝘳𝘴𝘰𝘯𝘢𝘭 𝘋𝘦𝘵𝘢𝘪𝘭𝘴.
 𝘚𝘰𝘶𝘳𝘤𝘦𝘊𝘰𝘥𝘦 𝘈𝘷𝘢𝘪𝘭𝘢𝘣𝘭𝘦@ 𝘩𝘵𝘵𝘱𝘴://𝘨𝘪𝘵𝘩𝘶𝘣.𝘤𝘰𝘮/𝘢𝘯𝘴𝘮𝘪𝘴-𝘭𝘪𝘵/𝘢𝘯𝘴𝘮𝘪𝘴-𝘭𝘪𝘵.𝘨𝘪𝘵𝘩𝘶𝘣.𝘪𝘰
  -->
+
 <!DOCTYPE html>
 <html class="no-js" lang="en">
+
 <head>
-	<!-- meta-data
-	================================================== -->
 	<meta charset="utf-8">
 	<title>Ansuman Mishra | A Modern Day Full-Stack Developer And UI Designer</title>
 	<meta name="description" content="A Web And Mobile Application Developer Having Proficiency In JavaScript(ES6), Node.js, React.js, React Native, Bootstrap, MongoDB, SQL, And Selenium">
@@ -23,16 +23,21 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 	<meta name="geo.region" content="IN-KA" />
-	<meta name="geo.placename" content="India" />
+	<meta name="geo.placename" content="Bengaluru" />
 	<meta name="geo.position" content="13.012445, 77.593135" />
 	<meta name="ICBM" content="13.012445, 77.593135"/>
+
 	<!-- mobile specific metas
    ================================================== -->
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
 	<!-- CSS
    ================================================== -->
-	<link rel="stylesheet" href="dir/b5/css/bootstrap.min.css">
-	<link rel="stylesheet" href="dir/css/main.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/responsive.css">
+	<!-- Script -->
+	<script src="https://kit.fontawesome.com/7b161e6c10.js" crossorigin="anonymous"></script>
+
 	<!-- favicons
 	================================================== -->
 	<link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon.png">
@@ -42,16 +47,333 @@
 	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
 	<meta name="msapplication-TileColor" content="#ffc40d">
 	<meta name="theme-color" content="#fefefe">
+
 </head>
 
 <body>
+	<!-- <div class="follower"></div>
+	<div class="cursor"></div> -->
+	<div id="navigation-bar">
+		<div class="menu-container">
+		<a class="nav-menu" href="#intro">Intro <span class="nav-tooltip" style="left: 83.383px;">Intro</span></a>
+		<a class="nav-menu" href="#about">About<span class="nav-tooltip" style="left: 185px;">About</span></a>
+		<a class="nav-menu" href="#resume">Resume<span class="nav-tooltip" style="left: 283px;">Resume</span></a>
+		<a class="nav-menu" href="#projects">Projects<span class="nav-tooltip" style="left: 390px;">Projects</span></a>
+		<a class="nav-menu" href="#contact">Contact<span class="nav-tooltip" style="left: 500px;">Contact</span></a>
+		<a class="nav-menu" href="#contact">Hire Me<span class="nav-tooltip" style="left: 610px;">Hire Me</span></a>
+	</div>
+	</div>
+	<!-- Navigation for small screens -->
+	<nav role="navigation">
+
+		<div id="menuToggle">
+		  <input type="checkbox" id="checkMenu"/>
+			<span></span>
+		  	<span></span>
+		  	<span></span>
+		  <ul id="menu">
+			 <a href="#intro" onclick="menuToggle()"><li class="btn-grad"><i class="fas fa-home btn-grad"></i> Home</li></a>
+			 <a href="#about" onclick="menuToggle()"><li class="btn-grad"><i class="fas fa-address-card btn-grad"></i> About</li></a>
+			 <a href="#resume" onclick="menuToggle()"><li class="btn-grad"><i class="fas fa-address-card btn-grad"></i> Resume</li></a>
+			 <a href="#projects" onclick="menuToggle()"><li class="btn-grad"><i class="fas fa-laptop-code btn-grad"></i> Portfolio</li></a>
+			 <a href="#contact" onclick="menuToggle()"><li class="btn-grad"><i class="fas fa-mail-bulk btn-grad"></i> Contact</li></a>
+			 <a href="https://github.com/ansmis-lit" onclick="menuToggle()"><li class="btn-grad"><i class="fab fa-github btn-grad"></i> Github Projects</li></a>
+		  </ul>
+		</div>
+	 </nav>
+	 <!-- intro-social -->
+	 <div class="social-accounts">
+		<a href="https://github.com/ansmis-lit"><i class="fa fa-github fa-1x"></i></a>
+		<a href="https://www.behance.net/ansumanmishra1"><i class="fa fa-behance fa-1x"></i></a>
+		<a href="https://twitter.com/mishra_ansuman"><i class="fa fa-twitter fa-1x"></i></a>
+		<a href="https://stackoverflow.com/users/12363769/ansuman-mishra?tab=profile"><i class="fa fa-stack-overflow fa-1x"></i></a>
+		<a href="https://www.linkedin.com/in/ansuman-mishra-software-developer/"><i class="fa fa-linkedin fa-1x"></i></a>
+	 </div>
+
+
+	<!-- intro section
+   ================================================== -->
+
+	<section id="intro">
+			<div class="land-svg"><img src="images/wave.png" alt="landing-wave"></div>
+			<div class="content-left">
+					<h5>Hola <i class="fas fa-hand-sparkles hola"></i></h5>
+					<h1>I'm Ansuman.</h1>
+					<p style="font-size: 2em;">
+						This site is currently under development, will live soon.
+					</p>
+					<h3>Contacts</h3>
+						<a style="font-size:2em" href="https://github.com/ansmis-lit" title="GitHub"><i class="fa fa-github fa-1x"></i></a>
+						<a style="font-size:2em" href="https://twitter.com/mishra_ansuman"><i class="fa fa-twitter fa-1x" title="Twitter"></i></a>
+						<a style="font-size:2em" href="https://www.linkedin.com/in/ansuman-mishra-software-developer/" title="LinkedIn"><i class="fa fa-linkedin fa-1x"></i></a>
+					 <p style="font-size:1em">In mail: <a href="mailto:contact@ansuman.tech">contact@ansuman.tech</a></p>
+
+					<a href=""><button class="reachme">Reach me at</button></a>
+				</div>
+				<div class="content-right">
+					<div class="area" >
+						<ul class="circles">
+								  <li></li>
+								  <li></li>
+								  <li></li>
+								  <li></li>
+								  <li></li>
+								  <li></li>
+								  <li></li>
+								  <li></li>
+						</ul>
+			 </div >
+				<img id="intro-img" src="./images/saly-10-ansumanportfolio.png" alt="landing-image" >
+				</div>
+	</section> <!-- /intro -->
+
+
+	<!-- about section
+   ================================================== -->
+	<section id="about">
+
+		<h1 class="section-title">About</h1>
+		<div class="about-gridbox">
+		<div class="row-right reveal">
+			<div class="nouse">
+			<img class="about-themeImg" src="images/undraw_lost_online_re_upmy.svg" alt="ansmis.tech developer">
+			<div class="illustration">
+				<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+			 <svg width="400px" height="200px" viewBox="0 0 142 169" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+				  <title>rocket</title>
+				  <desc>Created with Sketch.</desc>
+				  <defs>
+					 <linearGradient id="lightgradient" x1="0" x2="0" y1="0" y2="1">
+						  <stop offset="50%" stop-color="#FFE8A4" />
+						  <stop offset="100%" stop-opacity="0" />
+						</linearGradient>
+						<polygon id="path-1" points="19.339 0.9916 19.339 14.7086 0.3452 14.7086 0.3452 0.9916 19.339 0.9916"></polygon>
+						<polygon id="path-3" points="0 14.2414 0 0.5244 18.9937 0.5244 18.9937 14.2414 7.56502066e-16 14.2414"></polygon>
+				  </defs>
+				  <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+						<g id="rocket">
+							 <path d="M112.2261,101.9344 C116.1261,101.9344 119.2881,105.0964 119.2881,108.9964 C119.2881,110.7304 116.1261,112.1354 112.2261,112.1354 C108.3251,112.1354 105.1641,110.7304 105.1641,108.9964 C105.1641,105.0964 108.3251,101.9344 112.2261,101.9344" id="bubble-2" fill="#BBBBBB"></path>
+							 <path d="M88.0909,97.991 C101.9699,97.991 113.2219,109.242 113.2219,123.122 C113.2219,129.29 101.9699,134.29 88.0909,134.29 C74.2119,134.29 62.9599,129.29 62.9599,123.122 C62.9599,109.242 74.2119,97.991 88.0909,97.991" id="bubble-3" fill="#F3F4F4"></path>
+							 <path d="M116.7693,117.4638 C125.0943,117.4638 131.8423,124.2118 131.8423,132.5368 C131.8423,136.2368 125.0943,139.2358 116.7693,139.2358 C108.4443,139.2358 101.6963,136.2368 101.6963,132.5368 C101.6963,124.2118 108.4443,117.4638 116.7693,117.4638" id="bubble-3" fill="#E5E4E4"></path>
+							 <g id="Group-9" transform="translate(122.000000, 132.004000)">
+								  <mask id="mask-2" fill="white">
+										<use xlink:href="#path-1"></use>
+								  </mask>
+								  <g id="Clip-8"></g>
+								  <path d="M9.8422,0.9916 C15.0872,0.9916 19.3392,5.2436 19.3392,10.4886 C19.3392,12.8196 15.0872,14.7086 9.8422,14.7086 C4.5972,14.7086 0.3452,12.8196 0.3452,10.4886 C0.3452,5.2436 4.5972,0.9916 9.8422,0.9916" id="bubble-1" fill="#E5E4E4" mask="url(#mask-2)"></path>
+							 </g>
+							 <path d="M33.6176,100.2883 C39.2296,100.2883 43.7786,104.8373 43.7786,110.4493 C43.7786,112.9423 39.2296,114.9643 33.6176,114.9643 C28.0056,114.9643 23.4566,112.9423 23.4566,110.4493 C23.4566,104.8373 28.0056,100.2883 33.6176,100.2883" id="bubble-22" fill="#BBBBBB"></path>
+
+										  <path d="M20.344,100.4427 C23.742,100.4427 26.496,103.1967 26.496,106.5947 C26.496,108.1047 23.742,109.3287 20.344,109.3287 C16.946,109.3287 14.192,108.1047 14.192,106.5947 C14.192,103.1967 16.946,100.4427 20.344,100.4427" id="bubble-12" fill="#BBBBBB"></path>
+
+							 <path d="M42.2935,110.307 C53.1705,110.307 61.9875,119.124 61.9875,130.001 C61.9875,134.835 53.1705,138.753 42.2935,138.753 C31.4165,138.753 22.5995,134.835 22.5995,130.001 C22.5995,119.124 31.4165,110.307 42.2935,110.307" id="bubble-32" fill="#F3F4F4"></path>
+									 <g id="jets" transform="translate(1.000000, 1.000000)">
+							 <path d="M44.3047,73.6932 L44.1187,72.8752 C43.9847,71.9422 43.7837,71.0322 43.4997,70.1562 L27.5287,0.0002 L12.2027,70.5762 C11.9957,71.2792 11.8447,72.0042 11.7327,72.7422 L11.5257,73.6932 L11.6027,73.6932 C11.5567,74.1952 11.5257,74.7022 11.5257,75.2162 C11.5257,79.2392 18.8637,82.5002 27.9157,82.5002 C36.9667,82.5002 44.3047,79.2392 44.3047,75.2162 C44.3047,74.7022 44.2737,74.1952 44.2277,73.6932 L44.3047,73.6932 Z" id="Fill-1" fill="#FEFEFE"></path>
+							 <path d="M44.3047,73.6932 L44.1187,72.8752 C43.9847,71.9422 43.7837,71.0322 43.4997,70.1562 L27.5287,0.0002 L12.2027,70.5762 C11.9957,71.2792 11.8447,72.0042 11.7327,72.7422 L11.5257,73.6932 L11.6027,73.6932 C11.5567,74.1952 11.5257,74.7022 11.5257,75.2162 C11.5257,79.2392 18.8637,82.5002 27.9157,82.5002 C36.9667,82.5002 44.3047,79.2392 44.3047,75.2162 C44.3047,74.7022 44.2737,74.1952 44.2277,73.6932 L44.3047,73.6932 Z" id="Stroke-3" stroke="#FDC10E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+							 <path d="M19.4561,75.1532 C19.4561,75.1382 19.4611,75.1242 19.4611,75.1092 C19.4611,74.0372 19.2811,73.0082 18.9611,72.0442 L9.5031,12.6492 L0.4681,72.1302 C0.1671,73.0692 0.0001,74.0692 0.0001,75.1092 C0.0001,75.1292 0.0061,75.1492 0.0071,75.1702 L0.0051,75.1852 L0.0081,75.1852 C0.1011,77.5382 4.4141,79.4332 9.7301,79.4332 C15.0471,79.4332 19.3601,77.5382 19.4521,75.1852 L19.4611,75.1852 L19.4561,75.1532 Z" id="Fill-5" fill="#FEFEFE"></path>
+							 <path d="M19.4561,75.1532 C19.4561,75.1382 19.4611,75.1242 19.4611,75.1092 C19.4611,74.0372 19.2811,73.0082 18.9611,72.0442 L9.5031,12.6492 L0.4681,72.1302 C0.1671,73.0692 0.0001,74.0692 0.0001,75.1092 C0.0001,75.1292 0.0061,75.1492 0.0071,75.1702 L0.0051,75.1852 L0.0081,75.1852 C0.1011,77.5382 4.4141,79.4332 9.7301,79.4332 C15.0471,79.4332 19.3601,77.5382 19.4521,75.1852 L19.4611,75.1852 L19.4561,75.1532 Z" id="Stroke-7" stroke="#FDC10E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+							 <path d="M53.1165,86.9541 L53.1075,86.8981 C53.0905,85.9481 52.9435,85.0301 52.6725,84.1651 L43.1585,24.4191 L34.0195,84.5891 C33.8455,85.2461 33.7405,85.9301 33.7085,86.6351 L33.6595,86.9541 L33.6925,86.9541 C33.6915,86.9941 33.6865,87.0331 33.6865,87.0741 C33.6865,89.4591 38.0355,91.3921 43.4015,91.3921 C48.7665,91.3921 53.1165,89.4591 53.1165,87.0741 C53.1165,87.0331 53.1105,86.9941 53.1105,86.9541 L53.1165,86.9541 Z" id="Fill-9" fill="#FEFEFE"></path>
+							 <path d="M53.1165,86.9541 L53.1075,86.8981 C53.0905,85.9481 52.9435,85.0301 52.6725,84.1651 L43.1585,24.4191 L34.0195,84.5891 C33.8455,85.2461 33.7405,85.9301 33.7085,86.6351 L33.6595,86.9541 L33.6925,86.9541 C33.6915,86.9941 33.6865,87.0331 33.6865,87.0741 C33.6865,89.4591 38.0355,91.3921 43.4015,91.3921 C48.7665,91.3921 53.1165,89.4591 53.1165,87.0741 C53.1165,87.0331 53.1105,86.9941 53.1105,86.9541 L53.1165,86.9541 Z" id="Stroke-11" stroke="#FDC10E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+						</g>
+
+
+
+							 <g id="Group-39" transform="translate(46.000000, 41.004000)"></g>
+							 <g id="Group-51" transform="translate(55.000000, 20.004000)"></g>
+							 <g id="Group-55" transform="translate(55.000000, 38.004000)"></g>
+							 <path d="M24.5696,119.2168 C16.2446,119.2168 9.4966,125.9648 9.4966,134.2898 C9.4966,137.9898 16.2446,140.9888 24.5696,140.9888 C32.8946,140.9888 39.6426,137.9898 39.6426,134.2898 C39.6426,125.9648 32.8946,119.2168 24.5696,119.2168" id="bubble-22" fill="#E5E4E4"></path>
+							 <g id="Group-116" transform="translate(0.000000, 130.004000)">
+								  <mask id="mask-4" fill="white">
+										<use xlink:href="#path-3"></use>
+								  </mask>
+								  <g id="Clip-115"></g>
+								  <path d="M9.4967,0.5244 C4.2517,0.5244 -0.0003,4.7764 -0.0003,10.0214 C-0.0003,12.3524 4.2517,14.2414 9.4967,14.2414 C14.7417,14.2414 18.9937,12.3524 18.9937,10.0214 C18.9937,4.7764 14.7417,0.5244 9.4967,0.5244" id="bubble-32" fill="#BBBBBB" mask="url(#mask-4)"></path>
+							 </g>
+							 <g transform="translate(10, 0)"><path d="M41.6425,132.9522 C37.1075,132.9522 33.4305,136.6282 33.4305,141.1642 C33.4305,143.1792 37.1075,144.8132 41.6425,144.8132 C46.1775,144.8132 49.8545,143.1792 49.8545,141.1642 C49.8545,136.6282 46.1775,132.9522 41.6425,132.9522" id="bubble-32" fill="#E5E4E4"></path></g>
+							 <g transform="translate(-5,0)"><path d="M106.7834,134.0552 C101.1724,134.0552 96.6224,138.6042 96.6224,144.2162 C96.6224,146.7092 101.1724,148.7312 106.7834,148.7312 C112.3954,148.7312 116.9444,146.7092 116.9444,144.2162 C116.9444,138.6042 112.3954,134.0552 106.7834,134.0552" id="bubble-2" fill="#F3F4F4"></path></g>
+							 <path d="M68.2968,122.2477 C55.1858,122.2477 44.5568,132.8767 44.5568,145.9877 C44.5568,151.8157 55.1858,156.5387 68.2968,156.5387 C81.4088,156.5387 92.0378,151.8157 92.0378,145.9877 C92.0378,132.8767 81.4088,122.2477 68.2968,122.2477" id="bubble-3" fill="#F3F4F4"></path>
+							 <path d="M36.4256,140.7892 C28.1006,140.7892 21.3526,147.5372 21.3526,155.8622 C21.3526,159.5622 28.1006,162.5612 36.4256,162.5612 C44.7506,162.5612 51.4986,159.5622 51.4986,155.8622 C51.4986,147.5372 44.7506,140.7892 36.4256,140.7892" id="bubble-12" fill="#F3F4F4"></path>
+							 <path d="M94.3562,140.4234 C85.0252,140.4234 77.4602,147.9884 77.4602,157.3194 C77.4602,161.4664 85.0252,164.8284 94.3562,164.8284 C103.6872,164.8284 111.2522,161.4664 111.2522,157.3194 C111.2522,147.9884 103.6872,140.4234 94.3562,140.4234" id="bubble-2" fill="#E5E4E4"></path>
+							 <path d="M94.3562,160.1178 C90.9582,160.1178 88.2042,162.8718 88.2042,166.2698 C88.2042,167.7798 90.9582,169.0038 94.3562,169.0038 C97.7542,169.0038 100.5082,167.7798 100.5082,166.2698 C100.5082,162.8718 97.7542,160.1178 94.3562,160.1178" id="bubble-1" fill="#BBBBBB"></path>
+							 <path d="M128.1171,142.8815 C124.7191,142.8815 121.9651,145.6355 121.9651,149.0335 C121.9651,150.5435 124.7191,151.7675 128.1171,151.7675 C131.5151,151.7675 134.2691,150.5435 134.2691,149.0335 C134.2691,145.6355 131.5151,142.8815 128.1171,142.8815" id="bubble-3" fill="#BBBBBB"></path>
+							 <g id="ship" transform="translate(43.000000, 0.000000)">
+								  <path d="M17.8428,101.596 C17.8428,103.595 14.1958,105.216 9.6968,105.216 C5.1988,105.216 1.5518,103.595 1.5518,101.596 C1.5518,99.597 5.1988,97.976 9.6968,97.976 C14.1958,97.976 17.8428,99.597 17.8428,101.596" id="Fill-28" fill="#44C7F3"></path>
+								  <path d="M17.8428,101.596 C17.8428,103.595 14.1958,105.216 9.6968,105.216 C5.1988,105.216 1.5518,103.595 1.5518,101.596 C1.5518,99.597 5.1988,97.976 9.6968,97.976 C14.1958,97.976 17.8428,99.597 17.8428,101.596 Z" id="Stroke-30" stroke="#221F20" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+								  <path d="M16.3576,99.3737 L16.3576,42.4187 C16.3576,40.7217 15.9776,39.0427 15.2406,37.4847 L11.0416,28.6057 C10.5316,27.5277 8.8626,27.5277 8.3526,28.6057 L4.1536,37.4847 C3.4166,39.0427 3.0366,40.7217 3.0366,42.4187 L3.0366,99.3737 C3.0366,99.3757 3.0356,99.3767 3.0356,99.3787 C3.0356,99.3797 3.0366,99.3817 3.0366,99.3827 C3.0426,101.0157 6.0216,102.3387 9.6966,102.3387 C13.3726,102.3387 16.3516,101.0157 16.3576,99.3827 C16.3576,99.3817 16.3586,99.3797 16.3586,99.3787 C16.3586,99.3767 16.3576,99.3757 16.3576,99.3737" id="Fill-32" fill="#44C7F3"></path>
+								  <path d="M16.3576,99.3737 L16.3576,42.4187 C16.3576,40.7217 15.9776,39.0427 15.2406,37.4847 L11.0416,28.6057 C10.5316,27.5277 8.8626,27.5277 8.3526,28.6057 L4.1536,37.4847 C3.4166,39.0427 3.0366,40.7217 3.0366,42.4187 L3.0366,99.3737 C3.0366,99.3757 3.0356,99.3767 3.0356,99.3787 C3.0356,99.3797 3.0366,99.3817 3.0366,99.3827 C3.0426,101.0157 6.0216,102.3387 9.6966,102.3387 C13.3726,102.3387 16.3516,101.0157 16.3576,99.3827 C16.3576,99.3817 16.3586,99.3797 16.3586,99.3787 C16.3586,99.3767 16.3576,99.3757 16.3576,99.3737 Z" id="Stroke-34" stroke="#221F20" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+								  <path d="M16.3581,41.4772 C16.3581,43.1122 13.3761,44.4372 9.6971,44.4372 C6.0181,44.4372 3.0361,43.1122 3.0361,41.4772" id="Fill-36" fill="#44C7F3"></path>
+								  <path d="M16.3581,41.4772 C16.3581,43.1122 13.3761,44.4372 9.6971,44.4372 C6.0181,44.4372 3.0361,43.1122 3.0361,41.4772" id="Stroke-38" stroke="#221F20" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+								  <path d="M16.3581,55.1992 C16.3581,56.8342 13.3761,58.1592 9.6971,58.1592 C6.0181,58.1592 3.0361,56.8342 3.0361,55.1992" id="Stroke-40" stroke="#221F20" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+								  <path d="M16.3581,69.7265 C16.3581,71.3615 13.3761,72.6865 9.6971,72.6865 C6.0181,72.6865 3.0361,71.3615 3.0361,69.7265" id="Stroke-42" stroke="#221F20" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+								  <path d="M39.3456,82.3988 L39.3456,21.4578 C39.3456,19.2008 38.5776,16.9678 37.0886,14.8968 L27.8156,1.9998 C26.9366,0.7778 24.8226,0.7778 23.9436,1.9998 L14.6716,14.8968 C13.1826,16.9678 12.4136,19.2008 12.4136,21.4578 L12.4136,82.3988 C12.4136,82.4008 12.4126,82.4028 12.4126,82.4048 C12.4126,82.4068 12.4136,82.4088 12.4136,82.4108 C12.4256,84.5828 18.4496,86.3418 25.8796,86.3418 C33.3106,86.3418 39.3336,84.5828 39.3456,82.4108 C39.3456,82.4088 39.3466,82.4068 39.3466,82.4048 C39.3466,82.4028 39.3456,82.4008 39.3456,82.3988" id="Fill-44" fill="#333366"></path>
+								  <path d="M39.3456,82.3988 L39.3456,21.4578 C39.3456,19.2008 38.5776,16.9678 37.0886,14.8968 L27.8156,1.9998 C26.9366,0.7778 24.8226,0.7778 23.9436,1.9998 L14.6716,14.8968 C13.1826,16.9678 12.4136,19.2008 12.4136,21.4578 L12.4136,82.3988 C12.4136,82.4008 12.4126,82.4028 12.4126,82.4048 C12.4126,82.4068 12.4136,82.4088 12.4136,82.4108 C12.4256,84.5828 18.4496,86.3418 25.8796,86.3418 C33.3106,86.3418 39.3336,84.5828 39.3456,82.4108 C39.3456,82.4088 39.3466,82.4068 39.3466,82.4048 C39.3466,82.4028 39.3456,82.4008 39.3456,82.3988 Z" id="Stroke-46" stroke="#221F20" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+								  <path d="M39.3466,20.206 C39.3466,22.38 33.3176,24.143 25.8796,24.143 C18.4426,24.143 12.4126,22.38 12.4126,20.206" id="Fill-48" fill="#FF6584"></path>
+								  <path d="M39.3466,20.206 C39.3466,22.38 33.3176,24.143 25.8796,24.143 C18.4426,24.143 12.4126,22.38 12.4126,20.206" id="Stroke-50" stroke="#221F20" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+								  <path d="M39.3466,38.4561 C39.3466,40.6301 33.3176,42.3931 25.8796,42.3931 C18.4426,42.3931 12.4126,40.6301 12.4126,38.4561" id="Fill-52" fill="#FF6584"></path>
+								  <path d="M39.3466,38.4561 C39.3466,40.6301 33.3176,42.3931 25.8796,42.3931 C18.4426,42.3931 12.4126,40.6301 12.4126,38.4561" id="Stroke-54" stroke="#221F20" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+								  <path d="M39.3456,82.4112 C39.3456,82.4092 39.3466,82.4072 39.3466,82.4052 C39.3466,82.4032 39.0016,17.9642 39.0016,17.9642 L25.8156,0.0002 L33.2216,24.1432 L33.2216,81.7142 L33.2216,86.5552 L39.3466,82.4032" id="shadow-4" fill="#231F20"></path>
+								  <path d="M49.4982,112.9049 C49.4982,114.9039 45.8512,116.5249 41.3522,116.5249 C36.8542,116.5249 33.2072,114.9039 33.2072,112.9049 C33.2072,110.9059 36.8542,109.2849 41.3522,109.2849 C45.8512,109.2849 49.4982,110.9059 49.4982,112.9049" id="Fill-58" fill="#44C7F3"></path>
+								  <path d="M49.4982,112.9049 C49.4982,114.9039 45.8512,116.5249 41.3522,116.5249 C36.8542,116.5249 33.2072,114.9039 33.2072,112.9049 C33.2072,110.9059 36.8542,109.2849 41.3522,109.2849 C45.8512,109.2849 49.4982,110.9059 49.4982,112.9049 Z" id="Stroke-60" stroke="#221F20" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+								  <path d="M44.9347,109.6574 C45.2427,110.8004 45.4237,111.9884 45.4237,113.2134 C45.4237,114.2044 45.3107,115.1754 45.1037,116.1164 C47.7137,115.5124 49.4977,114.3024 49.4977,112.9044 C49.4977,111.4774 47.6347,110.2474 44.9347,109.6574" id="shadow-3" fill="#231F20"></path>
+								  <path d="M48.013,110.6827 L48.013,53.7277 C48.013,52.0307 47.633,50.3517 46.896,48.7937 L42.697,39.9147 C42.187,38.8367 40.518,38.8367 40.008,39.9147 L35.809,48.7937 C35.072,50.3517 34.692,52.0307 34.692,53.7277 L34.692,110.6827 C34.692,110.6847 34.691,110.6857 34.691,110.6877 C34.691,110.6887 34.692,110.6907 34.692,110.6917 C34.698,112.3247 37.677,113.6477 41.352,113.6477 C45.028,113.6477 48.007,112.3247 48.013,110.6917 C48.013,110.6907 48.014,110.6887 48.014,110.6877 C48.014,110.6857 48.013,110.6847 48.013,110.6827" id="Fill-64" fill="#44C7F3"></path>
+								  <path d="M48.013,110.6827 L48.013,53.7277 C48.013,52.0307 47.633,50.3517 46.896,48.7937 L42.697,39.9147 C42.187,38.8367 40.518,38.8367 40.008,39.9147 L35.809,48.7937 C35.072,50.3517 34.692,52.0307 34.692,53.7277 L34.692,110.6827 C34.692,110.6847 34.691,110.6857 34.691,110.6877 C34.691,110.6887 34.692,110.6907 34.692,110.6917 C34.698,112.3247 37.677,113.6477 41.352,113.6477 C45.028,113.6477 48.007,112.3247 48.013,110.6917 C48.013,110.6907 48.014,110.6887 48.014,110.6877 C48.014,110.6857 48.013,110.6847 48.013,110.6827 Z" id="Stroke-66" stroke="#221F20" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+								  <path d="M44.6099,55.5299 L44.3529,113.6479 C43.7669,113.6479 44.0779,113.4519 45.1559,113.1179 C46.8799,112.5839 48.0099,111.6969 48.0129,110.6919 C48.0129,110.6909 48.0139,110.6889 48.0139,110.6869 C48.0139,110.6859 48.0129,110.6839 48.0129,110.6829 L48.0129,53.7279 L41.3529,38.4559 L44.6099,55.5299 Z" id="shadow-2" fill="#231F20"></path>
+								  <path d="M34.6915,52.7862 C34.6915,54.4212 37.6735,55.7462 41.3525,55.7462 C45.0315,55.7462 48.0135,54.4212 48.0135,52.7862" id="Stroke-70" stroke="#221F20" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+								  <path d="M48.0135,66.5082 C48.0135,68.1432 45.0315,69.4682 41.3525,69.4682 C37.6735,69.4682 34.6915,68.1432 34.6915,66.5082" id="Stroke-72" stroke="#221F20" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+								  <path d="M48.0135,81.0355 C48.0135,82.6705 45.0315,83.9955 41.3525,83.9955 C37.6735,83.9955 34.6915,82.6705 34.6915,81.0355" id="Stroke-74" stroke="#221F20" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+								  <path d="M7.8205,97.4498 L7.8205,97.4538 L7.8205,97.4568 C7.8245,98.7108 9.9205,99.7258 12.5065,99.7258 C15.0925,99.7258 17.1885,98.7108 17.1925,97.4568 C17.1925,97.4558 17.1935,97.4548 17.1935,97.4538 C17.1935,97.4518 17.1925,97.4508 17.1925,97.4498 L17.1935,97.4568 L17.1935,82.2678 C17.1935,83.5238 15.0945,84.5408 12.5065,84.5408 C9.9185,84.5408 7.8205,83.5238 7.8205,82.2678 L7.8205,97.4568 L7.8205,97.4498 Z" id="Fill-76" fill="#FEFEFE"></path>
+								  <path d="M7.8205,97.4498 L7.8205,97.4538 L7.8205,97.4568 C7.8245,98.7108 9.9205,99.7258 12.5065,99.7258 C15.0925,99.7258 17.1885,98.7108 17.1925,97.4568 C17.1925,97.4558 17.1935,97.4548 17.1935,97.4538 C17.1935,97.4518 17.1925,97.4508 17.1925,97.4498 L17.1935,97.4568 L17.1935,82.2678 C17.1935,83.5238 15.0945,84.5408 12.5065,84.5408 C9.9185,84.5408 7.8205,83.5238 7.8205,82.2678 L7.8205,97.4568 L7.8205,97.4498 Z" id="Stroke-78" stroke="#221F20" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+								  <path d="M15.6436,100.0727 L15.6436,100.0767 L15.6436,100.0807 C15.6476,101.4327 17.9096,102.5287 20.6996,102.5287 C23.4886,102.5287 25.7506,101.4327 25.7546,100.0807 C25.7546,100.0787 25.7556,100.0777 25.7556,100.0767 C25.7556,100.0757 25.7546,100.0737 25.7546,100.0727 L25.7556,100.0807 L25.7556,83.6947 C25.7556,85.0487 23.4916,86.1457 20.6996,86.1457 C17.9066,86.1457 15.6436,85.0487 15.6436,83.6947 L15.6436,100.0807 L15.6436,100.0727 Z" id="Fill-80" fill="#FEFEFE"></path>
+								  <path d="M15.6436,100.0727 L15.6436,100.0767 L15.6436,100.0807 C15.6476,101.4327 17.9096,102.5287 20.6996,102.5287 C23.4886,102.5287 25.7506,101.4327 25.7546,100.0807 C25.7546,100.0787 25.7556,100.0777 25.7556,100.0767 C25.7556,100.0757 25.7546,100.0737 25.7546,100.0727 L25.7556,100.0807 L25.7556,83.6947 C25.7556,85.0487 23.4916,86.1457 20.6996,86.1457 C17.9066,86.1457 15.6436,85.0487 15.6436,83.6947 L15.6436,100.0807 L15.6436,100.0727 Z" id="Stroke-82" stroke="#221F20" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+								  <path d="M16.3627,92.3726 L1.4567,86.6816 C0.9597,86.5036 0.8267,85.8626 1.2127,85.5026 L3.7287,79.9956 C3.7287,79.9956 12.3627,74.0996 12.3687,74.0616 L15.3187,54.0566 C15.4657,53.0926 16.8867,53.2016 16.8867,56.5336 L16.8867,93.9876 C16.8867,91.9636 16.6767,92.2606 16.3627,92.3726" id="Fill-84" fill="#5B5B5B"></path>
+								  <path d="M16.3627,92.3726 L1.4567,86.6816 C0.9597,86.5036 0.8267,85.8626 1.2127,85.5026 L3.7287,79.9956 C3.7287,79.9956 12.3627,74.0996 12.3687,74.0616 L15.3187,54.0566 C15.4657,53.0926 16.8867,53.2016 16.8867,56.5336 L16.8867,93.9876 C16.8867,91.9636 16.6767,92.2606 16.3627,92.3726 Z" id="Stroke-86" stroke="#221F20" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+								  <polygon id="Fill-88" fill="#FEFEFE" points="0.5334 86.2137 16.5734 92.0727 16.5734 85.4407 2.2584 83.2137"></polygon>
+								  <polygon id="Stroke-90" stroke="#221F20" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="0.5334 86.2137 16.5734 92.0727 16.5734 85.4407 2.2584 83.2137"></polygon>
+								  <path d="M29.4439,90.0435 C29.4439,90.0415 29.4429,48.7875 29.4429,48.7875 C29.4429,46.6315 28.8349,44.4975 27.6559,42.5185 L23.1369,34.9355 C23.1379,34.9165 23.1419,34.8985 23.1419,34.8795 L22.9229,34.5755 L20.3129,30.1955 C19.6169,29.0275 17.9429,29.0275 17.2469,30.1955 L14.5899,34.6555 L14.4179,34.8795 C14.4179,34.8955 14.4259,34.9115 14.4279,34.9275 L9.9049,42.5185 C8.7249,44.4975 8.1169,46.6315 8.1169,48.7875 L7.8789,91.2105 C7.8409,93.2705 11.0719,95.6755 15.4549,96.7465 C19.5469,97.7475 24.3389,97.5375 25.5629,95.9655 L29.4429,97.0085 C29.4439,94.4745 29.4439,90.0445 29.4439,90.0435" id="Fill-92" fill="#FEFEFE"></path>
+								  <path d="M29.4439,90.0435 C29.4439,90.0415 29.4429,48.7875 29.4429,48.7875 C29.4429,46.6315 28.8349,44.4975 27.6559,42.5185 L23.1369,34.9355 C23.1379,34.9165 23.1419,34.8985 23.1419,34.8795 L22.9229,34.5755 L20.3129,30.1955 C19.6169,29.0275 17.9429,29.0275 17.2469,30.1955 L14.5899,34.6555 L14.4179,34.8795 C14.4179,34.8955 14.4259,34.9115 14.4279,34.9275 L9.9049,42.5185 C8.7249,44.4975 8.1169,46.6315 8.1169,48.7875 L7.8789,91.2105 C7.8409,93.2705 11.0719,95.6755 15.4549,96.7465 C19.5469,97.7475 24.3389,97.5375 25.5629,95.9655 L29.4429,97.0085 C29.4439,94.4745 29.4439,90.0445 29.4439,90.0435 Z" id="Stroke-94" stroke="#221F20" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+								  <path d="M22.996,34.8798 L22.777,34.5758 L20.167,30.1958 C19.471,29.0278 17.797,29.0278 17.101,30.1958 L14.444,34.6548 L14.272,34.8798 C14.272,34.8958 14.28,34.9118 14.282,34.9278 L15.006,34.9278 C15.604,35.5558 17.003,35.9968 18.634,35.9968 C20.259,35.9968 21.653,35.5588 22.255,34.9348 L22.991,34.9348 C22.992,34.9168 22.996,34.8988 22.996,34.8798" id="Fill-96" fill="#221F20"></path>
+								  <path d="M25.2508,96.1795 C26.0508,95.9845 26.6708,96.4685 26.9768,95.6825 L29.4438,97.0085 L29.4438,90.0435 L29.4438,48.7875 C29.4438,46.6305 29.1398,44.4975 28.5498,42.5185 L25.5738,38.5295 L20.1638,30.1955 L17.2468,30.1955 L22.6628,41.0525 C24.2258,44.2295 25.0448,47.7205 25.0598,51.2605 L25.2508,95.1795" id="shadow-1" fill="#231F20"></path>
+								  <path d="M26.279,96.0687 L41.628,101.6437 C42.301,101.8837 42.921,101.1767 42.595,100.5407 L38.692,87.9757 C38.692,87.9757 32.58,79.2097 32.575,79.1727 L27.323,56.8097 C27.176,55.8457 25.755,55.9537 25.755,56.9287 L25.755,95.3257 C25.755,95.6597 25.965,95.9567 26.279,96.0687" id="Fill-100" fill="#BBBBBB"></path>
+								  <path d="M26.279,96.0687 L41.628,101.6437 C42.301,101.8837 42.921,101.1767 42.595,100.5407 L38.692,87.9757 C38.692,87.9757 32.58,79.2097 32.575,79.1727 L27.323,56.8097 C27.176,55.8457 25.755,55.9537 25.755,56.9287 L25.755,95.3257 C25.755,95.6597 25.965,95.9567 26.279,96.0687 Z" id="Stroke-102" stroke="#221F20" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+								  <path d="M13.4537,45.5274 L11.4547,45.6924 C10.7577,45.8014 10.0917,45.3654 9.9147,44.6824 L9.6987,43.8544 C9.4947,43.0684 10.0127,42.2784 10.8147,42.1534 L12.8137,41.9884 C13.5107,41.8794 14.1767,42.3164 14.3537,42.9984 L14.5697,43.8264 C14.7737,44.6124 14.2557,45.4024 13.4537,45.5274" id="Fill-104" fill="#221F20"></path>
+								  <path d="M16.3824,46.0388 L19.1524,47.2068 C19.7784,47.5318 20.5484,47.3298 20.9334,46.7398 L21.4014,46.0228 C21.8454,45.3438 21.6064,44.4298 20.8864,44.0548 L18.1164,42.8878 C17.4904,42.5628 16.7204,42.7648 16.3344,43.3548 L15.8664,44.0718 C15.4234,44.7508 15.6624,45.6648 16.3824,46.0388" id="Fill-106" fill="#221F20"></path>
+								  <polygon id="Fill-108" fill="#FEFEFE" points="41.6281 101.6438 25.7551 95.3258 25.7551 88.6948 41.3871 97.3388 42.5941 100.5408"></polygon>
+								  <polygon id="Stroke-110" stroke="#221F20" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="41.6281 101.6438 25.7551 95.3258 25.7551 88.6948 41.3871 97.3388 42.5941 100.5408"></polygon>
+								  <polygon id="Fill-131" fill="#5B5B5B" points="13.1929 95.5325 8.4819 101.5355 13.1929 87.4335"></polygon>
+								  <polygon id="Stroke-133" stroke="#221F20" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="13.1929 95.5325 8.4819 101.5355 13.1929 87.4335"></polygon>
+								  <polygon id="Fill-135" fill="#5B5B5B" points="14.5462 96.0169 9.8352 102.0199 14.5462 87.9179"></polygon>
+								  <polygon id="Stroke-137" stroke="#221F20" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="14.5462 96.0169 9.8352 102.0199 14.5462 87.9179"></polygon>
+								  <polygon id="Fill-139" fill="#5B5B5B" points="14.5462 87.9184 13.1932 87.4344 8.4812 101.5354 9.8352 102.0204"></polygon>
+								  <polygon id="Stroke-141" stroke="#221F20" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="14.5462 87.9184 13.1932 87.4344 8.4812 101.5354 9.8352 102.0204"></polygon>
+							 </g>
+						</g>
+				  </g>
+
+			 </svg>
+			 <p
+			 style="display: inline-block;
+			 			position: absolute;
+						top: 100%;
+						font-size:12px;
+						 ">** inspired from <a href="https://codepen.io/macaspac" target="_blank" style="text-decoration: none;
+				">Leanne's</a> Rocket </p>
+			 </div>
+		</div>
+			<div class="intro-info">
+				<button class="tagName" disabled>I am<i class="fas fa-user-ninja tagName-icon"></i></button>
+				<h1> building web and mobile applications.</h1>
+				<p>I have experties in Application Development Having Proficiency In JavaScript(ES6), Node.js, React.js, React Native, Bootstrap, MongoDB, SQL, And Selenium(Python)</p>
+				<div class="technology">
+				<button class="tagName" disabled>Technologies<i class="fas fa-terminal tagName-icon"></i></button>
+				<br>
+				<div class="techList">
+				<i class="fab fa-html5">
+					<span style="margin-left: -8px;">HTML5</span>
+				</i>
+				<i class="fab fa-css3">
+					<span>CSS3</span>
+				</i>
+				<i class="fab fa-js-square">
+					<span style="margin-left: -18px;">JavaScript</span>
+					</i>
+				<i class="fab fa-node" style="margin-left: 3rem;">
+					<span>NodeJS</span>
+				</i>
+				<i class="fab fa-react">
+					<span>React</span>
+				</i>
+				<i class="fab fa-python">
+					<span style="margin-left: -6px;">Python</span>
+				</i>
+				<i class="fab fa-aws" style="margin-right:-12px ;">
+					<span style="margin-left: 14px;">AWS</span>
+				</i>
+				<i class="fab fa-linux">
+					<span style="margin-left: 2px;">Linux</span>
+				</i>
+				<i class="fab fa-bootstrap">
+					<span style="margin-left: -12px;">Bootstrap</span>
+				</i>
+				<i class="fas fa-database" style="margin-left: 4.5rem;">
+					<span style="margin-left: -32px;">SQL/MongoDB</span>
+				</i>
+			</div>
+		</div>
+
+		</div>
+	</div>
+	</section> <!-- /process-->
+
+
+	<!-- contact
+   ================================================== -->
+	<section id="contact">
+		<h2 class="contact-title">Contacts</h2>
+			<img class="contact-svg" src="images/undraw_contact_us_15o2.svg" alt="contact-svg">
+			<div class="contact-info">
+				<div class="contact-info-left">
+					<form action="post" class="contact-form" netlify method="POST" netlify-honeypot="bot-field" data-netlify="true">
+					<div class="form-data">
+						<input type="text" name="fullname" id="fullname" placeholder="name" required>
+					</div>
+					<div class="form-data">
+						<input type="email" name="email" id="email" placeholder="email" required>
+					</div>
+						<div class="form-data">
+							<input type="url" name="url" id="url" placeholder="web address(optional)">
+						</div>
+					<div class="form-data">
+						<label for="services">How can I help You <i class="fas fa-laptop-house"></i></label> <br>
+						<select name="services" id="services" required>
+							<option value="we-need" selected disabled hidden>I/we need a </option>
+							<optgroup label="who can build my/our">
+								<option value="Web-Developer">Web Application
+								</option>
+								<option value="Android-Developer">Android Application
+								<option value="ios-Developer">ios Application</option>
+								</option>
+						</optgroup>
+						<optgroup label="who can help me/us">
+							<option value="Deployment">in software deployment</option>
+							<option value="testing">in software testing</option>
+						</optgroup>
+						</select>
+					<div class="form-data">
+						<label for="description">Get me idea about the project<i class="fas fa-tasks"></i></label> <br>
+						<textarea name="description" id="description" cols="30" rows="5" placeholder="We/I need a____ for...." required></textarea>
+					</div>
+					<div class="form-data">
+						<button type="submit">Send<i class="far fa-envelope"></i><i class="far fa-paper-plane"></i></button>
+					</div>
+					</div>
+				</form>
+
+				</div>
+				<div class="contact-info-right">
+					<h3>Or connect me through</h3>
+					<p class="contact-p">Social Networking Sites:</p>
+					<div class="social-networks">
+						<a href="https://github.com/ansmis-lit" title="GitHub"><i class="fa fa-github fa-1x"></i></a>
+						<a href="https://www.behance.net/ansumanmishra1" title="Behance"><i class="fa fa-behance fa-1x"></i></a>
+						<a href="https://twitter.com/mishra_ansuman"><i class="fa fa-twitter fa-1x" title="Twitter"></i></a>
+						<a href="https://stackoverflow.com/users/12363769/ansuman-mishra?tab=profile" title="Stack Overflow"><i class="fa fa-stack-overflow fa-1x"></i></a>
+						<a href="https://www.linkedin.com/in/ansuman-mishra-software-developer/" title="LinkedIn"><i class="fa fa-linkedin fa-1x"></i></a>
+					 </div>
+					 <p class="contact-p">In mail: <a href="mailto:contact@ansuman.tech">contact@ansuman.tech</a></p>
+					 <img class="contact-svg-2" src="images/undraw_version_control_re_mg66.svg" alt="contact-svg-2">
+				</div>
+				</div>
+
+		</div> <!-- /contact-info -->
+
+	</section> <!-- /contact -->
 
 	<!-- JavaScript
    ================================================== -->
-	<script src="dir/b5/js/bootstrap.min.js"></script>
-	<script src="dir/js/main.js"></script>
-	<script src="dir/js/jquery-3.6.0.min.js"></script>
-	<script src="dir/js/popper.min.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/cursor.js"></script>
+
+
 </body>
 
 </html>
