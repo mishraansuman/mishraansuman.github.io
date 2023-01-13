@@ -1,1 +1,0 @@
-document.addEventListener("DOMContentLoaded",function(){var e=[].slice.call(document.querySelectorAll(".gs-on-view"));if("IntersectionObserver"in window){let n=new IntersectionObserver(function(e,t){e.forEach(function(e){e.isIntersecting&&(e.target.classList.add("gs-active-view"),n.unobserve(e.target))})});e.forEach(function(e){n.observe(e)})}});
