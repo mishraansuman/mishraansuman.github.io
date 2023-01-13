@@ -1,0 +1,35 @@
+.greenshift_form__general .form-table thead th {
+    padding: 15px 10px;
+    font-size: 18px;
+}
+.greenshift_form__general .form-table .label-td{
+    vertical-align: top;
+    font-weight: bold;
+}
+.greenshift_form__general .form-table .input-desc {
+    color: #888;
+    font-style: italic;
+    margin-top: 5px;
+}
+
+.greenshift_form__general .actions-wrap {
+    text-align: right;
+}
+.greenshift_form__general .actions-wrap .remove-last-font {
+    background: transparent;
+    border-color: #cc1818;
+    color: #cc1818;
+}
+
+.greenshift_form__general .current-file {
+    margin-top: 5px;
+}
+
+.greenshift_form__general .current-file-actions {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.gspb_settings_form .delay_js_optionsrow, .gspb_settings_form .delay_js_pagerow{
+    display: none;
+}

@@ -1,0 +1,42 @@
+{
+  "name": "greenshift",
+  "version": "0.8.8",
+  "description": "Greenshift Animation and page builder Gutenberg",
+  "main": "index.js",
+  "scripts": {
+    "start": "wp-scripts start",
+    "build": "wp-scripts build",
+    "check-engines": "wp-scripts check-engines",
+    "packages-update": "wp-scripts packages-update",
+    "lint:js": "wp-scripts lint-js",
+    "lint:style": "wp-scripts lint-style"
+  },
+  "keywords": [
+    "animation"
+  ],
+  "author": "Wpsoul",
+  "bugs": {
+    "url": "https://github.com/wpsoul/greenshift/issues"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "19.2.1",
+    "process": "0.11.10",
+    "raw-loader": "^4.0.2",
+    "sass": "~1.26.11",
+    "swiper": "^7.0.0"
+  },
+  "dependencies": {
+    "@wordpress/icons": "^6.1.1",
+    "convert-svg-react": "^1.0.0",
+    "csso": "^4.2.0",
+    "debounce-promise": "^3.1.2",
+    "extract-json-string": "^1.0.1",
+    "gsap": "^3.11.1",
+    "icomoon-react": "^2.0.19",
+    "is-svg": "^4.3.1",
+    "lodash": "^4.17.21",
+    "react-select": "^5.2.1",
+    "use-debounce": "^8.0.4",
+    "xss-filters": "^1.2.7"
+  }
+}

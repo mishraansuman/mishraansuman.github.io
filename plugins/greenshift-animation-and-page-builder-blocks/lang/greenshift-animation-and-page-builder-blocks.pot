@@ -1,0 +1,468 @@
+# Copyright (C) 2022 Gambit Technologies, Inc
+# This file is distributed under the same license as the Stackable - Gutenberg Blocks plugin.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Greenshift\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/stackable-ultimate-gutenberg-blocks\n"
+"POT-Creation-Date: 2023-01-07 18:40+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: esc_html_e;__;_e;esc_attr_e;esc_html__;esc_attr__;_n_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: src\n"
+"X-Poedit-SearchPathExcluded-1: node_modules\n"
+"X-Poedit-SearchPathExcluded-2: libs_beauty\n"
+"X-Poedit-SearchPathExcluded-3: libs\n"
+
+#: blockrender/social-share/block.php:98
+msgid "Check out:"
+msgstr ""
+
+#: build/index.js:1
+msgid "Select Post type"
+msgstr ""
+
+#: build/index.js:1
+msgid "Select Custom Field"
+msgstr ""
+
+#: build/index.js:1
+msgid "Enable Dynamic Url"
+msgstr ""
+
+#: build/index.js:1
+msgid "Post Permalink"
+msgstr ""
+
+#: build/index.js:1
+msgid "Custom meta"
+msgstr ""
+
+#: build/index.js:1
+msgid "Select current post type"
+msgstr ""
+
+#: build/index.js:1
+msgid "Select Field"
+msgstr ""
+
+#: build/index.js:1
+msgid "Type Field"
+msgstr ""
+
+#: build/index.js:1
+msgid "Or Select Post type to show all registered fields"
+msgstr ""
+
+#: build/index.js:1
+msgid "greenshift-blocks/button"
+msgstr ""
+
+#: edd/EddLicensePage.php:159 edd/EddLicensePage.php:160
+#: edd/EddLicensePage.php:172
+msgid "Manage Licenses"
+msgstr ""
+
+#: edd/EddLicensePage.php:190
+msgid "Plugins License Options"
+msgstr ""
+
+#: edd/EddLicensePage.php:206
+msgid "This is where you enter your license key. If you have All in one license, you can activate it without activation separate addons"
+msgstr ""
+
+#: edd/EddLicensePage.php:221
+msgid "Enter your license key."
+msgstr ""
+
+#: edd/EddLicensePage.php:236
+msgid "Deactivate License"
+msgstr ""
+
+#: edd/EddLicensePage.php:241
+msgid "Activate License"
+msgstr ""
+
+#: edd/EddLicensePage.php:249
+msgid "License:"
+msgstr ""
+
+#: edd/EddLicensePage.php:259
+msgid "This license is expired"
+msgstr ""
+
+#: edd/EddLicensePage.php:264
+msgid "Expires:"
+msgstr ""
+
+#: edd/EddLicensePage.php:364 edd/EddLicensePage.php:406
+#: edd/EddLicensePage.php:526
+msgid "An error occurred, please try again."
+msgstr ""
+
+#: edd/EddLicensePage.php:377
+#, php-format
+msgid "Your license key expired on %s."
+msgstr ""
+
+#: edd/EddLicensePage.php:384
+msgid "Your license key has been disabled."
+msgstr ""
+
+#: edd/EddLicensePage.php:388
+msgid "Invalid license."
+msgstr ""
+
+#: edd/EddLicensePage.php:393
+msgid "Your license is not active for this URL."
+msgstr ""
+
+#: edd/EddLicensePage.php:398
+#, php-format
+msgid "This appears to be an invalid license key for %s."
+msgstr ""
+
+#: edd/EddLicensePage.php:402
+msgid "Your license key has reached its activation limit."
+msgstr ""
+
+#: edd/EddLicensePage.php:690
+msgid "Activated succesfull."
+msgstr ""
+
+#: init.php:877 init.php:1041 settings.php:517
+msgid "CSS not saved due the permission!!!"
+msgstr ""
+
+#: patterns.php:10
+msgid "Greenshift Elements"
+msgstr ""
+
+#: patterns.php:17
+msgid "Button Style"
+msgstr ""
+
+#: patterns.php:29
+msgid "Container grid 4 items"
+msgstr ""
+
+#: patterns.php:88
+msgid "CTA simple banner"
+msgstr ""
+
+#: patterns.php:107
+msgid "Full width Row"
+msgstr ""
+
+#: plugin.php:31
+msgid "GreenShift"
+msgstr ""
+
+#: settings.php:56 settings.php:57
+msgid "Settings"
+msgstr ""
+
+#: settings.php:65 settings.php:66 templates/admin/addon-page.php:166
+msgid "Addons"
+msgstr ""
+
+#: settings.php:74 settings.php:75
+msgid "Upgrade"
+msgstr ""
+
+#: settings.php:83 settings.php:84 templates/admin/contact-page.php:82
+msgid "Contact Us"
+msgstr ""
+
+#: settings.php:209
+msgid "General"
+msgstr ""
+
+#: settings.php:212
+msgid "CSS Management"
+msgstr ""
+
+#: settings.php:215
+msgid "Breakpoints"
+msgstr ""
+
+#: settings.php:218
+msgid "Script Management"
+msgstr ""
+
+#: settings.php:229 settings.php:358
+msgid "Sorry, your nonce did not verify."
+msgstr ""
+
+#: settings.php:256
+msgid "Save Css"
+msgstr ""
+
+#: settings.php:260
+msgid "Css location"
+msgstr ""
+
+#: settings.php:263
+msgid "Inline in Head"
+msgstr ""
+
+#: settings.php:264
+msgid "File system"
+msgstr ""
+
+#: settings.php:265
+msgid "Inline in block"
+msgstr ""
+
+#: settings.php:270
+msgid "Use Inline in block only if you have some issues with not updating styles of blocks or cache. Once saved as inline in block, styles can be overwritten only when you update post with blocks"
+msgstr ""
+
+#: settings.php:272 settings.php:289 settings.php:410
+msgid "Save settings"
+msgstr ""
+
+#: settings.php:273
+msgid "Global Reusable CSS"
+msgstr ""
+
+#: settings.php:280
+msgid "Class: "
+msgstr ""
+
+#: settings.php:283
+msgid "Block Type: "
+msgstr ""
+
+#: settings.php:317
+msgid "Mobile"
+msgstr ""
+
+#: settings.php:325
+msgid "Tablet"
+msgstr ""
+
+#: settings.php:333
+msgid "Desktop"
+msgstr ""
+
+#: settings.php:341
+msgid "Default Row Content Width"
+msgstr ""
+
+#: settings.php:379
+msgid "Javascript Files Delay"
+msgstr ""
+
+#: settings.php:385
+msgid "Enable script delay for Greenshift's scripts"
+msgstr ""
+
+#: settings.php:389
+msgid "Javascript delay options"
+msgstr ""
+
+#: settings.php:392
+msgid "Enable on whole site"
+msgstr ""
+
+#: settings.php:393
+msgid "Enable only on selected pages"
+msgstr ""
+
+#: settings.php:394
+msgid "Enable on whole site except selected pages"
+msgstr ""
+
+#: settings.php:400
+msgid "Page Urls (one per line)."
+msgstr ""
+
+#: settings.php:404
+msgid "Specify URLs JavaScript files (one per line)."
+msgstr ""
+
+#: settings.php:424
+msgid "General Settings"
+msgstr ""
+
+#: settings.php:425
+msgid "You can assign global presets and other settings in Post edit area when you click on G button in header toolbar"
+msgstr ""
+
+#: settings.php:426
+msgid "Local Font Loader"
+msgstr ""
+
+#: settings.php:427
+msgid "Attention! Local font is global option and it can reduce performance in some cases, please, check"
+msgstr ""
+
+#: settings.php:427
+msgid "Documentation"
+msgstr ""
+
+#: settings.php:573
+msgid "Block template"
+msgstr ""
+
+#: settings.php:574
+msgid "Reusable templates"
+msgstr ""
+
+#: settings.php:584
+msgid "Block title"
+msgstr ""
+
+#: settings.php:585
+msgid "Usage"
+msgstr ""
+
+#: settings.php:599
+msgid "If you use template inside other dynamic ajax blocks"
+msgstr ""
+
+#: settings.php:600
+msgid "Shortcode for Ajax render:"
+msgstr ""
+
+#: settings.php:601
+msgid "Hover trigger:"
+msgstr ""
+
+#: settings.php:602
+msgid "Click trigger:"
+msgstr ""
+
+#: settings.php:603
+msgid "On view trigger:"
+msgstr ""
+
+#: templates/admin/addon-page.php:187 templates/admin/addon-page.php:205
+#: templates/admin/addon-page.php:223 templates/admin/addon-page.php:242
+msgid "Buy Now"
+msgstr ""
+
+#: templates/admin/contact-page.php:85 templates/admin/welcome-page.php:85
+msgid "Thank you for using Greenshift. For any bug report, please, contact us "
+msgstr ""
+
+#: templates/admin/contact-page.php:85 templates/admin/welcome-page.php:85
+msgid "through the contact form"
+msgstr ""
+
+#: templates/admin/contact-page.php:85
+msgid "if you need private support or via "
+msgstr ""
+
+#: templates/admin/contact-page.php:85
+msgid "Ticket system on Wordpress.org"
+msgstr ""
+
+#: templates/admin/settings_general_font_item.php:13
+msgid "Font"
+msgstr ""
+
+#: templates/admin/settings_general_font_item.php:21
+msgid "Font Family Name"
+msgstr ""
+
+#: templates/admin/settings_general_font_item.php:27
+msgid "Make sure that name has only Latin symbols without numbers and special characters"
+msgstr ""
+
+#: templates/admin/settings_general_font_item.php:35
+msgid "Font file"
+msgstr ""
+
+#: templates/admin/settings_general_font_item.php:47
+#, php-format
+msgid "Upload .%s font file"
+msgstr ""
+
+#: templates/admin/settings_general_font_item.php:51
+msgid "Current file"
+msgstr ""
+
+#: templates/admin/settings_general_font_item.php:54
+msgid "Download"
+msgstr ""
+
+#: templates/admin/settings_general_font_item.php:56
+msgid "Remove"
+msgstr ""
+
+#: templates/admin/settings_general_form.php:32
+msgid "Add Font"
+msgstr ""
+
+#: templates/admin/settings_general_form.php:35
+msgid "Remove Font"
+msgstr ""
+
+#: templates/admin/settings_general_form.php:40
+msgid "Save"
+msgstr ""
+
+#: templates/admin/upgrade-page.php:2234
+msgid "All in ONE Lifetime - Active"
+msgstr ""
+
+#: templates/admin/upgrade-page.php:2237
+msgid "Congratulations, You have our Best available plan"
+msgstr ""
+
+#: templates/admin/welcome-page.php:82
+msgid "Getting Started"
+msgstr ""
+
+#: templates/admin/welcome-page.php:89
+msgid "Don’t miss our new Features "
+msgstr ""
+
+#: templates/admin/welcome-page.php:90
+msgid "Tips and tricks, new functions and news"
+msgstr ""
+
+#: templates/admin/welcome-page.php:143
+msgid "More tutorials"
+msgstr ""
+
+#: templates/admin/welcome-page.php:145
+msgid "Layout Options - start here"
+msgstr ""
+
+#: templates/admin/welcome-page.php:146
+msgid "Row and section Options"
+msgstr ""
+
+#: templates/admin/welcome-page.php:147
+msgid "Overview of design options"
+msgstr ""
+
+#: templates/admin/welcome-page.php:148
+msgid "In depth overview of unique options"
+msgstr ""
+
+#: templates/admin/welcome-page.php:149
+msgid "How to Add carousels to any block"
+msgstr ""
+
+#: templates/admin/welcome-page.php:150
+msgid "How to Use Presets"
+msgstr ""
+
+#: templates/admin/welcome-page.php:151
+msgid "How to improve Query Loop with Query Addon"
+msgstr ""
+
+#: templates/admin/welcome-page.php:152
+msgid "Animation Addon overview"
+msgstr ""

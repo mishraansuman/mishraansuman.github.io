@@ -1,0 +1,23 @@
+{
+  "name": "greenshift",
+  "version": "1.0.0",
+  "description": "Fastest Block theme",
+  "main": "index.js",
+  "scripts": {
+    "start": "wp-scripts start",
+    "build": "wp-scripts build",
+    "check-engines": "wp-scripts check-engines",
+    "build:custom": "wp-scripts build src/index.js src/index-advanced.js",
+    "packages-update": "wp-scripts packages-update",
+    "lint:js": "wp-scripts lint-js",
+    "lint:style": "wp-scripts lint-style"
+  },
+  "author": "Wpsoul",
+  "license": "ISC",
+  "devDependencies": {
+    "@wordpress/scripts": "^20.0.2"
+  },
+  "dependencies": {
+    "classnames": "^2.3.1"
+  }
+}

@@ -1,0 +1,4 @@
+div.gspreloader{position: relative;}
+div.gspreloader > *{opacity: 0.2;} 
+div.gspreloader:after{z-index: 2; top: 30px; left: 50%;position: absolute; height: 48px ;width: 48px ;color: rgba(140, 2, 232, 0.08); margin-left:-24px;display: inline-block;border: 4px solid;border-radius: 50%;border-right-color: rgb(140 2 232 / 28%);transform: rotate(0);animation: gs-spin 1s ease-in-out infinite;pointer-events: none;content:"";will-change: transform;}
+@keyframes gs-spin{0%{transform:rotate(0deg)}to{transform:rotate(1turn)}}
