@@ -3,7 +3,7 @@
 -----------------------------------------*/
 :root {
   --white-color:                  #ffffff;
-  --primary-color:                #535da1;
+  --primary-color:                #a31e60;
   --secondary-color:              #14B789;
   --section-bg-color:             #f9f9f9;
   --dark-color:                   #000000;
@@ -459,7 +459,7 @@ strong {
   HERO
 -----------------------------------------*/
 .hero {
-  background: var(--secondary-color);
+  background: var(--primary-color);
   position: relative;
   overflow: hidden;
   padding-top: 330px;
@@ -495,24 +495,10 @@ strong {
   top: 70px;
 }
 
-.hero-image-wrap {
-  background: var(--white-color);
-  border-radius: 100%;
-  width: 350px;
-  height: 350px;
-  position: absolute;
-  z-index: 22;
-  top: -50px;
-  right: 0;
-  left: 0;
-  margin: auto;
-  pointer-events: none;
-}
-
 .hero-image {
   position: absolute;
   z-index: 22;
-  top: 0;
+  top: 22%;
   width: 100%;
   min-width: 550px;
 }
