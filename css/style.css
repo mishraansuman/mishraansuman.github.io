@@ -3,8 +3,11 @@
 -----------------------------------------*/
 :root {
   --white-color:                  #ffffff;
-  --primary-color:                linear-gradient(45deg, #896ffc, #2d10af);
+  --primary-color:                linear-gradient(45deg, #389aeb, #4fcf53b5);
   --secondary-color:              #6547ee;
+  --menu-anchor:                  #545454;
+  --menu-anchor-hover:            #000;
+  --menu-anchor-active:           #000;
   --section-bg-color:             #f9f9f9;
   --dark-color:                   #000000;
   --p-color:                      #717275;
@@ -358,9 +361,10 @@ strong {
 
 .navbar-nav .nav-link {
   display: inline-block;
-  color: var(--section-bg-color);
+  color: var(--menu-anchor);
   font-size: var(--menu-font-size);
-  font-weight: var(--font-weight-medium);
+  font-weight: 600;
+  letter-spacing: 1px;
   text-transform: uppercase;
   position: relative;
   padding-top: 15px;
@@ -380,12 +384,12 @@ strong {
 
 .navbar-nav .nav-link.active::after,
 .navbar-nav .nav-link:hover::after {
-  background: var(--secondary-color);
+  background: var(--menu-anchor-hover);
 }
 
 .navbar-nav .nav-link.active,
 .navbar-nav .nav-link:hover {
-  color: var(--secondary-color);
+  color: var(--menu-anchor-hover);
 }
 
 .navbar-toggler {
@@ -424,7 +428,7 @@ strong {
 }
 
 .navbar-toggler .navbar-toggler-icon {
-  background: var(--white-color);
+  background:var(--dark-color);
   transition: background 10ms 300ms ease;
   display: block;
   width: 30px;
@@ -434,13 +438,13 @@ strong {
 
 .navbar-toggler .navbar-toggler-icon:before,
 .navbar-toggler .navbar-toggler-icon:after {
-  transition: top 300ms 350ms ease, -webkit-transform 300ms 50ms ease;
-  transition: top 300ms 350ms ease, transform 300ms 50ms ease;
-  transition: top 300ms 350ms ease, transform 300ms 50ms ease, -webkit-transform 300ms 50ms ease;
+  transition: top 300ms 350ms ease, -webkit-transform 30ms 300ms ease;
+  transition: top 300ms 350ms ease, transform 30ms 300ms ease;
+  transition: top 300ms 350ms ease, transform 30ms 300ms ease, -webkit-transform 30ms 300ms ease;
   position: absolute;
   right: 0;
   left: 0;
-  background: var(--white-color);
+  background: var(--dark-color) !important;
   width: 30px;
   height: 2px;
   content: '';
@@ -550,6 +554,10 @@ strong {
 
 .about-image {
   border-radius: var(--border-radius-medium);
+  max-width:500px;
+  height: 500px;
+  width:500px;
+
 }
 
 .about-thumb {
@@ -877,12 +885,6 @@ strong {
 .copyright-text-wrap p,
 .copyright-text {
   font-size: var(--copyright-font-size);
-}
-
-.copyright-text {
-  border-right: 1px solid var(--border-color);
-  padding-right: 25px;
-  margin-right: 20px;
 }
 
 .copyright-text-wrap a {
