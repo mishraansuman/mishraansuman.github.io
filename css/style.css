@@ -502,7 +502,7 @@ strong {
 .hero-image {
   position: absolute;
   z-index: 22;
-  top: 22%;
+  top: 0%;
   width: 100%;
   min-width: 550px;
 }
