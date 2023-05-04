@@ -140,9 +140,9 @@ strong {
 }
 
 .section-title-wrap {
-  background: var(--secondary-color);
+  background: transparent !important;
   border-radius: var(--border-radius-small);
-  padding: 10px 30px;
+  padding: 10px 10px;
 }
 
 
@@ -473,7 +473,7 @@ strong {
 
 @media  screen and (min-width: 991px) {
   .hero {
-    height: 60vh;
+    height: 100vh;
   }
 }
 
