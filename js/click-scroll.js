@@ -5,7 +5,7 @@ var sectionArray = [1, 2, 3, 4, 5];
 $.each(sectionArray, function(index, value){
 
      $(document).scroll(function(){
-         var offsetSection = $('#' + 'section_' + value).offset().top;
+         var offsetSection = $('#' + 'ans' + value).offset().top;
          var docScroll = $(document).scrollTop();
          var docScroll1 = docScroll + 1;
 
@@ -20,7 +20,7 @@ $.each(sectionArray, function(index, value){
      });
 
     $('.click-scroll').eq(index).click(function(e){
-        var offsetClick = $('#' + 'section_' + value).offset().top;
+        var offsetClick = $('#' + 'ans' + value).offset().top;
         e.preventDefault();
         $('html, body').animate({
             'scrollTop':offsetClick
