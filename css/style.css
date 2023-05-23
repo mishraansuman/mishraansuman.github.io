@@ -2,17 +2,16 @@
   CUSTOM PROPERTIES ( VARIABLES )
 -----------------------------------------*/
 :root {
-  --white-color:                  #ffffff;
-  --primary-color:                linear-gradient(45deg, #389aeb, #4fcf53b5);
+  --primary-color:                linear-gradient(#fff0e5, #EAFDC6);
   --secondary-color:              #6547ee;
   --menu-anchor:                  #545454;
   --menu-anchor-hover:            #000;
   --menu-anchor-active:           #000;
-  --section-bg-color:             #f9f9f9;
+  --section-bg-color:             #fdf5c6;
   --dark-color:                   #000000;
-  --p-color:                      #717275;
-  --border-color:                 #e9eaeb;
-  --featured-border-color:        #727aab;
+  --p-color:                      #414141;
+  --border-color:                 #a18bff;
+  --featured-border-color:        #6547ee;
 
   --body-font-family:             'DM Sans', sans-serif;
 
@@ -36,7 +35,6 @@
 }
 
 body {
-    background: var(--white-color);
     font-family: var(--body-font-family);
     scroll-behavior: smooth;
 }
@@ -121,12 +119,12 @@ a:hover {
 
 ::selection {
   background: var(--secondary-color);
-  color: var(--white-color);
+  color: #EAFDC6;
 }
 
 ::-moz-selection {
   background: var(--secondary-color);
-  color: var(--white-color);
+  color: #EAFDC6;
 }
 
 .section-padding {
@@ -176,7 +174,7 @@ strong {
   flex-flow: row nowrap;
   justify-content: center;
   align-items: center;
-  background: none repeat scroll 0 0 var(--white-color);
+  background: none repeat scroll 0 0 #fdf5c6;
 }
 
 .spinner {
@@ -197,7 +195,7 @@ strong {
   margin-left: -10px;
   border-radius: 50%;
   border: 1px solid var(--border-color);
-  border-top-color: var(--white-color);
+  border-top-color: #fdf5c6;
   animation: spinner .9s linear infinite;
 }
 
@@ -215,9 +213,9 @@ strong {
   CUSTOM ICON
 -----------------------------------------*/
 .navbar-icon {
-  background: var(--white-color);
+  background: var(--dark-color);
   border-radius: var(--border-radius-large);
-  color: var(--dark-color);
+  color: #fff0e5;
   width: 47px;
   height: 47px;
   line-height: 47px;
@@ -226,7 +224,7 @@ strong {
 
 .is-sticky .navbar-icon {
   background: var(--secondary-color);
-  color: var(--white-color);
+  color: #fff0e5;
 }
 
 .form-check-icon {
@@ -247,29 +245,21 @@ strong {
   background: transparent;
   border-width: 2px;
   border-style: solid;
-  border-color: var(--white-color);
-  color: var(--white-color);
+  border-color:var(--dark-color);
+  color: var(--dark-color);
   padding: 8px 22px;
 }
 
 .navbar .custom-btn:hover {
-  background: var(--white-color);
-  border-color: transparent;
+  border-color: var(--secondary-color);
   color: var(--secondary-color);
 }
 
 .custom-btn {
   background: var(--secondary-color);
   border-radius: var(--border-radius-large);
-  color: var(--white-color);
   font-weight: var(--font-weight-bold);
   padding: 12px 24px;
-}
-
-.custom-btn:hover {
-  background: var(--primary-color);
-  box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
-  color: var(--white-color);
 }
 
 .custom-border-btn {
@@ -281,15 +271,7 @@ strong {
 .custom-border-btn:hover {
   background: var(--secondary-color);
   border-color: var(--secondary-color);
-  color: var(--white-color);
-}
-
-.custom-link {
-	background-color: var(--primary-color);
-}
-
-.custom-link:hover {
-	background-color: var(--secondary-color);
+  color: #ffffff;
 }
 
 
@@ -304,8 +286,8 @@ strong {
 
 .is-sticky,
 .is-sticky .navbar .container {
-  background: var(--white-color);
-  box-shadow: 0 1rem 3rem rgb(0 0 0 / 18%);
+  background:hsla(0, 0%, 100%, 0.8);
+  box-shadow: 0 1rem 3rem rgb(0 0 0 / 15%);
 }
 
 .is-sticky .navbar-brand,
@@ -324,7 +306,7 @@ strong {
 
 .is-sticky .navbar .custom-btn:hover {
   background: var(--secondary-color);
-  color: var(--white-color);
+  color: #fff0e5;
 }
 
 .navbar {
@@ -350,7 +332,7 @@ strong {
 
 .navbar-brand,
 .navbar-brand:hover {
-  color: var(--white-color);
+ color: var(--dark-color);
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
@@ -479,7 +461,7 @@ strong {
 
 .hero-title,
 .hero h2 {
-  background: var(--white-color);
+  background: #fff0e5;
   box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
   border-radius: var(--border-radius-large);
   display: inline-block;
@@ -550,7 +532,7 @@ strong {
 }
 
 .profile-body p:nth-of-type(even) {
-  background: var(--white-color);
+  background: #fff0e5;
 }
 
 .about-image {
@@ -620,7 +602,7 @@ strong {
 }
 
 .services-thumb {
-  background: var(--white-color);
+  background: #fff0e5;
   border: 2px solid transparent;
   border-radius: var(--border-radius-medium);
   position: relative;
@@ -644,7 +626,7 @@ strong {
 .services-thumb:hover .services-icon-wrap {
   background: var(--secondary-color);
   border-color: var(--secondary-color);
-  color: var(--white-color);
+  color: #fff0e5;
 }
 
 .services-icon-wrap {
@@ -666,16 +648,17 @@ strong {
 }
 
 .services-thumb:hover .services-price-wrap {
-  background: var(--secondary-color);
+  background: #e9d2ff;
 }
 
 .services-thumb:hover .services-price-overlay {
-  background: var(--primary-color);
+  background: var(--border-color);
 }
 
 .services-price-wrap {
-  background: var(--primary-color);
+  background: #fdf5c6;
   border-radius: var(--border-radius-medium);
+  border: 1px solid var(--border-color);
   position: relative;
   overflow: hidden;
   padding: 6px 20px 6px 15px;
@@ -683,13 +666,13 @@ strong {
 }
 
 .services-price-text {
-  color: var(--white-color);
+  color: var(--secondary-color);
   font-size: var(--copyright-font-size);
   font-weight: var(--font-weight-bold);
 }
 
 .services-price-overlay {
-  background: var(--secondary-color);
+  background: var(--border-color);
   border-bottom-left-radius: 100%;
   position: absolute;
   top: 0;
@@ -705,7 +688,7 @@ strong {
 -----------------------------------------*/
 .projects-thumb {
   background: var(--section-bg-color);
-  border: 2px solid var(--white-color);
+  border: 2px solid #fff0e5;
   border-radius: var(--border-radius-medium);
   position: relative;
   overflow: hidden;
@@ -759,7 +742,7 @@ strong {
 }
 
 .contact-info {
-  background: var(--white-color);
+  background: #fff0e5;
   border-top-right-radius: var(--border-radius-small);
   border-bottom-right-radius: var(--border-radius-small);
   padding: 60px 30px 30px 30px;
@@ -780,7 +763,7 @@ strong {
   CUSTOM FORM
 -----------------------------------------*/
 .custom-form .form-control {
-  background: var(--white-color);
+  background: #fff0e5;
   box-shadow: none;
   border: 2px solid var(--border-color);
   color: var(--p-color);
@@ -820,7 +803,7 @@ strong {
 }
 
 .form-check-input[type=checkbox] {
-  background: var(--white-color);
+  background: #fff0e5;
   border: 2px solid var(--border-color);
   box-shadow: none;
   outline: none;
@@ -854,7 +837,7 @@ strong {
   background: var(--secondary-color);
   border: none;
   border-radius: var(--border-radius-large);
-  color: var(--white-color);
+  color: #fff0e5;
   font-weight: var(--font-weight-bold);
   transition: all 0.3s;
   margin-bottom: 0;
@@ -920,7 +903,7 @@ strong {
 .footer-menu-link:hover {
   background: var(--secondary-color);
   border-color: transparent;
-  color: var(--white-color);
+  color: #fff0e5;
 }
 
 
@@ -955,7 +938,7 @@ strong {
 .social-icon-link:hover {
   background: var(--secondary-color);
   border-color: transparent;
-  color: var(--white-color);
+  color: #fff0e5;
 }
 
 
@@ -1021,7 +1004,7 @@ strong {
   }
 
   .navbar .container {
-    background: var(--white-color);
+    background: #fff0e5;
   }
 
   .navbar-brand,
@@ -1031,7 +1014,7 @@ strong {
 
   .navbar-icon {
     background: var(--secondary-color);
-    color: var(--white-color);
+    color: #fff0e5;
     width: 44px;
     height: 44px;
     line-height: 44px;
