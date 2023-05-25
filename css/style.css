@@ -69,7 +69,6 @@ h1 {
 
 h2 {
   font-size: var(--h2-font-size);
-  color: var(--secondary-color);
   letter-spacing: -3px;
 }
 
@@ -135,12 +134,6 @@ a:hover {
 b,
 strong {
   font-weight: var(--font-weight-bold);
-}
-
-.section-title-wrap {
-  background: transparent !important;
-  border-radius: var(--border-radius-small);
-  padding: 10px 10px;
 }
 
 
@@ -461,19 +454,19 @@ strong {
 
 .hero-title,
 .hero h2 {
-  background: #fff0e5;
-  box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
-  border-radius: var(--border-radius-large);
   display: inline-block;
   padding: 8px 24px;
 }
 
 .hero-title {
-	font-size: 44px;
+	font-size: 38px;
+  letter-spacing: 1px;
 }
 
 .hero h2 {
-	font-size: 38px;
+	font-size: 32px;
+  letter-spacing: 1px;
+  font-weight: 400;
 }
 
 .hero-text {
@@ -505,6 +498,10 @@ strong {
 /*---------------------------------------
   ABOUT
 -----------------------------------------*/
+.about{
+  background: #fdf5c6;
+  border: 1px solid var(--border-color);
+}
 .profile-thumb {
   border: 1px solid var(--border-color);
   border-radius: var(--border-radius-medium);
@@ -543,15 +540,18 @@ strong {
 
 }
 
+/*---------------------------------------
+  FEATURED
+-----------------------------------------*/
+.featured{
+  background: transparent !important;
+  margin-top: 50px;
+}
 .about-thumb {
   padding-right: 20px;
   padding-left: 20px;
 }
 
-
-/*---------------------------------------
-  FEATURED
------------------------------------------*/
 .featured-numbers {
   font-size: var(--h1-font-size);
   line-height: normal;
@@ -574,7 +574,10 @@ strong {
 /*---------------------------------------
   CLIENTS
 -----------------------------------------*/
-
+.clients{
+  background:#EAFDC6;
+  user-select: none;
+}
 .clients-item-height {
 	height: 120px;
 }
@@ -594,8 +597,7 @@ strong {
 /*---------------------------------------
   SERVICES
 -----------------------------------------*/
-.services,
-.featured {
+.services {
   background: var(--section-bg-color);
   border-top: 1px solid var(--border-color);
   border-bottom: 1px solid var(--border-color);
@@ -742,7 +744,7 @@ strong {
 }
 
 .contact-info {
-  background: #fff0e5;
+  background: radial-gradient(#EAFDC6,var(--section-bg-color));
   border-top-right-radius: var(--border-radius-small);
   border-bottom-right-radius: var(--border-radius-small);
   padding: 60px 30px 30px 30px;
@@ -763,7 +765,7 @@ strong {
   CUSTOM FORM
 -----------------------------------------*/
 .custom-form .form-control {
-  background: #fff0e5;
+  background: radial-gradient(#EAFDC6,var(--section-bg-color));
   box-shadow: none;
   border: 2px solid var(--border-color);
   color: var(--p-color);
@@ -771,6 +773,7 @@ strong {
   padding-top: 13px;
   padding-bottom: 13px;
   outline: none;
+  font-weight: 500;
 }
 
 .form-floating>label {
@@ -803,7 +806,7 @@ strong {
 }
 
 .form-check-input[type=checkbox] {
-  background: #fff0e5;
+  background: radial-gradient(#EAFDC6,var(--section-bg-color));
   border: 2px solid var(--border-color);
   box-shadow: none;
   outline: none;
@@ -819,13 +822,13 @@ strong {
 
 .form-check-input:hover,
 .form-check-input:checked {
-  background-color: transparent;
+  background-color: #e9d2ff;
   border-color: var(--secondary-color);
 }
 
 .custom-form .form-control:hover,
 .custom-form .form-control:focus {
-  background: transparent;
+  background: #fff;
   border-color: var(--secondary-color);
 }
 
@@ -835,7 +838,7 @@ strong {
 
 .custom-form button[type="submit"] {
   background: var(--secondary-color);
-  border: none;
+  border: 1px solid var(--secondary-color);
   border-radius: var(--border-radius-large);
   color: #fff0e5;
   font-weight: var(--font-weight-bold);
@@ -845,8 +848,9 @@ strong {
 
 .custom-form button[type="submit"]:hover,
 .custom-form button[type="submit"]:focus {
-  background: var(--primary-color);
-  border-color: transparent;
+  background: #e9d2ff;
+  border-color: var(--secondary-color);
+  color: var(--secondary-color);
 }
 
 
@@ -854,10 +858,10 @@ strong {
   SITE FOOTER
 -----------------------------------------*/
 .site-footer {
-  border-top: 1px solid var(--border-color);
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   text-align: center;
+  background: #fdf5c6;
 }
 
 .site-footer-title {
