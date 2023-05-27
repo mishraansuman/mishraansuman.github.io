@@ -136,23 +136,6 @@ strong {
   font-weight: var(--font-weight-bold);
 }
 
-
-/*---------------------------------------
-  AVATAR IMAGE
------------------------------------------*/
-.avatar-image {
-  border-radius: var(--border-radius-large);
-  width: 160px;
-  height: 160px;
-  object-fit: cover;
-}
-
-.avatar-image-large {
-  width: 90.4px;
-  height: 90.4px;
-}
-
-
 /*---------------------------------------
   PRE LOADER
 -----------------------------------------*/
@@ -464,6 +447,7 @@ strong {
 }
 
 .hero h2 {
+  font-family: 'Tsukimi Rounded', sans-serif;
 	font-size: 32px;
   letter-spacing: 1px;
   font-weight: 400;
