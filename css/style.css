@@ -518,10 +518,6 @@ strong {
 
 .about-image {
   border-radius: var(--border-radius-medium);
-  max-width:500px;
-  height: 500px;
-  width:500px;
-
 }
 
 /*---------------------------------------
