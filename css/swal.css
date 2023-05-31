@@ -1,0 +1,20 @@
+.swal-overlay {
+  background: linear-gradient(#fff0e588, #6647ee8a);
+}
+.swal-modal {
+  background-color: #6647ee9f;
+  border: 1px solid white;
+}
+.swal-text{
+  color: #ffffff;
+  font-size: 18px;
+  text-shadow: 1px 1px 1px #000;
+}
+.swal-button {
+  padding: 7px 19px;
+  border-radius: 2px;
+  background-color: #dde5ff96;
+  color: #000;
+  font-size: 16px;
+  border: 1px solid #6647ee;
+}

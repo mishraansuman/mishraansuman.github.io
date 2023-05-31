@@ -586,88 +586,19 @@ strong {
   border-top: 1px solid var(--border-color);
   border-bottom: 1px solid var(--border-color);
 }
-
-.services-thumb {
-  background: #fff0e5;
-  border: 2px solid transparent;
-  border-radius: var(--border-radius-medium);
-  position: relative;
-  overflow: hidden;
-  margin-bottom: 24px;
-  padding: 40px 40px 240px 40px;
-  transition: all 0.5s;
+.card-img-top {
+    width: 100%;
+    height: 20vw;
+    object-fit: contain;
+}
+.card-deck .card {
+  min-width: 220px;
 }
 
-.services-thumb-up {
-  position: relative;
-  bottom: 50px;
-  margin-bottom: -50px;
-}
+.border-top { border-top: 1px solid #e5e5e5; }
+.border-bottom { border-bottom: 1px solid #e5e5e5; }
 
-.services-thumb:hover {
-  border: 2px solid var(--secondary-color);
-  box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
-}
-
-.services-thumb:hover .services-icon-wrap {
-  background: var(--secondary-color);
-  border-color: var(--secondary-color);
-  color: #fff0e5;
-}
-
-.services-icon-wrap {
-  border: 1px solid var(--border-color);
-  border-radius: var(--border-radius-small);
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 50%;
-  height: 55%;
-  transform: rotate(-35deg) translateY(55px);
-  transition: all ease 0.5s;
-}
-
-.services-icon {
-  font-size: 90px;
-  position: relative;
-  bottom: 15px;
-}
-
-.services-thumb:hover .services-price-wrap {
-  background: #e9d2ff;
-}
-
-.services-thumb:hover .services-price-overlay {
-  background: var(--border-color);
-}
-
-.services-price-wrap {
-  background: #fdf5c6;
-  border-radius: var(--border-radius-medium);
-  border: 1px solid var(--border-color);
-  position: relative;
-  overflow: hidden;
-  padding: 6px 20px 6px 15px;
-  transition: all ease 0.5s;
-}
-
-.services-price-text {
-  color: var(--secondary-color);
-  font-size: var(--copyright-font-size);
-  font-weight: var(--font-weight-bold);
-}
-
-.services-price-overlay {
-  background: var(--border-color);
-  border-bottom-left-radius: 100%;
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 20px;
-  height: 20px;
-  pointer-events: none;
-}
-
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
 
 /*---------------------------------------
   PROJECTS

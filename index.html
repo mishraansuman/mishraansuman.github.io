@@ -55,18 +55,22 @@
 
         <link href="css/bootstrap.min.css" rel="stylesheet">
 
-        <link href="css/bootstrap-icons.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 
         <link href="css/magnific-popup.css" rel="stylesheet">
 
         <link href="css/style.css" rel="stylesheet">
+        <link href="css/swal.css" rel="stylesheet">
 
-        <!--
+        <!--scripts-->
 
--->
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     </head>
 
     <body>
+        <!-- Temporary Pop up Banner On -->
+
+        <!-- Banner Off -->
 
         <section class="preloader">
             <div class="spinner">
@@ -263,104 +267,86 @@
 
 
             <section class="services section-padding" id="ans3">
+                <div class="col-lg-10 col-12 mx-auto">
+                    <h4 class="text-center mb-5">🧰 Services</h4>
+                </div>
                 <div class="container">
-                    <div class="row">
-
-                        <div class="col-lg-10 col-12 mx-auto">
-                            <h4 class="text-center mb-5">🧰 Services</h4>
-                        </div>
-
-                        <div class="row pt-lg-5">
-                            <div class="col-lg-6 col-12">
-                                <div class="services-thumb">
-                                    <div class="d-flex flex-wrap align-items-center border-bottom mb-4 pb-3">
-                                        <h3 class="mb-0">Websites</h3>
-
-                                        <div class="services-price-wrap ms-auto">
-                                            <p class="services-price-text mb-0">₹15K - ₹200K(2 Lakh)*</p>
-                                            <div class="services-price-overlay"></div>
-                                        </div>
+                    <div class="d-flex flex-row justify-content-center">
+                        <div class="col-sm-6 mb-3 mb-sm-0">
+                            <div class="card-deck mb-3 text-center">
+                                <div class="card mb-4 pb-3 box-shadow">
+                                    <div class="card-header">
+                                        <h4 class="my-0 font-weight-normal">Web Development</h4>
                                     </div>
-
-                                    <p>You may want to explore Too CSS for great collection of free HTML CSS
-                                        templates.</p>
-
-                                    <a href="#" class="custom-btn custom-border-btn btn mt-3">Discover More</a>
-
-                                    <div class="services-icon-wrap d-flex justify-content-center align-items-center">
-                                        <i class="services-icon bi-globe"></i>
+                                    <img src="images/services/3426526.jpg" class="card-img-top"
+                                        alt="Web Development (Image:Freepik)">
+                                    <div class="card-body">
+                                        <ul class="list-unstyled mt-3 mb-4">
+                                            <li>10 users included</li>
+                                            <li>2 GB of storage</li>
+                                            <li>Email support</li>
+                                            <li>Help center access</li>
+                                        </ul>
+                                        <button type="button" class="btn btn-lg btn-block btn-outline-primary">Sign up
+                                            for
+                                            free</button>
                                     </div>
                                 </div>
-                            </div>
-
-                            <div class="col-lg-6 col-12">
-                                <div class="services-thumb services-thumb-up">
-                                    <div class="d-flex flex-wrap align-items-center border-bottom mb-4 pb-3">
-                                        <h3 class="mb-0">Branding</h3>
-
-                                        <div class="services-price-wrap ms-auto">
-                                            <p class="services-price-text mb-0">₹10K - ₹30K*</p>
-                                            <div class="services-price-overlay"></div>
-                                        </div>
+                                <div class="card mb-4 pb-3 box-shadow">
+                                    <div class="card-header">
+                                        <h4 class="my-0 font-weight-normal">Android/IOS App Development</h4>
                                     </div>
-
-                                    <p>You can explore more CSS templates on TemplateMo website by browsing through
-                                        different tags.</p>
-
-                                    <a href="#" class="custom-btn custom-border-btn btn mt-3">Discover More</a>
-
-                                    <div class="services-icon-wrap d-flex justify-content-center align-items-center">
-                                        <i class="services-icon bi-lightbulb"></i>
+                                    <img src="images/services/4380747.jpg" class="card-img-top"
+                                        alt="Android / IOS Application Development (Image:Freepik)">
+                                    <div class="card-body">
+                                        <ul class="list-unstyled mt-3 mb-4">
+                                            <li>20 users included</li>
+                                            <li>10 GB of storage</li>
+                                            <li>Priority email support</li>
+                                            <li>Help center access</li>
+                                        </ul>
+                                        <button type="button" class="btn btn-lg btn-block btn-primary">Get
+                                            started</button>
                                     </div>
                                 </div>
-                            </div>
-
-                            <div class="col-lg-6 col-12">
-                                <div class="services-thumb">
-                                    <div class="d-flex flex-wrap align-items-center border-bottom mb-4 pb-3">
-                                        <h3 class="mb-0">Ecommerce</h3>
-
-                                        <div class="services-price-wrap ms-auto">
-                                            <p class="services-price-text mb-0">₹40K - ₹200K(2Lakh)*</p>
-                                            <div class="services-price-overlay"></div>
-                                        </div>
+                                <div class="card mb-4 pb-3 box-shadow">
+                                    <div class="card-header">
+                                        <h4 class="my-0 font-weight-normal">SEO & Brand Strategy</h4>
                                     </div>
-
-                                    <p>If you need a customized ecommerce website for your business, feel free to
-                                        discuss with me.</p>
-
-                                    <a href="#" class="custom-btn custom-border-btn btn mt-3">Discover More</a>
-
-                                    <div class="services-icon-wrap d-flex justify-content-center align-items-center">
-                                        <i class="services-icon bi-phone"></i>
+                                    <img src="images/services/7038058.jpg" class="card-img-top"
+                                        alt="SEO & Brand Strategy (Image:Freepik)">
+                                    <div class="card-body">
+                                        <ul class="list-unstyled mt-3 mb-4">
+                                            <li>30 users included</li>
+                                            <li>15 GB of storage</li>
+                                            <li>Phone and email support</li>
+                                            <li>Help center access</li>
+                                        </ul>
+                                        <button type="button" class="btn btn-lg btn-block btn-primary">Contact
+                                            us</button>
                                     </div>
                                 </div>
-                            </div>
-
-                            <div class="col-lg-6 col-12">
-                                <div class="services-thumb services-thumb-up">
-                                    <div class="d-flex flex-wrap align-items-center border-bottom mb-4 pb-3">
-                                        <h3 class="mb-0">SEO</h3>
-
-                                        <div class="services-price-wrap ms-auto">
-                                            <p class="services-price-text mb-0">₹5K - ₹30K*</p>
-                                            <div class="services-price-overlay"></div>
-                                        </div>
+                                <div class="card mb-4 pb-3 box-shadow">
+                                    <div class="card-header">
+                                        <h4 class="my-0 font-weight-normal">E-Commerce Developments</h4>
                                     </div>
-
-                                    <p>To list your website first on any search engine, we will work together. First
-                                        Portfolio is one-page CSS Template for free download.</p>
-
-                                    <a href="#" class="custom-btn custom-border-btn btn mt-3">Discover More</a>
-
-                                    <div class="services-icon-wrap d-flex justify-content-center align-items-center">
-                                        <i class="services-icon bi-google"></i>
+                                    <img src="images/services/6505894.jpg" class="card-img-top"
+                                        alt="E-Commerce Web/Mobile application Developments (Image:Freepik)">
+                                    <div class="card-body">
+                                        <ul class="list-unstyled mt-3 mb-4">
+                                            <li>30 users included</li>
+                                            <li>15 GB of storage</li>
+                                            <li>Phone and email support</li>
+                                            <li>Help center access</li>
+                                        </ul>
+                                        <button type="button" class="btn btn-lg btn-block btn-primary">Contact
+                                            us</button>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
+
                 </div>
             </section>
 
@@ -614,6 +600,7 @@
         </footer>
 
         <!-- JAVASCRIPT FILES -->
+
         <script src="js/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/jquery.sticky.js"></script>
@@ -621,7 +608,7 @@
         <script src="js/jquery.magnific-popup.min.js"></script>
         <script src="js/magnific-popup-options.js"></script>
         <script src="js/custom.js"></script>
-
+        <script src="js/main.js"></script>
     </body>
 
 </html>
