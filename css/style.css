@@ -442,13 +442,13 @@ strong {
 }
 
 .hero-title {
-	font-size: 38px;
+	font-size: 3vw;
   letter-spacing: 1px;
 }
 
 .hero h2 {
   font-family: 'Tsukimi Rounded', sans-serif;
-	font-size: 32px;
+	font-size: 2vw;
   letter-spacing: 1px;
   font-weight: 400;
 }
