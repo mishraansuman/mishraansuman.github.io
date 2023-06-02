@@ -8,12 +8,12 @@
   --menu-anchor-hover:            #000;
   --menu-anchor-active:           #000;
   --section-bg-color:             #fdf5c6;
-  --dark-color:                   #000000;
+  --dark-color:                   #252525;
   --p-color:                      #414141;
   --border-color:                 #a18bff;
   --featured-border-color:        #6547ee;
 
-  --body-font-family:             'Open Sans', sans-serif;
+  --body-font-family:             'Raleway', sans-serif;
 
   --h1-font-size:                 62px;
   --h2-font-size:                 48px;
@@ -98,7 +98,6 @@ p {
 ul li {
   color: var(--p-color);
   font-size: var(--p-font-size);
-  font-weight: var(--font-weight-normal);
 }
 
 a,
@@ -150,7 +149,7 @@ strong {
   flex-flow: row nowrap;
   justify-content: center;
   align-items: center;
-  background: none repeat scroll 0 0 #fdf5c6;
+  background: none repeat scroll 0 0 #ebe2af;
 }
 
 .spinner {
@@ -442,15 +441,15 @@ strong {
 }
 
 .hero-title {
-	font-size: 3vw;
   letter-spacing: 1px;
+  font-family: var(--body-font-family);
+  font-weight: 600;
 }
 
 .hero h2 {
-  font-family: 'Tsukimi Rounded', sans-serif;
-	font-size: 2vw;
+  font-family: 'Inter', sans-serif;
   letter-spacing: 1px;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .hero-text {
@@ -458,7 +457,12 @@ strong {
   z-index: 22;
   top: 70px;
 }
-
+.hero h2 strong{
+  font-weight: 800;
+}
+.hero h2 span{
+  border-bottom: 2px solid #47ee55;
+}
 .hero-image {
   position: absolute;
   z-index: 22;
@@ -486,6 +490,12 @@ strong {
   background: #fdf5c6;
   border: 1px solid var(--border-color);
 }
+
+.about-thumb {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
 .profile-thumb {
   border: 1px solid var(--border-color);
   border-radius: var(--border-radius-medium);
@@ -526,10 +536,6 @@ strong {
 .featured{
   background: transparent !important;
   margin-top: 50px;
-}
-.about-thumb {
-  padding-right: 20px;
-  padding-left: 20px;
 }
 
 .featured-numbers {
@@ -589,6 +595,12 @@ strong {
 }
 .card-deck .card {
   min-width: 220px;
+}
+.card-body{
+  font-weight:600 ;
+}
+.card-body ul li,.card-body .card-text{
+  font-size: 1rem;
 }
 
 .border-top { border-top: 1px solid #e5e5e5; }
