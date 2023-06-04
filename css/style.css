@@ -599,7 +599,7 @@ strong {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 .card,.card-body,.list-group-item{
-  background: #fff;
+  background: #ffffff5b;
 }
 .card-header{
   background: transparent !important;
@@ -627,6 +627,7 @@ letter-spacing: .1rem;
 .card .btn:hover,
 .card .btn:focus{
   background-color: #e9d2ff;
+  color: var(--secondary-color);
   border-color: var(--secondary-color);
 }
 .border-top { border-top: 1px solid #e5e5e5; }
