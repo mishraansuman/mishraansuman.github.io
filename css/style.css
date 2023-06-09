@@ -2,7 +2,7 @@
   CUSTOM PROPERTIES ( VARIABLES )
 -----------------------------------------*/
 :root {
-  --primary-color:                linear-gradient(#fff0e5, #EAFDC6);
+  --primary-color:                #ffec7e;
   --secondary-color:              #6547ee;
   --menu-anchor:                  #545454;
   --menu-anchor-hover:            #000;
@@ -13,7 +13,7 @@
   --border-color:                 #a18bff;
   --featured-border-color:        #6547ee;
 
-  --body-font-family:             'Raleway', sans-serif;
+  --body-font-family:             'Kufam', sans-serif;
 
   --h1-font-size:                 62px;
   --h2-font-size:                 48px;
@@ -426,7 +426,8 @@ strong {
   HERO
 -----------------------------------------*/
 .hero {
-  background: var(--primary-color);
+  background: url(/images/ffflux.svg) no-repeat;
+  background-size: cover !important;
   position: relative;
   overflow: hidden;
   padding-top: 300px;
@@ -452,7 +453,7 @@ strong {
 }
 
 .hero h2 {
-  font-family: 'Inter', sans-serif;
+  font-family: 'JetBrains Mono', monospace;
   letter-spacing: 1px;
   font-weight: 500;
 }
@@ -461,6 +462,7 @@ strong {
   position: relative;
   z-index: 22;
   top: 70px;
+  width: 600px;
 }
 .hero h2 strong{
   font-weight: 800;
@@ -1065,6 +1067,10 @@ letter-spacing: .1rem;
     padding-left: 50px;
     padding-right:50px;
 }
+  .hero-text{
+    width: 490px;
+}
+
 }
 
 @media screen and (max-width: 480px) {
@@ -1093,7 +1099,6 @@ letter-spacing: .1rem;
     font-size: 13px;
     padding: 6px 12px;
   }
-
   .navbar-icon {
     font-size: var(--copyright-font-size);
     width: 35.5px;
