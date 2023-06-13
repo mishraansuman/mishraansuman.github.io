@@ -1,14 +1,16 @@
 .swal-overlay {
-  background: linear-gradient(#fff0e588, #6647ee8a);
+  background: linear-gradient(hsla(228, 84%, 83%, 0.5), hsla(229, 100%, 86%, 0.5));
+  backdrop-filter: blur(3px);
 }
 .swal-modal {
-  background-color: #6647ee9f;
-  border: 1px solid white;
+  background-color: hsla(260, 30%, 18%, 0.5);
+  border: dashed 1px #2c2c2c;
+  backdrop-filter: blur(1px);
 }
 .swal-text{
   color: #ffffff;
   font-size: 18px;
-  text-shadow: 1px 1px 1px #000;
+  filter: drop-shadow(0 0 1px rgba(0, 0, 0));
 }
 .swal-button {
   padding: 7px 19px;
