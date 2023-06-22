@@ -1,5 +1,5 @@
 .swal-overlay {
-  background: linear-gradient(hsla(228, 84%, 83%, 0.5), hsla(229, 100%, 86%, 0.5));
+  background: linear-gradient(hsla(228, 84%, 83%, 0.2), hsla(229, 100%, 86%, 0.2));
   backdrop-filter: blur(3px);
 }
 .swal-modal {
