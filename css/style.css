@@ -7,11 +7,10 @@
   --menu-anchor:                  #545454;
   --menu-anchor-hover:            #000;
   --menu-anchor-active:           #000;
-  --section-bg-color:             #fdf5c6;
+  --section-bg-color:             #ebfdd7;
   --dark-color:                   #252525;
   --p-color:                      #414141;
-  --border-color:                 #a18bff;
-  --featured-border-color:        #6547ee;
+  --border-color:                 #a490ff;
 
   --body-font-family:             'Kufam', sans-serif;
 
@@ -427,13 +426,14 @@ strong {
   HERO
 -----------------------------------------*/
 .hero {
-  background: url(/images/ffflux.svg) no-repeat;
-  background-size: cover !important;
+  background: url(/images/dddepth-052.jpg) no-repeat;
+  background-size: 100% 100% !important;
   position: relative;
   overflow: hidden;
   padding-top: 300px;
   padding-bottom: 330px;
 }
+
 
 @media  screen and (min-width: 991px) {
   .hero {
@@ -483,7 +483,7 @@ strong {
   ABOUT
 -----------------------------------------*/
 .about{
-  background: #fdf5c6;
+  background: #faffe0;
   border: 1px solid var(--border-color);
 }
 
@@ -557,7 +557,7 @@ strong {
   CLIENTS
 -----------------------------------------*/
 .clients{
-  background:#EAFDC6;
+  background:#f5ffd6;
   user-select: none;
 }
 .clients-item-height {
@@ -686,14 +686,14 @@ letter-spacing: .1rem;
   CONTACT
 -----------------------------------------*/
 .contact {
-  background: var(--section-bg-color);
+  background: #ebffed;
 }
 
 .contact-info {
   background: radial-gradient(#EAFDC6,var(--section-bg-color));
   border-top-right-radius: var(--border-radius-small);
   border-bottom-right-radius: var(--border-radius-small);
-  padding: 60px 30px 30px 30px;
+  padding: 10px 10px 10px 10px;
   height: 100%;
 }
 
@@ -711,7 +711,7 @@ letter-spacing: .1rem;
   CUSTOM FORM
 -----------------------------------------*/
 .custom-form .form-control {
-  background: radial-gradient(#EAFDC6,var(--section-bg-color));
+  background: transparent !important;
   box-shadow: none;
   border: 2px solid var(--border-color);
   color: var(--p-color);
@@ -752,7 +752,7 @@ letter-spacing: .1rem;
 }
 
 .form-check-input[type=checkbox] {
-  background: radial-gradient(#EAFDC6,var(--section-bg-color));
+  background: transparent !important;
   border: 2px solid var(--border-color);
   box-shadow: none;
   outline: none;
@@ -768,7 +768,7 @@ letter-spacing: .1rem;
 
 .form-check-input:hover,
 .form-check-input:checked {
-  background-color: #e9d2ff;
+  background-color: #ecd9ff !important;
   border-color: var(--secondary-color);
 }
 
@@ -782,19 +782,19 @@ letter-spacing: .1rem;
   height: 150px;
 }
 
-.custom-form button[type="submit"] {
-  background: var(--secondary-color);
-  border: 1px solid var(--secondary-color);
+ #formSubmit{
+  background: transparent !important;
+  border: 2px solid var(--border-color);
   border-radius: var(--border-radius-large);
-  color: #fff0e5;
+  color: var(--secondary-color);
   font-weight: var(--font-weight-bold);
   transition: all 0.3s;
   margin-bottom: 0;
 }
 
-.custom-form button[type="submit"]:hover,
-.custom-form button[type="submit"]:focus {
-  background: #e9d2ff;
+#formSubmit:hover,
+#formSubmit:focus {
+  background: #f4f1ff !important;
   border-color: var(--secondary-color);
   color: var(--secondary-color);
 }
@@ -807,7 +807,8 @@ letter-spacing: .1rem;
   padding-top: 10px;
   padding-bottom: 10px;
   text-align: center;
-  background: #fdf5c6;
+  background: var(--section-bg-color);
+  border-top: solid .5px #47ee55b4;
 }
 
 .site-footer-title {
@@ -916,7 +917,7 @@ letter-spacing: .1rem;
 	  font-size: var(--h2-font-size);
 	}
 }
-
+/* Responsive styles for smaller Screens */
 @media screen and (max-width: 991px) {
   h1 {
     font-size: 48px;
@@ -993,6 +994,7 @@ letter-spacing: .1rem;
   }
 
   .hero {
+    background-size: cover !important;
     padding-top: 100px;
     padding-bottom: 520px;
   }
@@ -1044,7 +1046,12 @@ letter-spacing: .1rem;
     border-radius: 0 0 var(--border-radius-small) var(--border-radius-small);
     padding: 40px 30px;
   }
-
+  .contact-info .row {
+    flex-direction: column;
+  }
+  .contact-f-responsive {
+    margin-top: 1.5rem;
+  }
   .contact-info-border-start {
     border-right: 0;
     border-bottom: 1px solid var(--border-color);
