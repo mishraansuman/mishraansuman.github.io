@@ -723,8 +723,16 @@ strong {
 }
  /* for google captcha */
  .g-recaptcha-wrapper{
-  display: inline-block;
- }
+    display: inline-flex !important;
+    text-align: center !important;
+    align-content: center !important;
+    justify-content: center !important;
+    flex-direction: row;
+    flex-wrap: wrap !important;
+    align-items: center !important;
+    margin-bottom: 20px;
+}
+
 .g-recaptcha{
   align-items: center !important;
   text-align: center !important;
