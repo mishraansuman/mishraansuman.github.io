@@ -721,8 +721,11 @@ strong {
   border-color: var(--secondary-color);
   color: var(--secondary-color);
 }
-
-
+ /* for google captcha */
+.g-recaptcha{
+  align-items: center !important;
+  text-align: center !important;
+}
 /*---------------------------------------
   SITE FOOTER
 -----------------------------------------*/
