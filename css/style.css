@@ -722,6 +722,9 @@ strong {
   color: var(--secondary-color);
 }
  /* for google captcha */
+ .g-recaptcha-wrapper{
+  display: inline-block;
+ }
 .g-recaptcha{
   align-items: center !important;
   text-align: center !important;
