@@ -6,13 +6,18 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Oops!!! | Ansuman Mishra</title>
       <link href="css/bootstrap.min.css" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
       <style>
          body,
          html {
             box-sizing: border-box;
             margin: 0 auto;
             text-align: center;
-            padding: 50px;
+            font-family: 'Inter', sans-serif;
+            font-size: 1rem;
          }
 
          .container {
@@ -21,10 +26,14 @@
             height: 100vh;
             position: relative;
             overflow: hidden;
-            padding-top: 300px;
-            padding-bottom: 330px;
             background-color: aliceblue;
             backdrop-filter: blur(2px);
+            display: flex !important;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            align-content: center;
+            flex-wrap: wrap;
          }
 
          h1 {
@@ -36,13 +45,25 @@
             font-size: 18px;
             margin-bottom: 20px;
          }
+
+         h2>span {
+            justify-self: start;
+            font-family: 'Press Start 2P', cursive;
+         }
       </style>
    </head>
 
    <body class="container">
-      <h1>Page Not Found</h1>
-      <p>We're sorry, but the page you requested could not be found.</p>
-      <p>Please check the URL or use the navigation menu to find what you're looking for.</p>
+      <h1 class="display-1 my-2">Oops</h1>
+      <h2 class="display-5 my-2"><span>404</span>| Page Not Found</h2>
+      <p class="h6 my-2">I'm sorry for the inconvenience, It seems that the page you are trying to access does not exist
+         or
+         has been
+         moved.</p>
+      <p class="h6 my-2">I believe you've reached this page in error, please return to <a class="btn btn-dark btn-sm"
+            href="https//ansuman.tech">home
+            page</a>
+      </p>
    </body>
 
 </html>
