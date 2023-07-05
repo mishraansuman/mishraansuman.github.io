@@ -6,8 +6,3 @@ window.onload = () => {
     buttons: "I understand",
   });
 };
-document.querySelector('.contact-form').addEventListener('submit', function(event) {
-    event.preventDefault(); // Prevent the default form submission
-    // Redirect to the custom submit.html page
-    window.location.href = '/submit.html';
-  });
