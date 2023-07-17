@@ -4,7 +4,7 @@
    <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Oops!!! | Ansuman Mishra</title>
+      <title> 🤖 404 Error | Page Not Found</title>
       <link href="css/bootstrap.min.css" rel="stylesheet">
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,13 +21,13 @@
          }
 
          .container {
-            background: url(/images/dddepth-052.jpg) no-repeat;
-            background-size: 100% 100% !important;
+            background: url(images/ffflux.svg);
+            background-position: cover;
+            background-size: 100%;
             height: 100vh;
             position: relative;
             overflow: hidden;
-            background-color: aliceblue;
-            backdrop-filter: blur(2px);
+            background-color: rgb(218, 218, 218);
             display: flex !important;
             flex-direction: column;
             align-items: center;
@@ -36,34 +36,80 @@
             flex-wrap: wrap;
          }
 
+         .wrapper {
+            padding: 50px;
+            width: 768px;
+         }
+
+         .backdrop {
+            backdrop-filter: blur(20px) saturate(150%);
+            -webkit-backdrop-filter: blur(16px) saturate(180%);
+            background-color: rgba(220, 220, 220, 0.6) !important;
+            border-radius: 12px !important;
+            border: 1px solid rgba(255, 255, 255, 0.7) !important;
+         }
+
+         .btn-absolute {
+            position: absolute;
+            left: 25px;
+            top: 25px;
+         }
+
+         .btn {
+            box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.2) !important;
+            border: solid 1px rgba(255, 255, 255, 0.7) !important;
+            border-radius: 6px;
+         }
+
+         .image-404 {
+            width: 300px;
+         }
+
          h1 {
             font-size: 32px;
-            margin-bottom: 20px;
          }
 
          p {
             font-size: 18px;
-            margin-bottom: 20px;
          }
 
          h2>span {
             justify-self: start;
             font-family: 'Press Start 2P', cursive;
          }
+
+         @media screen and (max-width: 991px) {
+            .wrapper {
+               padding: 50px;
+               width: 650px;
+            }
+         }
+
+         @media screen and (max-width: 575px) {
+            .wrapper {
+               padding: 25px;
+               width: 350px;
+            }
+         }
       </style>
    </head>
 
    <body class="container">
-      <h1 class="display-1 my-2">Oops</h1>
-      <h2 class="display-5 my-2"><span>404</span>| Page Not Found</h2>
-      <p class="h6 my-2">I'm sorry for the inconvenience, It seems that the page you are trying to access does not exist
-         or
-         has been
-         moved.</p>
-      <p class="h6 my-2">I believe you've reached this page in error, please return to <a class="btn btn-dark btn-sm"
-            href="https//ansuman.tech">home
-            page</a>
-      </p>
+      <div class="btn-absolute">
+         <button class="btn btn-warning">↩️ to home</button>
+      </div>
+      <div class="wrapper backdrop">
+         <img src="/images/Site-Down.svg" class="image-404" alt="server down or page not exits">
+         <h2 class="display-5 my-2">Page Not Found</h2>
+         <p class="h5 my-2">I'm sorry for the inconvenience, It seems that the page you are trying to reach does
+            not exist
+            or
+            has been
+            moved.</p>
+         <p class="h5 my-2">Please return to <a class="btn btn-dark btn-sm" href="https//ansuman.tech">home
+               page</a>
+         </p>
+      </div>
    </body>
 
 </html>
