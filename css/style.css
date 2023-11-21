@@ -4,8 +4,8 @@
 :root {
   --primary-color:                #ffec7e;
   --secondary-color:              #6547ee;
-  --menu-anchor:                  #545454;
-  --menu-anchor-hover:            #000;
+  --menu-anchor:                  #ffffff;
+  --menu-anchor-hover:            #ffffff;
   --section-bg-color:             #ebfdd7;
   --dark-color:                   #252525;
   --border-color:                 #a490ff;
@@ -128,18 +128,14 @@ strong {
   CUSTOM ICON
 -----------------------------------------*/
 .navbar-icon {
-  background: var(--dark-color);
+  background: rgba(255, 255, 255, 0.125);
   border-radius: var(--border-radius-large);
-  color: #fff0e5;
-  width: 47px;
-  height: 47px;
-  line-height: 47px;
+  color: rgba(255, 255, 255, 0.9);
+  border: 0.5px solid rgba(255, 255, 255, 0.175);
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
   text-align: center;
-}
-
-.is-sticky .navbar-icon {
-  background: var(--secondary-color);
-  color: #fff0e5;
 }
 
 .form-check-icon {
@@ -157,71 +153,41 @@ strong {
 }
 
 .navbar .custom-btn {
-  background: hsla(0, 0%, 100%, 0.5);
-  border-width: 2px;
-  border-style: solid;
-  border-color:var(--dark-color);
-  color: var(--dark-color);
+  background: transparent !important;
+  border: 1px solid rgba(255, 255, 255,0.125);
+  color: rgb(255, 255, 255,0.75);
+  border-radius: var(--border-radius-large);
   padding: 8px 22px;
 }
 
 .navbar .custom-btn:hover {
-  border-color: var(--secondary-color);
-  color: var(--secondary-color);
+  border-color: rgb(255, 255, 255,0.9) !important;
+  color: rgb(255, 255, 255) !important;
 }
-
-.custom-btn {
-  background: var(--secondary-color);
-  border-radius: var(--border-radius-large);
-  font-weight: var(--font-weight-bold);
-  padding: 12px 24px;
-}
-
-.custom-border-btn {
-  background: transparent;
-  border: 2px solid var(--border-color);
-  color: var(--p-color);
-}
-
-.custom-border-btn:hover {
-  background: var(--secondary-color);
-  border-color: var(--secondary-color);
-  color: #ffffff;
-}
-
 
 /*---------------------------------------
   NAVIGATION
 -----------------------------------------*/
+.nav-backdrop-blur{
+  backdrop-filter: blur(7px) saturate(180%);;
+  -webkit-backdrop-filter: blur(7px) saturate(180%);;
+  background-color: rgba(17, 25, 40, 0.5) !important;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+}
 .sticky-wrapper {
   position: relative;
   z-index: 222;
   height: auto !important;
 }
 
-.is-sticky,
-.is-sticky .navbar .container {
-  background:hsla(0, 0%, 100%, 0.8);
-  box-shadow: 0 1rem 3rem rgb(0 0 0 / 15%);
-}
-
 .is-sticky .navbar-brand,
 .is-sticky .navbar-brand:hover {
-  color: var(--dark-color);
+  color: white;
 }
 
 .is-sticky .navbar-nav .nav-link {
-  color: var(--p-color);
-}
-
-.is-sticky .navbar .custom-btn {
-  border-color: var(--secondary-color);
-  color: var(--secondary-color);
-}
-
-.is-sticky .navbar .custom-btn:hover {
-  background: var(--secondary-color);
-  color: #fff0e5;
+  color: white;
+  filter: drop-shadow(1px 2px 2px rgba(85, 85, 85, 0.5));
 }
 
 .navbar {
@@ -237,18 +203,11 @@ strong {
 
 .navbar .container {
   border-radius: var(--border-radius-small);
-  padding: 10px 25px;
+  padding: 5px 25px;
 }
 
 .navbar-brand {
-  font-size: 24px;
-  font-family: 'Press Start 2P', cursive;
-  filter: drop-shadow(0 0 2px #ebebeb);
-}
-
-.navbar-brand,
-.navbar-brand:hover {
- color: var(--dark-color);
+  filter: drop-shadow(0 0 2px rgba(121, 121, 121, 0.8));
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
@@ -290,7 +249,12 @@ strong {
 .navbar-nav .nav-link:hover {
   color: var(--menu-anchor-hover);
 }
-
+.d-lg-flex{
+  position: absolute;
+  right: 5%;
+  align-items: center !important;
+  justify-content: end !important;
+}
 .navbar-toggler {
   border: 0;
   padding: 0;
@@ -307,7 +271,7 @@ strong {
 }
 
 .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
-  background: transparent;
+  background: transparent !important;
 }
 
 .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before,
@@ -327,7 +291,7 @@ strong {
 }
 
 .navbar-toggler .navbar-toggler-icon {
-  background:var(--dark-color);
+  background:white !important;
   transition: background 10ms 300ms ease;
   display: block;
   width: 30px;
@@ -343,7 +307,7 @@ strong {
   position: absolute;
   right: 0;
   left: 0;
-  background: var(--dark-color) !important;
+  background: white !important;
   width: 30px;
   height: 2px;
   content: '';
@@ -362,8 +326,9 @@ strong {
   HERO
 -----------------------------------------*/
 .hero {
-  background: url(/images/dddepth-052.jpg) no-repeat;
+  background: url(/images/homepage.jpg) no-repeat;
   background-size: 100% 100% !important;
+  color: white;
   position: relative;
   overflow: hidden;
   padding-top: 300px;
@@ -531,7 +496,7 @@ strong {
 }
 .card {
   backdrop-filter: blur(20px) saturate(150%);
-  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(150%);
   background-color: rgba(220, 220, 220, 0.6) !important;
   border-radius: 12px !important;
   border: 1px solid rgba(255, 255, 255, 0.7) !important;
@@ -861,6 +826,11 @@ strong {
 	  font-size: var(--h2-font-size);
 	}
 }
+@media  screen and (min-width:991px) {
+  .d-lg-flex{
+    right: 1%;
+}
+}
 /* Responsive styles for smaller Screens */
 @media screen and (max-width: 991px) {
   h1 {
@@ -894,47 +864,15 @@ strong {
 
   .custom-btn,
   .navbar .custom-btn {
-    font-size: var(--copyright-text-font-size);
+    font-size: var(--p-font-size);
     padding: 8px 16px;
   }
 
-  .navbar .container {
-    background: hsla(0, 0%, 100%, 0.5);
-    box-shadow: 0 1rem 3rem rgb(0 0 0 / 10%);
-  }
-
-  .navbar-brand,
-  .navbar-brand:hover {
-    color: var(--dark-color);
-  }
-
-  .navbar-icon {
-    background: var(--secondary-color);
-    color: #fff0e5;
-    width: 44px;
-    height: 44px;
-    line-height: 44px;
-  }
-
-  .navbar .custom-btn {
-    border-color: var(--secondary-color);
-    color: var(--secondary-color);
-  }
-
-  .navbar-toggler .navbar-toggler-icon,
-  .navbar-toggler .navbar-toggler-icon:before,
-  .navbar-toggler .navbar-toggler-icon:after {
-    background: var(--dark-color);
-  }
-
-  .navbar-expand-lg .navbar-nav .nav-link {
-    margin-left: 0;
-  }
-
   .navbar-nav .nav-link {
-    color: var(--p-color);
+    color: white;
     padding-top: 10px;
     padding-bottom: 10px;
+    padding-left: 50%;
   }
 
   .hero {
@@ -1041,12 +979,6 @@ strong {
   .navbar .custom-btn {
     font-size: 13px;
     padding: 6px 12px;
-  }
-  .navbar-icon {
-    font-size: var(--copyright-font-size);
-    width: 35.5px;
-    height: 35.5px;
-    line-height: 35.5px;
   }
   .hero{
      padding-bottom: 380px;
