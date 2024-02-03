@@ -321,6 +321,37 @@ strong {
   top: 8px;
 }
 
+/*---------------------------------------
+  Matracode Logo
+-----------------------------------------*/
+.matra-float{
+  position: fixed !important;
+  bottom: 0;
+  right: 0px;
+  z-index: 99;
+  width: 350px;
+  background-color: rgba(121, 121, 121, 0.1);
+  backdrop-filter: blur(3px) saturate(50%);
+  border-radius: 12px 0 0 0px;
+  padding: 5px 10px 0px 0px;
+  border-left: 1px solid rgba(245, 205, 25, 0.3);
+  border-top: 1px solid rgba(245, 205, 25, 0.3);
+}
+.matra-float .divider{
+  background: rgba(121, 121, 121, 0.4);
+  box-shadow: inset 0px 5px 5px rgba(90, 68, 34, 0.5);
+  width: 2px;
+  height: 40px;
+}
+.matra-float p{
+  color: bisque;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  text-align: center;
+  background-color: rgba(25,25,25,0.2);
+  padding: 0 !important;
+  margin: 3px 0 0 0;
+}
 
 /*---------------------------------------
   HERO
@@ -328,11 +359,11 @@ strong {
 .hero {
   background: url(/images/homepage.jpg) no-repeat;
   background-size: 100% 100% !important;
+  height: 100vh;
   color: white;
   position: relative;
   overflow: hidden;
-  padding-top: 300px;
-  padding-bottom: 330px;
+  padding: 100px 50px 0 50px;
 }
 
 
@@ -362,8 +393,6 @@ strong {
 .hero-text {
   position: relative;
   z-index: 22;
-  top: 70px;
-  width: 600px;
 }
 .hero p strong{
   font-weight: 800;
@@ -372,9 +401,7 @@ strong {
   border-bottom: 2px solid #47ee55;
 }
 .hero-image {
-  position: absolute;
   z-index: 22;
-  top: 0%;
   width: 100%;
   min-width: 550px;
 }
@@ -806,21 +833,6 @@ strong {
   RESPONSIVE STYLES
 -----------------------------------------*/
 @media screen and (min-width: 1600px) {
-  .hero {
-    padding-top: 380px;
-    padding-bottom: 380px;
-  }
-
-  .hero-image-wrap {
-    top: -50px;
-    width: 400px;
-    height: 400px;
-  }
-
-  .hero-image {
-    min-width: 650px;
-  }
-
   .hero-title,
 	.hero h2 {
 	  font-size: var(--h2-font-size);
@@ -874,23 +886,6 @@ strong {
     padding-bottom: 10px;
     padding-left: 50%;
   }
-
-  .hero {
-    background-size: cover !important;
-    padding-top: 100px;
-    padding-bottom: 520px;
-    height: 100%;
-  }
-  .hero-text{
-    width: 730px;
-}
-
-  .hero-image {
-    position: absolute;
-    margin-top: 0%;
-    max-width: 600px;
-    width: 100%;
-}
   .about {
     padding-right: 6px;
     padding-left: 6px;
@@ -939,19 +934,6 @@ strong {
     padding-left: 50px;
     padding-right:50px;
 }
-  .hero {
-    padding-top: 50px;
-     padding-bottom: 380px;
-  }
-  .hero-text{
-    width: 400px;
-}
-  .hero-image {
-    position: absolute;
-    margin-top: 10%;
-    max-width: 400px;
-    width: 100%;
-}
 }
 
 @media screen and (max-width: 480px) {
@@ -980,19 +962,4 @@ strong {
     font-size: 13px;
     padding: 6px 12px;
   }
-  .hero{
-     padding-bottom: 380px;
-  }
-  .hero-text{
-    width: 380px;
 }
-  .hero-image {
-    min-width: inherit;
-  }
-}
-@media screen and (max-width: 400px){
-  .hero{
-     padding-bottom: 360px;
-  }
-}
-
